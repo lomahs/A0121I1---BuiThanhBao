@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Simple Form</title>
+</head>
+<style>
+    .wufoo {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+    }
+</style>
+
+<body>
+    <form action="simpleform.html" method="get" class="wufoo">
+        <h2>Order Form</h2>
+
+        <p>What would you like to buy?</p>
+        <select>
+            <option>A</option>
+            <option>B (+ 0.5$)</option>
+            <option>C (+ 0.5$)</option>
+        </select>
+
+        <p>How many would you like to order?</p>
+        <input type="radio" name="rd" />
+        <label>1 - $10</label> <br />
+        <input type="radio" name="rd" />
+        <label>2 - $20</label><br />
+        <input type="radio" name="rd" />
+        <label>3 - $25</label>
+
+        <p>Name <span style="color: red">*</span></p>
+        <input type="text" name="firstName" placeholder="FirstName" size="15" />
+        <input type="text" name="lastName" placeholder="LastName" size="15" />
+        <p>Email</p>
+        <input type="text" name="email" size="30" />
+        <p>Phone Number</p>
+        <input type="text" name="p1" size="5" /> -
+        <input type="text" name="p2" size="5" /> -
+        <input type="text" name="p3" size="5" />
+        <br><br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+
+</html>
