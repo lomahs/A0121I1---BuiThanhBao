@@ -8,6 +8,9 @@ table:nth-child(3) {
   border: 2px solid black;
 }
 
-#day:not(1) {
+#day {
   background-color: yellow;
+}
+#day:first-child{
+    background-color: white;
 }
