@@ -1,0 +1,56 @@
+span {
+  display: block;
+  background-color: lightblue;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(32, 71, 178);
+  padding: 5px 0;
+}
+
+div {
+  display: inline-block;
+  padding: 8px 0;
+}
+
+.title {
+  display: inline-block;
+  width: 90px;
+  color: blue;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  width: 40px;
+}
+
+input {
+  border-style: inset;
+  border-width: thin;
+}
+
+#address {
+  display: block;
+  float: right;
+  resize: none;
+  border-style: inset;
+}
+
+button {
+  border-style: outset;
+  margin: 50;
+}
+
+#button {
+  margin-left: 20%;
+}
+
+fieldset {
+  width: 40%;
+  border: none;
+  background-color: khaki;
+}
+
+select {
+  border-style: inset;
+}

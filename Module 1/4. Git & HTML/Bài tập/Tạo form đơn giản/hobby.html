@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="css/hobby.css">
+</head>
+
+<body>
+
+    <form action="/action_page.php" method="get">
+        <fieldset>
+            <Span id="head">SỞ THÍCH CỦA BẠN</Span>
+
+            <label for="name" class="info">Họ và tên</label>
+            <input type="text" name="yourname" id="name">
+            <br>
+
+            <label for="email" class="info">Email</label>
+            <input type="text" name="email" id="email">
+            <br>
+
+            <span class="info">Sở thích</span>
+            <div class="checkbox">
+                <label class="hobby">
+                    <input type="checkbox">Thể thao
+                </label>
+                <label class="hobby">
+                    <input type="checkbox">Âm nhạc
+                </label>
+                <label class="hobby">
+                    <input type="checkbox">Đọc sách
+                </label>
+                <label class="hobby">
+                    <input type="checkbox">Lướt web
+                </label>
+                <label class="hobby">
+                    <input type="checkbox">Chơi game
+                </label>
+                <label class="hobby">
+                    <input type="checkbox">Điện ảnh
+                </label>
+                <label class="hobby">
+                    <input type="checkbox">Du lịch
+                </label> <br>
+            </div>
+            <div class="button">
+                <button type="submit">Giữ thông tin</button>
+                <button type="reset">Nhập lại</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

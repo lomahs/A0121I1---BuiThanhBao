@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <span>ĐĂNG KÝ HỌC VIÊN</span>
+            <div>
+                <label for="name" class="title">Họ và tên</label>
+                <input type="text" name="name" id="name" size="25px">
+            </div><br>
+
+            <div>
+                <label for="birthday" class="title">Ngày sinh</label>
+                <input type="date" name="birthday" id="birthday">
+            </div><br>
+
+            <div>
+                <label class="title">Giới tính</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Nam</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Nữ</label>
+            </div><br>
+
+
+            <div>
+                <label for="address" class="title">Địa chỉ</label>
+                <textarea name="address" id="address" cols="25" rows="4"></textarea>
+            </div><br>
+
+            <div>
+                <label for="class" class="title">Lớp</label>
+                <select name="class" id="class">
+                    <option selected hidden>-- Chọn lớp --</option>
+                    <option value="lop01">Lớp 01</option>
+                    <option value="lop02">Lớp 02</option>
+                    <option value="lop03">Lớp 03</option>
+                    <option value="lop04">Lớp 04</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="email" class="title">Email</label>
+                <input type="text" name="email" id="email">
+            </div><br>
+
+            <div>
+                <label for="phone" class="title">Điện thoại</label>
+                <input type="text" name="phone" id="phone">
+            </div><br>
+
+            <div id="button">
+                <button type="submit">Đăng ký</button>
+                <button type="reset">Nhập lại</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

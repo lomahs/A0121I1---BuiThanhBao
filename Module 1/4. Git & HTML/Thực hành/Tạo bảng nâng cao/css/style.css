@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: red;
+  border: 1px solid #dddddd;
+  color: #ffffff;
+}
+
+td {
+  text-align: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 0.5px solid rgb(102, 101, 101);
+  border-bottom: 0.5px solid rgb(102, 101, 101);
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+caption {
+  font-weight: bold;
+}

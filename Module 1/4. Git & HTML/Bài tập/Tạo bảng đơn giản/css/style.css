@@ -1,0 +1,13 @@
+table:nth-child(3) {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+#timeable th,
+#timeable td {
+  border: 2px solid black;
+}
+
+#day:not(1) {
+  background-color: yellow;
+}
