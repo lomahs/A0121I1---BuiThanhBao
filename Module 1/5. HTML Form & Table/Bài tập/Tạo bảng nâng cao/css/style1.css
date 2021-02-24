@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+tr.chess:nth-child(odd) td:nth-child(even),
+tr.chess:nth-child(even) td:nth-child(odd) {
+  background-color: black;
+}
+
+th {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(233, 178, 29);
+  text-align: center;
+  font-size: 40px;
+}
+
+section {
+  background-color: rgb(233, 178, 29);
+  width: 840px;
+  height: 840px;
+}

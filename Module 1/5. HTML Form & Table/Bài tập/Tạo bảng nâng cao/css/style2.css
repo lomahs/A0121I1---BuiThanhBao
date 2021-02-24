@@ -1,0 +1,53 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+td {
+  border: 2px solid gray;
+  padding: 10px;
+  border-style: inset;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+td:first-child {
+  color: red;
+}
+
+td:last-child {
+  color: blue;
+}
+
+sub {
+  color: black;
+}
+
+#ngay th {
+  border: 1px solid white;
+  background-color: rgb(211, 165, 15);
+  color: white;
+  padding: 8px;
+}
+
+#ngay th:first-child {
+  background-color: red;
+}
+
+#ngay th:last-child{
+  background-color: blue;
+}
+
+#day td {
+  padding: 8px;
+  border: none;
+  text-align: center;
+}
+
+caption {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  font-size: 40px;
+}

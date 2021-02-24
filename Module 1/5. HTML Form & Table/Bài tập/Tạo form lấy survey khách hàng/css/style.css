@@ -1,0 +1,93 @@
+.Select {
+  width: 100 %;
+}
+
+select {
+  width: 50%;
+  height: 35px;
+}
+
+label[for="dollar"],
+label[for="cent"] {
+  display: inline-block;
+  width: 50px;
+  padding-left: 15px;
+}
+
+.amountText #dollar {
+  width: 50px;
+}
+
+.amountText #cent {
+  width: 15px;
+}
+
+div {
+  padding: 5px;
+}
+
+#rate {
+  width: 100%;
+  border: 1px solid darkgrey;
+  border-collapse: collapse;
+}
+
+#rate tr:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+
+#rate td,
+#rate th {
+  border: 1px solid darkgrey;
+  padding: 5px;
+}
+
+.radioLabel {
+  display: inline-block;
+  text-align: center;
+}
+
+.radioLabel * {
+  display: block;
+  padding-top: 10px;
+}
+
+#rate td:not(first-child) {
+  text-align: center;
+  width: 60px;
+}
+
+#rate tr:first-child td {
+  padding: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+li label:first-child:not(.amountTitle label) {
+  font-weight: bold;
+}
+
+form * {
+  margin-left: 5px;
+}
+
+.header h2 {
+  margin: 0 0 5px 0;
+}
+
+.header {
+  border-bottom: 1px dotted;
+}
+
+#rate tr:hover {
+  background-color: #fff7c0;
+}
+#rate tr:first-child:hover {
+  background-color: #e6e6e6;
+}
