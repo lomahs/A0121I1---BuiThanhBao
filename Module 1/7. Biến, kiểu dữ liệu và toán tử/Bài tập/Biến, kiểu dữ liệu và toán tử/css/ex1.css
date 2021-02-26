@@ -1,0 +1,23 @@
+th {
+  text-align: left;
+}
+
+td,
+th {
+  padding: 5px;
+  border: 1px dotted gainsboro;
+}
+
+table {
+  width: 50%;
+  border: 3px inset black;
+  border-collapse: collapse;
+}
+
+caption {
+  font-size: 20px;
+}
+
+div {
+  padding-bottom: 20px;
+}

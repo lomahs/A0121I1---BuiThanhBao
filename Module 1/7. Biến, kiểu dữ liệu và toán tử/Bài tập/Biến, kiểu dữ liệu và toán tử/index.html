@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/ex1.css">
+    <title>Trung bình môn</title>
+</head>
+
+<body>
+    <div class="Ex2">
+        <table id="Ex1">
+            <caption>Tính điểm trung bình</caption>
+            <tr>
+                <th>
+                    <label for="diemVatLy">Vật lý</label>
+                </th>
+                <td id="vatly">
+                    <input type="text" name="diemVatLy" id="diemVatLy" placeholder="Nhập điểm lý">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="diemHoaHoc">Hóa học</label>
+                </th>
+                <td id="hoahoc">
+                    <input type="text" name="diemHoaHoc" id="diemHoaHoc" placeholder="Nhập điểm hóa">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="diemSinhHoc">Vật lý</label>
+                </th>
+                <td id="sinhhoc">
+                    <input type="text" name="diemSinhHoc" id="diemSinhHoc" placeholder="Nhập điểm sinh">
+                </td>
+            </tr>
+            <tr>
+                <th>Tổng điểm</th>
+                <td id="tongDiem">0</td>
+            </tr>
+            <tr>
+                <th>Điểm trung bình</th>
+                <td id="diemTrungBinh">0</td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="button" onclick="tinhDiem();">Tính điểm</button></td>
+            </tr>
+        </table>
+        <script src="js/ex1.js"></script>
+    </div>
+
+    <div class="Ex2">
+        <table class="Ex2">
+            <caption>Chuyển đổi nhiệt độ</caption>
+            <tr>
+                <th>
+                    <label for="celsius">Nhập độ C </label>
+                </th>
+                <td>
+                    <input type="text" name="celsius" id="celsius">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <button type="button" onclick="doiCSangF();">Đổi sang độ F</button>
+                </th>
+                <td id="fahrenheit">0</td>
+            </tr>
+        </table>
+        <script src="js/ex2.js"></script>
+    </div>
+
+    <div class="Ex34">
+        <table>
+            <caption>Hình tròn</caption>
+            <tr>
+                <th>
+                    <label for="radius">Nhập bán kính</label>
+                </th>
+                <td>
+                    <input type="text" name="radius" id="radius">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <button type="button" onclick="tinhDienTich();">Tính diện tích</button>
+                </th>
+                <td id="dienTich">0</td>
+            </tr>
+            <tr>
+                <th>
+                    <button type="button" onclick="tinhChuVi();">Tính chu vi</button>
+                </th>
+                <td id="chuVi">0</td>
+            </tr>
+        </table>
+        <script src="js/ex34.js"></script>
+    </div>
+</body>
+
+</html>

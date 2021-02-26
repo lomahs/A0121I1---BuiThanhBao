@@ -1,0 +1,35 @@
+table {
+  padding-bottom: 10px;
+}
+
+th,
+td {
+  padding: 5px 20px 0 20px;
+}
+
+input[type="text"],
+select,
+button {
+  box-sizing: border-box;
+  height: 30px;
+}
+
+select {
+  width: 150px;
+}
+
+option {
+  zoom: 1.25;
+}
+
+span {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: blue;
+}
+
+button {
+  background-color: cadetblue;
+  border-radius: 10%;
+  border: 1px solid cadetblue;
+}
