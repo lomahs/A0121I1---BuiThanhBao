@@ -1,23 +1,22 @@
-window.onload = init();
-
-function init() {
-  let nobita = document.getElementById("myImage");
-}
-
+window.onload = docReady();
 function moveUp() {
+  var nobita = document.getElementById("myImage");
   nobita.style.top = parseInt(nobita.style.top) - 5 + "px";
 }
 
 function moveDown() {
+  var nobita = document.getElementById("myImage");
   nobita.style.top = parseInt(nobita.style.top) + 5 + "px";
 }
 
 function moveRight() {
+  var nobita = document.getElementById("myImage");
   nobita.style.left = parseInt(nobita.style.left) + 5 + "px";
 }
 
 function moveLeft() {
-  nobita.style.top = parseInt(nobita.style.top) - 5 + "px";
+  var nobita = document.getElementById("myImage");
+  nobita.style.left = parseInt(nobita.style.left) - 5 + "px";
 }
 
 function docReady() {

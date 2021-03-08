@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Bạn muốn nhập từ:</td>
+            <td>
+                <input type="text" id="down">
+            </td>
+            <td>
+                <input type="text" id="up">
+            </td>
+        </tr>
+    </table>
+    <button type="button" onclick="startGame();">Chơi</button>
+    <script>
+
+        function startGame() {
+            let up = Number(document.getElementById('up').value);
+            let down = Number(document.getElementById('down').value);
+
+            let value = Math.floor(Math.random() * (up - down) + down);
+            let count = 1;
+            let guess;
+            do {
+                guess = Number(prompt("Bạn đoán số cần tìm là bao nhiêu? "));
+                if (guess == value) {
+                    alert("Thật tuyệt vời!! Số cần tìm chính là " + value);
+                    break;
+                } else if (guess < value) {
+                    alert("Số bạn nhập nhỏ hơn số cần tìm!");
+                } else alert("Số bạn nhập lớn hơn số cần tìm");
+            } while (count++ < 3)
+            if (guess !== value) {
+                alert("Thật đáng tiếc! Số cần tìm là " + value);
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>

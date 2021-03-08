@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Practice 02</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Bài 1: Chuyển từ độ C sang độ F.</legend>
+        <table>
+            <tr>
+                <th>Nhập độ C:</th>
+                <td>
+                    <input type="text" id="doC">
+                </td>
+            </tr>
+            <tr>
+                <th>Độ F: </th>
+                <td>
+                    <div id="result1">0</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" onclick="convertCtoF();">Chuyển đổi</button>
+                </td>
+            </tr>
+        </table>
+        <script src="js/Ex1.js"></script>
+    </fieldset>
+
+    <fieldset>
+        <legend>Bài 2: Chuyển từ mét sang feet.</legend>
+        <table>
+            <tr>
+                <th>Nhập mét:</th>
+                <td>
+                    <input type="text" id="meter">
+                </td>
+            </tr>
+            <tr>
+                <th>Feet: </th>
+                <td>
+                    <div id="result2">0</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" onclick="convertMtoF();">Chuyển đổi</button>
+                </td>
+            </tr>
+        </table>
+        <script src="js/Ex2.js"></script>
+    </fieldset>
+
+    <fieldset>
+        <legend>Bài 3: Tính diện tích hình vuông khi biết cạnh a.</legend>
+        <table>
+            <tr>
+                <th>Nhập độ dài cạnh a: </th>
+                <td>
+                    <input type="text" id="lengthA3">
+                </td>
+            </tr>
+            <tr>
+                <th>Diện tích: </th>
+                <td>
+                    <div id="result3">0</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" onclick="tinhDienTich();">Tính diện tích</button>
+                </td>
+            </tr>
+        </table>
+        <script src="js/Ex3.js"></script>
+    </fieldset>
+
+    <fieldset>
+        <legend>Bài 4: Tính diện tích hình chữ nhật khi biết 02 cạnh a, b.</legend>
+        <table>
+            <tr>
+                <th>Nhập độ dài cạnh a: </th>
+                <td>
+                    <input type="text" id="lengthA4">
+                </td>
+            </tr>
+            <tr>
+                <th>Nhập độ dài cạnh b: </th>
+                <td>
+                    <input type="text" id="lengthB4">
+                </td>
+            </tr>
+            <tr>
+                <th>Diện tích: </th>
+                <td>
+                    <div id="result4">0</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" onclick="tinhDienTichHinhChuNhat();">Tính diện tích</button>
+                </td>
+            </tr>
+        </table>
+        <script src="js/Ex4.js"></script>
+    </fieldset>
+
+    <fieldset>
+        <legend>Bài 5: Tính diện tích tam giác vuông khi biết 02 cạnh kề a, b.</legend>
+        <table>
+            <tr>
+                <th>Nhập độ dài cạnh a: </th>
+                <td>
+                    <input type="text" id="lengthA5">
+                </td>
+            </tr>
+            <tr>
+                <th>Nhập độ dài cạnh b: </th>
+                <td>
+                    <input type="text" id="lengthB5">
+                </td>
+            </tr>
+            <tr>
+                <th>Diện tích: </th>
+                <td>
+                    <div id="result5">0</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" onclick="tinhDienTichTamGiac();">Tính diện tích</button>
+                </td>
+            </tr>
+        </table>
+        <script src="js/Ex5.js"></script>
+    </fieldset>
+
+    <fieldset>
+        <legend>Bài 6: Giải phương trình bậc 1 (ax + b = 0).</legend>
+        <table>
+            <tr>
+                <th>Nhập a: </th>
+                <td>
+                    <input type="text" id="lengthA6">
+                </td>
+            </tr>
+            <tr>
+                <th>Nhập b: </th>
+                <td>
+                    <input type="text" id="lengthB6">
+                </td>
+            </tr>
+            <tr>
+                <th>Diện tích: </th>
+                <td>
+                    <div id="result6">0</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" onclick="giaiPhuongTrinhBacNhat();">Solve</button>
+                </td>
+            </tr>
+        </table>
+        <script src="js/Ex6.js"></script>
+    </fieldset>
+
+    <fieldset>
+        <legend>Bài 10: Viết chương trình tính giá điện.</legend>
+        <table>
+            <tr>
+                <th>Nhập số kWh sử dụng: </th>
+                <td>
+                    <input type="text" id="chuDien">
+                </td>
+            </tr>
+            <tr>
+                <th>Tiền điện</th>
+                <td>
+                    <div id="result10">0</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" onclick="tinhTienDien();">Tính tiền điện</button>
+                </td>
+            </tr>
+        </table>
+        <script src="js/Ex10.js"></script>
+    </fieldset>
+
+</body>
+
+</html>

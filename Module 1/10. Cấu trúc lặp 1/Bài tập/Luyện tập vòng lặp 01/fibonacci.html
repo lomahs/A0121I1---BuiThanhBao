@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="2">Bài 3: Hiển thị dãy fibonacci</th>
+        </tr>
+        <tr>
+            <td>Nhập số lượng số muốn hiển thị: </td>
+            <td>
+                <input type="text" id="num">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" onclick="printFibo();">Show</button>
+            </td>
+            <td id="result"></td>
+        </tr>
+    </table>
+    <script>
+        function printFibo() {
+            let n = Number(document.getElementById('num').value);
+
+            for (let i = 1; i <= n; i++) {
+                document.getElementById('result').innerHTML += " " + fibo(i);
+            }
+        }
+
+        function fibo(params) {
+            if (params == 1 || params == 2) {
+                return 1;
+            }
+            return fibo(params - 1) + fibo(params - 2);
+        }
+    </script>
+</body>
+
+</html>

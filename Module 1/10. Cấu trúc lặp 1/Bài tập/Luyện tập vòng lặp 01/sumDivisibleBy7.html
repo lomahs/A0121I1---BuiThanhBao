@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="2">Bài 6: Tính tổng các số đầu tiên chia hết cho 7</th>
+        </tr>
+        <tr>
+            <td>Nhập số lượng số muốn muốn tính: </td>
+            <td>
+                <input type="text" id="num">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="print">
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" onclick="sumDivisibleBy7();">Show</button>
+            </td>
+            <td id="result"></td>
+        </tr>
+    </table>
+    <script>
+        function sumDivisibleBy7() {
+            let n = Number(document.getElementById('num').value);
+            let i = 7;
+            let sum = 0;
+            while (n > 0) {
+                if (i++ % 7 == 0) {
+                    document.getElementById('print').innerHTML += " " + (i - 1);
+                    sum += i;
+                    n--;
+                }
+            }
+            document.getElementById('result').innerHTML = "Tổng: " + sum;
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practical</title>
+</head>
+
+<body>
+    <div id="result"></div>
+    <script>
+        let num;
+        let total = 0;
+        while (true) {
+            num = Number(prompt("Enter a number: "));
+            if (num == -1)
+                break;
+            alert(num);
+
+            total += num;
+        }
+        document.getElementById('result').innerHTML = total;
+    </script>
+
+</body>
+
+</html>

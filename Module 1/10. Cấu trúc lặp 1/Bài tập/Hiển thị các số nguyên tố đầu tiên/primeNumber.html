@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Số lượng số nguyên tố: </td>
+            <td>
+                <input type="text" id="num">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" onclick="printPrime();">Show</button>
+            </td>
+            <td>
+                <div id="result"></div>
+            </td>
+        </tr>
+    </table>
+    <script>
+        function printPrime() {
+            let n = Number(document.getElementById('num').value);
+            let i = 2;
+            let result = "";
+            while (n > 0) {
+                if (isPrime(i++)) {
+                    result += " " + (i - 1);
+                    n--;
+                }
+            }
+            document.getElementById('result').innerHTML = result;
+        }
+
+        function isPrime(params) {
+
+            if (params === 2) {
+                return true;
+            }
+            for (let i = 2; i <= Math.sqrt(params); i++) {
+                if (params % i === 0) {
+                    return false;
+                }
+            }
+            return params > 1;
+        }
+    </script>
+</body>
+
+</html>

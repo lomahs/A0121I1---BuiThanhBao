@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>BMI</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>
+                <label for="weight">Enter weight (kg)</label>
+            </th>
+            <th>
+                <input type="text" name="weight" id="weight">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="height">Enter height (m)</label>
+            </th>
+            <th>
+                <input type="text" name="height" id="height">
+            </th>
+        </tr>
+        <tr>
+            <th>BMI Interpretation</th>
+            <td colspan="2" id="result"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" onclick="bmi();">Calculate</button>
+            </td>
+        </tr>
+    </table>
+    <script src="js/bmi.js"></script>
+</body>
+
+</html>
