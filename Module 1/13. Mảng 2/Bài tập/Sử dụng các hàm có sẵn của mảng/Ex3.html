@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Swap the case of each character of a string</title>
+</head>
+
+<body>
+    <div id="input"></div>
+    <div id="output"></div>
+
+    <script>
+        var a = prompt('Nhap vao mot chuoi ki tu');
+        document.getElementById('input').innerHTML = a;
+        var output = "";
+
+        for (let i = 0; i < a.length; i++) {
+            if (a.charAt(i) == a.charAt(i).toUpperCase()) {
+                output += a.charAt(i).toLowerCase();
+            } else {
+                output += a.charAt(i).toUpperCase();
+            }
+        }
+        document.getElementById('output').innerHTML = output;
+    </script>
+</body>
+
+</html>

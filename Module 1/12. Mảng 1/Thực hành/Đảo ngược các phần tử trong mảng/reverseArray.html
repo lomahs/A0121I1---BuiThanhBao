@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reverse Array</title>
+</head>
+
+<body>
+    <label for="size">Nhập số lượng phần tử của mảng:</label>
+    <input type="text" id="size">
+
+    <button type="button" onclick="confirm();">Confirm</button>
+    <div id="array"></div>
+
+    <button type="button" onclick="reverse();">Reverse</button>
+    <div id="afterReverse"></div>
+
+
+    <script>
+        var arr = new Array();
+
+        function confirm() {
+            arr = new Array();
+            var size = Number(document.getElementById('size').value);
+            for (let i = 0; i < size; i++) {
+                arr.push(prompt("Enter number " + i));
+            }
+
+            document.getElementById('array').innerHTML = "Array:" + arr;
+        }
+
+        function reverse() {
+            var size = Number(document.getElementById('size').value);
+            for (let i = 0; i < size / 2; i++) {
+                let temp = arr[i];
+                arr[i] = arr[size - i - 1];
+                arr[size - i - 1] = temp;
+            }
+
+            document.getElementById('afterReverse').innerHTML = "Array after reverse: " + arr;
+        }
+    </script>
+</body>
+
+</html>

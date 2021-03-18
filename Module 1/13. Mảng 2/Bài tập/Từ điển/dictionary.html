@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="eng">Enter word:</label>
+            <input type="text" name="eng" id="eng">
+        </div>
+
+        <div id="result"></div>
+
+        <button type="button" onclick="search();">Search</button>
+        <button type="button" onclick="addWord();">Add word</button>
+
+    </form>
+
+    <script>
+        var eng = new Array();
+        var vie = new Array();
+
+        function search() {
+            let word = document.getElementById('eng').value;
+            if (eng.indexOf(word) != -1) {
+                document.getElementById('result').innerHTML = "Vietnamese: " + vie[eng.indexOf(word)];
+            } else
+                document.getElementById('result').innerHTML = "Word is not exists";
+        }
+
+        function addWord() {
+            let word = document.getElementById('eng').value;
+            let mean = prompt('Nhập nghĩa tiếng việt của' + word);
+
+            eng.push(word);
+            vie.push(mean);
+        }
+    </script>
+</body>
+
+</html>

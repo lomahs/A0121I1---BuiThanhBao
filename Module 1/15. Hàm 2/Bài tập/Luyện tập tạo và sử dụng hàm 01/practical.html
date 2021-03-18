@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practical</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Bài 1</legend>
+      <button type="button" onclick="alertMessage();">Bài 1</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Bài 2</legend>
+      <button type="button" onclick="ex2();">Bài 2</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Bài 3</legend>
+      <button type="button" onclick="ex3();">Bài 3</button>
+      <div id="result3"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Bài 5</legend>
+      <button type="button" onclick="ex5();">Bài 5</button>
+    </fieldset>
+
+    <script>
+      function alertMessage() {
+        let name = prompt("Enter your name");
+
+        alert("Hello " + name);
+      }
+
+      function inc(num) {
+        return ++num;
+      }
+
+      function ex2() {
+        var a = prompt("Nhập vào 1 số") * 1;
+        a = inc(a);
+        alert("Sau khi tăng thêm 1: " + a);
+      }
+
+      function whoBigger(num1, num2) {
+        if (num1 > num2) {
+          alert(num1 + " lớn hơn " + num2);
+        } else alert(num1 + " nhỏ hơn hoặc bằng " + num2);
+        return num1 + num2;
+      }
+
+      function ex3() {
+        var a = prompt("Nhập số thứ nhất") * 1;
+        var b = prompt("Nhập số thứ hai") * 1;
+
+        document.getElementById("result3").innerHTML =
+          a + " + " + b + " = " + whoBigger(a, b);
+      }
+
+      function findStar(star) {
+        let stars = [
+          "Polaris",
+          "Aldebaran",
+          "Deneb",
+          "Vega",
+          "Altair",
+          "Dubhe",
+          "Regulus",
+        ];
+        let constellation = [
+          "Ursa Minor",
+          "Tarurus",
+          "Cygnus",
+          "Lyra",
+          "Aquila",
+          "Ursa Major",
+          "Leo",
+        ];
+
+        if (stars.includes(star)) {
+          return constellation[stars.indexOf(star)];
+        } else return "Không tìm thấy chòm sao";
+      }
+
+      function ex5() {
+        var star = prompt("Nhập tên chòm sao");
+        alert(findStar(star));
+      }
+    </script>
+  </body>
+</html>

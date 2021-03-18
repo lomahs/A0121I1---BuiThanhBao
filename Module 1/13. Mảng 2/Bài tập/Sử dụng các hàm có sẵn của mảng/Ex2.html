@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Insert dashes (-) between even numbers</title>
+</head>
+
+<body>
+    <div id="result"></div>
+
+    <script>
+        var num = window.prompt('Nhap vao 1 day so');
+        var numStr = num.toString();
+        var result = new Array(numStr[0]);
+
+        for (var i = 1; i < numStr.length; i++) {
+            if (numStr[i] % 2 === 0 && num[i - 1] % 2 === 0)
+                result.push('-', numStr[i]);
+            else
+                result.push(numStr[i]);
+        }
+
+        document.getElementById('result').innerHTML = result.join('');
+    </script>
+</body>
+
+</html>

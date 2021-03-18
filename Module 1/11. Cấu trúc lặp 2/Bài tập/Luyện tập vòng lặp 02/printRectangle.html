@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let line = prompt("Nhập vào số dòng") * 1;
+        let rectangle = "";
+
+        for (let i = 1; i <= line; i++) {
+            if (i == 1 || i == line) {
+                for (let j = 1; j <= line * 3; j++) {
+                    rectangle += "&diams;";
+                }
+            } else {
+                rectangle += "&diams;";
+                for (let j = 2; j < line * 3; j++)
+                    rectangle += "&ensp;";
+                rectangle += "&diams;";
+            }
+            rectangle += "<br>";
+        }
+
+        document.write(rectangle);
+    </script>
+</body>
+
+</html>

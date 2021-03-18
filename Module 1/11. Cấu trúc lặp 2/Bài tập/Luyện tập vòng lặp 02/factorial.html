@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<table>
+    <tr>
+        <th colspan="2">Tính giai thừa</th>
+    </tr>
+    <tr>
+        <td>Nhập n: </td>
+        <td>
+            <input type="text" id="num">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" onclick="factorial();">Tính</button>
+        </td>
+        <td id="result"></td>
+    </tr>
+</table>
+
+<body>
+    <script>
+        function factorial() {
+            let n = Number(document.getElementById('num').value);
+            let result = 1;
+
+            if (n == 0 || n == 1) {
+                result = 1;
+            }
+
+            while (n > 1) {
+                result *= n--;
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let line = prompt("Nhập vào số dòng") * 1;
+        let triangle = "";
+        for (let i = 1; i <= line; i++) {
+            for (let j = 1; j <= i; j++) {
+                triangle += "&diams;&ensp;";
+            }
+            triangle += "<br>";
+        }
+        triangle += "<br>";
+
+        for (let i = line; i >= 1; i--) {
+            for (let j = i; j >= 1; j--) {
+                triangle += "&diams;&ensp;";
+            }
+            triangle += "<br>";
+        }
+
+        for (let i = 1; i <= line; i++) {
+            for (let j = 1; j <= line - i; j++) {
+                triangle += "&ensp;&ensp;";
+            }
+            for (let k = line - i + 1; k <= line; k++) {
+                triangle += "&diams;&ensp;";
+            }
+            triangle += "<br>";
+        }
+        triangle += "<br>";
+
+        for (let i = 1; i <= line; i++) {
+            for (let j = 1; j <= i - 1; j++) {
+                triangle += "&ensp;&ensp;";
+            }
+            for (let k = i; k <= line; k++) {
+                triangle += "&diams;&ensp;";
+            }
+            triangle += "<br>";
+        }
+        document.write(triangle);
+    </script>
+</body>
+
+</html>

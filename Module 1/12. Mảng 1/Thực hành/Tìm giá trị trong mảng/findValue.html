@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Find Value</title>
+    <style>
+        div {
+            padding-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <label for="size">Nhập số lượng phần tử của mảng:</label>
+        <input type="text" id="size">
+        <button type="button" onclick="confirm();">Confirm</button>
+    </div>
+
+    <div id="array"></div>
+
+    <div>
+        <label for="findedValue">Nhập số muốn tìm:</label>
+        <input type="text" id="findedValue">
+
+        <button type="button" onclick="findValue();">Find</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        var arr = new Array();
+
+        function confirm() {
+            arr = new Array();
+            var size = Number(document.getElementById('size').value);
+            for (let i = 0; i < size; i++) {
+                arr.push(prompt("Enter number " + i));
+            }
+
+            document.getElementById('array').innerHTML = "Array:" + arr;
+        }
+
+        function findValue() {
+            var size = Number(document.getElementById('size').value);
+            var value = Number(document.getElementById('findedValue').value);
+            var flag = false;
+
+            for (let i = 0; i < size; i++) {
+                if (arr[i] == value) {
+                    document.getElementById('result').innerHTML = "Value " + value + " at " + i;
+                    flag = true;
+                }
+            }
+
+            if (!flag)
+                document.getElementById('result').innerHTML = "Can't find " + value;
+        }
+    </script>
+</body>
+
+</html>

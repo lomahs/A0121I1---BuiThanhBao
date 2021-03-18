@@ -9,12 +9,18 @@
 <body>
     <table>
         <tr>
-            <th colspan="2">Bài 6: Tính tổng các số đầu tiên chia hết cho 7</th>
+            <th colspan="2">Bài 6: Tính tổng a số đầu tiên chia hết cho n</th>
         </tr>
         <tr>
-            <td>Nhập số lượng số muốn muốn tính: </td>
+            <td>Nhập a: </td>
             <td>
                 <input type="text" id="num">
+            </td>
+        </tr>
+        <tr>
+            <td>Nhập n: </td>
+            <td>
+                <input type="text" id="numN">
             </td>
         </tr>
         <tr>
@@ -24,21 +30,23 @@
         </tr>
         <tr>
             <td>
-                <button type="button" onclick="sumDivisibleBy7();">Show</button>
+                <button type="button" onclick="sumDivisibleByN();">Show</button>
             </td>
             <td id="result"></td>
         </tr>
     </table>
     <script>
-        function sumDivisibleBy7() {
-            let n = Number(document.getElementById('num').value);
-            let i = 7;
+        function sumDivisibleByN() {
+            let amount = Number(document.getElementById('num').value);
+            let n = Number(document.getElementById('numN').value);
+            document.getElementById('print').innerHTML = "";
+            let i = 1;
             let sum = 0;
-            while (n > 0) {
-                if (i++ % 7 == 0) {
+            while (amount > 0) {
+                if (i++ % n == 0) {
                     document.getElementById('print').innerHTML += " " + (i - 1);
                     sum += i;
-                    n--;
+                    amount--;
                 }
             }
             document.getElementById('result').innerHTML = "Tổng: " + sum;

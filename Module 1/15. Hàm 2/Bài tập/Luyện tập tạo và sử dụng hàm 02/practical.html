@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pratical</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Bài 1</legend>
+      <button type="button" onclick="ex1();">Bài 1</button>
+      <div id="result1"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Bài 2</legend>
+      <button type="button" onclick="ex2();">Bài 2</button>
+      <div id="result2"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Bài 3</legend>
+      <button type="button" onclick="ex3();">Bài 3</button>
+      <div id="result3"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Bài 4</legend>
+      <button type="button" onclick="ex4();">Bài 4</button>
+      <div id="result4"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Bài 9</legend>
+      <button type="button" onclick="ex9();">Bài 9</button>
+      <div id="result9"></div>
+    </fieldset>
+
+    <script>
+      function square(num) {
+        return num * num;
+      }
+
+      function ex1() {
+        let n = prompt("Nhập vào 1 số") * 1;
+        document.getElementById("result1").innerHTML =
+          "Bình phương của " + n + " = " + square(n);
+      }
+
+      function area(radius) {
+        return 3.14 * radius * radius;
+      }
+
+      function perimeter(radius) {
+        return 2 * 3.14 * radius;
+      }
+
+      function ex2() {
+        let r = prompt("Nhập vào bán kính của hình tròn") * 1;
+
+        document.getElementById("result2").innerHTML =
+          "Diện tích: " + area(r) + "<br> Chu vi: " + perimeter(r);
+      }
+
+      function factorial(num) {
+        if (num <= 1) return 1;
+        return num * factorial(num - 1);
+      }
+
+      function ex3() {
+        let n = prompt("Nhập vào 1 số") * 1;
+        document.getElementById("result3").innerHTML =
+          n + "! = " + factorial(n);
+      }
+
+      function isNumber(c) {
+        if (c >= "0" && c <= "9") return true;
+        return false;
+      }
+
+      function ex4() {
+        let c = prompt("Nhập vào 1 kí tự");
+
+        if (isNumber(c))
+          document.getElementById("result4").innerHTML = c + " là kí tự số";
+        else
+          document.getElementById("result4").innerHTML =
+            c + " không là kí tự số";
+      }
+
+      function checkContain(char, arr) {
+        return arr.includes(char);
+      }
+
+      function ex9() {
+        let str = prompt("Nhập vào chuỗi kí tự");
+        let c = prompt("Nhập vào 1 kí tự");
+
+        if (checkContain(c, str)) {
+          document.getElementById("result9").innerHTML =
+            c + " có trong chuỗi " + str;
+        } else
+          document.getElementById("result9").innerHTML =
+            c + " không có trong chuỗi " + str;
+      }
+    </script>
+  </body>
+</html>

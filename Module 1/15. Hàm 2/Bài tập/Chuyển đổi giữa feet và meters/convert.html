@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Convert</title>
+  </head>
+  <body>
+    <button onclick="convertFeetToMeter();">Conver feet to meter</button>
+    <button onclick="convertMeterToFeet();">Conver meter to feet</button>
+
+    <div id="results"></div>
+
+    <script>
+      var a = new Array();
+
+      function feetToMeter(feet) {
+        return 0.305 * feet;
+      }
+
+      function convertFeetToMeter(feet) {
+        let n = prompt("Nhập độ dài (feet)") * 1;
+
+        document.getElementById("results").innerHTML =
+          n + " feet = " + feetToMeter(n) + " meter";
+      }
+
+      function meterToFeet(meter) {
+        return 3.279 * meter;
+      }
+
+      function convertMeterToFeet(meter) {
+        let n = prompt("Nhập độ dài (meter)") * 1;
+
+        document.getElementById("results").innerHTML =
+          n + " meter = " + meterToFeet(n) + " fet";
+      }
+    </script>
+  </body>
+</html>
