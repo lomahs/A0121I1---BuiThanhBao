@@ -21,9 +21,8 @@
   box-sizing: border-box;
 }
 
-.add_product button {
+button {
   display: inline-block;
-  width: 100%;
   background-color: #4caf50;
   color: white;
   padding: 10px 20px;
@@ -37,19 +36,34 @@ table {
   border-collapse: collapse;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd):not(:first-child) {
   border: none;
-  background-color: #4caf50;
+  background-color: #dce0dc67;
 }
 
 td:not(:nth-child(1)) {
-  width: 100px;
   padding: 10px 10px;
 }
 
-td:nth-child(1) {
+td:nth-child(1),
+th {
   width: 200px;
-  padding: 10px 10px;
+  padding: 7px 10px;
 }
 
-tr:f
+td:nth-child(2) {
+  text-align: right;
+}
+
+#numProduct {
+  color: rgb(172, 52, 52);
+  text-align: right;
+}
+
+span,
+label {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  padding: 10px 0;
+}

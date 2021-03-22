@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Symmetry check</title>
+  </head>
+  <body>
+    <label for="input_word">Check Symmetry</label><br>
+    <input type="text" id="input_word" placeholder="Type word" />
+    <button type="button" onclick="check();">Check</button>
+    <div id="result"></div>
+
+    <script>
+      function isPalindrome(x) {
+        if (x.length <= 1) return true;
+        if (x[0] == x[x.length - 1]) {
+          return isPalindrome(x.substring(1, x.length - 1));
+        } else return false;
+      }
+
+      function check() {
+        let str = document.getElementById("input_word").value;
+
+        if (isPalindrome(str)) {
+          document.getElementById("result").innerHTML = "Đối xứng";
+        } else document.getElementById("result").innerHTML = "Không đối xứng";
+      }
+    </script>
+  </body>
+</html>

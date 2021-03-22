@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product Management</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="style.css">
-  <title>Product Management</title>
-</head>
-
-<body>
-  <div>
-    <label for="newProduct">Add new produce</label>
-    <div id="add_product_area">
-      <div class="add_product">
-        <input type="text" id="newProduct" placeholder="New Product" />
-
-      </div>
-      <div class="add_product">
-        <button type="button" onclick="addProduct();">Add</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="display_product">
-    <span>Display all products</span>
-
+  <body>
     <div>
-      <table id="display_product">
-        <tr>
-          <td>Product name</td>
-          <td></td>
-          <td id="numProduct"></td>
-        </tr>
-      </table>
+      <label for="newProduct">Add new produce</label>
+      <div id="add_product_area">
+        <div class="add_product">
+          <input type="text" id="newProduct" placeholder="New Product" />
+        </div>
+        <div class="add_product">
+          <button type="button" onclick="addProduct();">Add</button>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <script src="Manage.js"></script>
-</body>
+    <div class="display_product">
+      <span>Display all products</span>
 
+      <div>
+        <table id="display_product">
+          <tr>
+            <th>Product name</th>
+            <th></th>
+            <th id="numProduct">0 product</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="Manage.js"></script>
+  </body>
 </html>

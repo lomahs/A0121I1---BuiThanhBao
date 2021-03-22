@@ -17,6 +17,9 @@ function removeProduct(id) {
   console.log(id);
   id.parentNode.removeChild(id);
   length--;
+  if (length <= 1)
+    document.getElementById("numProduct").innerText = length + " product";
+  else document.getElementById("numProduct").innerText = length + " products";
 }
 
 function editName(id) {
@@ -30,7 +33,10 @@ function displayProduct() {
   let name = newPro.insertCell();
   let editButton = newPro.insertCell();
   let deleteButton = newPro.insertCell();
-  document.getElementById("numProduct").innerText = length + " products";
+
+  if (length == 1)
+    document.getElementById("numProduct").innerText = length + " product";
+  else document.getElementById("numProduct").innerText = length + " products";
 
   newPro.id = "product" + length;
 
