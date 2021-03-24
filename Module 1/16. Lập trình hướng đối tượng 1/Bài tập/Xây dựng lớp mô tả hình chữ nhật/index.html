@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="area"></div>
+    <div id="perimeter"></div>
+    <canvas id="drawPlace" width="1300" height="700"></canvas>
+
+
+    <script src="Rectangle.js"></script>
+    <script>
+        var rec1 = new Rectangle(100, 400);
+        document.getElementById('area').innerHTML = "Area: " + rec1.getArea();
+        document.getElementById('perimeter').innerHTML = "Perimeter: " + rec1.getPerimeter();
+        rec1.draw();
+
+    </script>
+</body>
+
+</html>

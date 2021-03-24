@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div class="info">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name">
+        </div>
+
+        <div class="info">
+            <label for="identifyNum">Indentify Number</label>
+            <input type="text" name="indentifyNum" id="identifyNum" placeholder="Enter Indentify Number">
+        </div>
+
+        <div class="info">
+            <label for="birthday">Birthday</label>
+            <input type="text" name="birthday" id="birthday" placeholder="Enter Birthday">
+        </div>
+
+        <div class="info">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter Email">
+        </div>
+
+        <div class="info">
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" placeholder="Address">
+        </div>
+
+        <div class="info">
+            <label for="typeCus">Customer Type</label>
+            <select name="typeCus" id="typeCus">
+                <option value="Member">Member</option>
+                <option value="Silver">Silver</option>
+                <option value="Gold">Gold</option>
+                <option value="Platinum">Platinum</option>
+                <option value="Diamond">Diamond</option>
+            </select>
+        </div>
+
+        <div class="info">
+            <label for="discount">Discount</label>
+            <input type="text" name="discount" id="discount" placeholder="Enter Discount">
+        </div>
+
+        <div class="info">
+            <label for="quantityIncluded">Quantity Include</label>
+            <input type="text" name="quantityIncluded" id="quantityIncluded" placeholder="Enter Quantity Included">
+        </div>
+
+        <div class="info">
+            <label for="rentDays">Rent days</label>
+            <input type="text" name="rentDays" id="rentDays" placeholder="Enter Rent Days">
+        </div>
+
+        <div class="info">
+            <label for="typeService">Type Service</label>
+            <select name="typeService" id="typeService">
+                <option value="100">Room</option>
+                <option value="300">House</option>
+                <option value="500">Villa</option>
+            </select>
+        </div>
+
+        <div class="info">
+            <label for="typeRoom">Type Room</label>
+            <select name="typeRoom" id="typeRoom">
+                <option value="Normal">Normal</option>
+                <option value="Business">Business</option>
+                <option value="Vip">Vip</option>
+            </select>
+        </div>
+
+        <button type="button" onclick="getInfo();">Confirm</button>
+    </form>
+    <div id="cost">
+        <table>
+            <tr>
+                <th>Type Service</th>
+                <th>Cost (per day)</th>
+            </tr>
+            <tr>
+                <td>Villa</td>
+                <td>500$</td>
+            </tr>
+            <tr>
+                <td>House</td>
+                <td>300$</td>
+            </tr>
+            <tr>
+                <td>Room</td>
+                <td>100$</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <script src="GetInfo.js"></script>
+</body>
+
+</html>
