@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+}
+
+a:hover {
+    color: #95a5a6;
+}
+
+a {
+    position: relative;
+    display: block;
+    padding: 4px 0;
+    font-family: Lato, sans-serif;
+    color: #3b0a0c;
+    text-decoration: none;
+    transition: 0.5s;
+}

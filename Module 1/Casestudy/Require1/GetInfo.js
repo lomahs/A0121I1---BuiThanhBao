@@ -12,9 +12,11 @@ function getInfo() {
   let typeRoom = document.getElementById("typeRoom");
   let totalPay =
     Number(typeService.value) * rentDays.value * (1 - discount.value / 100);
+  let service;
 
-  if (typeService.value == 100) service = "Normal";
-  else if (typeService.value == 300) service = "House";
+
+  if (typeService.value === 100) service = "Normal";
+  else if (typeService.value === 300) service = "House";
   else service = "Villa";
 
   document.write("Name: " + name.value + "<br>");
