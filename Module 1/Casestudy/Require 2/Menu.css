@@ -19,3 +19,9 @@ a {
     text-decoration: none;
     transition: 0.5s;
 }
+
+body{
+    font-size: 20px;
+    padding: 5px;
+}
+

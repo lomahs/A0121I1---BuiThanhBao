@@ -1,5 +1,3 @@
-let menu = document.getElementById('menu');
-
 let name = "Bùi Thanh Bảo";
 let email = "thanhBao@gmail.com";
 let id = "012345678";
@@ -11,7 +9,6 @@ let quantityIncluded = 2;
 let typeRoom = "Vip";
 let rentDays = "4";
 let typeService = "Villa";
-let moneyPerDays = 0;
 
 
 function showInfo() {
@@ -35,12 +32,13 @@ function editInfo() {
 
     let choice = document.createElement("input");
     choice.setAttribute("type", "text");
+    choice.placeholder = "Enter number";
 
     document.body.appendChild(choice);
 
     let confirmButton = document.createElement("button");
     confirmButton.setAttribute("type", "button");
-    confirmButton.onclick = function(){
+    confirmButton.onclick = function () {
         switch (choice.value) {
             case "1":
                 name = prompt('Enter name: ');
@@ -84,15 +82,61 @@ function editInfo() {
     };
     confirmButton.innerHTML = "Edit";
     document.body.appendChild(confirmButton);
-
-
-
 }
 
-// function displayInfo(label, value){
-//     let info = document.createElement("label");
-//     info.htmlFor = label;
-//     label.innerHTML = label;
-//
-//
-// }
+function totalPay() {
+    let serviceMoney = 0;
+
+    if (typeService === "Villa")
+        serviceMoney = 500;
+    else if (typeService === "Hourse")
+        serviceMoney = 300;
+    else if (typeService === "Room")
+        serviceMoney = 100;
+
+    let totalDiscount=0;
+    switch (address) {
+        case "Quảng Nam":
+            totalDiscount += 5;
+            break;
+        case "Đà Nẵng":
+            totalDiscount += 20;
+            break;
+        case "Huế":
+            totalDiscount += 10;
+            break;
+        default:
+            break;
+    }
+
+    if (rentDays >= 2 && rentDays <= 4)
+        totalDiscount += 10;
+    else if (rentDays >= 5 && rentDays <= 7)
+        totalDiscount += 20;
+    else if (rentDays > 7)
+        totalDiscount += 30;
+
+    switch (type) {
+        case "Diamond":
+            totalDiscount += 15;
+            break;
+        case "Platium":
+            totalDiscount += 10;
+            break;
+        case "Gold":
+            totalDiscount += 5;
+            break;
+        case "Silver":
+            totalDiscount += 2;
+            break;
+        default:
+            break;
+    }
+
+    return serviceMoney * rentDays - totalDiscount;
+}
+
+
+function showTotalPayment() {
+    document.write("Total amount you need to pay: "+ totalPay()+"$");
+}

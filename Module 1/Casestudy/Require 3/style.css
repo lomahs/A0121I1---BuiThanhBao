@@ -1,0 +1,58 @@
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  background: #f1f1f1;
+  border: none;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  background-color: #dfdede;
+}
+
+label {
+  display: block;
+}
+
+form {
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+}
+
+select {
+  padding: 5px;
+  width: 30%;
+  border-radius: 5%;
+  margin: 5px 0 22px 0;
+}
+
+#cost {
+  display: inline-block;
+}
+
+#cost table {
+  border-collapse: collapse;
+}
+
+#cost td,
+#cost th {
+  border: 1px solid;
+  padding: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: aquamarine;
+  border-radius: 6rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+}
+
+
