@@ -1,7 +1,16 @@
-class Customer{
-    constructor(id, name){
-        this.id = id;
+export class Customer{
+    constructor(name, email, id, birthday, address, typeCustomer, discount, quantityIncluded, typeRoom, rentDays, typeService){
         this.name = name;
+        this.email = email;
+        this.id = id;
+        this.birthday = birthday;
+        this.address = address;
+        this.typeCustomer = typeCustomer;
+        this.discount = discount;
+        this.quantityIncluded = quantityIncluded;
+        this.typeRoom = typeRoom;
+        this.rentDays = rentDays;
+        this.typeService = typeService;
     }
 
     setName(name){
@@ -36,12 +45,12 @@ class Customer{
         return this.email;
     }
 
-    setTypeCustomer(type){
-        this.type = type;
+    setTypeCustomer(typeCustomer){
+        this.typeCustomer = typeCustomer;
     }
 
     getTypeCustomer(){
-        return this.type;
+        return this.typeCustomer;
     }
 
     setDiscount(discount){
@@ -52,5 +61,44 @@ class Customer{
         return this.discount;
     }
 
-    setQuantity
+    setQuantityIncluded(quantityIncluded){
+        this.quantityIncluded = quantityIncluded;
+    }
+
+    getQuantityIncluded(){
+        return this.quantityIncluded;
+    }
+
+    setRentDays(rentDays){
+        this.rentDays = rentDays;
+    }
+
+    getRentDays(){
+        return this.rentDays;
+    }
+
+    setTypeService(typeService){
+        this.typeService = typeService;
+    }
+
+    getTypeService(){
+        return this.typeService;
+    }
+
+    setTypeRoom(typeRoom){
+        this.typeRoom = typeRoom;
+    }
+
+    getTypeRoom(){
+        return this.typeRoom;
+    }
+
+    totalPay(){
+        let servicePay;
+        if (this.typeService === "Normal") service = 100;
+        else if (this.typeService === "House") service = 300;
+        else servicePay = 500;
+        return servicePay * this.rentDays * (1 - this.discount/100);
+    }
+
 }
