@@ -1,0 +1,48 @@
+input.form_addCustomer {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+    border: none;
+    box-sizing: border-box;
+}
+
+input.form_addCustomer:focus {
+    outline: none;
+    background-color: #dfdede;
+}
+
+label.form_addCustomer {
+    display: block;
+}
+
+form.form_addCustomer {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+}
+
+select {
+    padding: 5px;
+    width: 30%;
+    border-radius: 5%;
+    margin: 5px 0 22px 0;
+}
+
+button#submitForm {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 6rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+}
+
+#showTotalPayment{
+    font-weight: bold;
+}
+
+
