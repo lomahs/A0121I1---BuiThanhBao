@@ -20,19 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1772233d-da4e-43c3-ac0e-51d14bc45891" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Require 6/Task 1/Manage/Manage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Require 6/Task 1/StyleTask1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Require 6/Task 2/Employee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Require 6/Task 2/Manage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Require 6/Task 2/Task2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Require 6/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Require 6/Task 1/Entity/Customer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Require 6/Final.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Require 6/Last.html" beforeDir="false" afterPath="$PROJECT_DIR$/Require 6/Task 1/Task1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Require 6/Validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Require 6/Task 1/Manage/Validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Require 6/last.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Require 6/test.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/Practical Exam.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Require 6/Task 2/Manage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Require 6/Task 2/Manage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Require 3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -131,6 +124,7 @@
       <workItem from="1617447174608" duration="2712000" />
       <workItem from="1617621113264" duration="6535000" />
       <workItem from="1617755092861" duration="14622000" />
+      <workItem from="1617964873255" duration="192000" />
     </task>
     <servers />
   </component>
@@ -163,10 +157,10 @@
     </state>
     <state x="826" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1617366198983" />
     <state x="1170" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1617333042815" />
-    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1616373694614">
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1617965069800">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1616373694614" />
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1617965069800" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1617790027233">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -248,9 +242,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1617328618971" />
-    <state x="1103" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1617330194984">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="65" y="67" key="new project wizard" timestamp="1617964956907">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="65" y="67" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1617964956907" />
+    <state x="785" y="166" width="479" height="496" key="search.everywhere.popup" timestamp="1617964913316">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="785" y="166" width="479" height="496" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1617964913316" />
     <state x="1103" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1617330194984" />
   </component>
 </project>

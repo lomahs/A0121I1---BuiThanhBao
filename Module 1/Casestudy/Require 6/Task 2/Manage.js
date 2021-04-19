@@ -57,7 +57,7 @@ function displayInformation() {
                 "Position: " + listEmployees[choice - 1].getPosition()
             )
 
-            displayInformation();
+            displayInformation()
         }
     }
 }
