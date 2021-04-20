@@ -20,12 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1772233d-da4e-43c3-ac0e-51d14bc45891" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practical Exam/Practical Exam.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Require 6/Task 2/Manage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Require 6/Task 2/Manage.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Requirement/~$-DN CaseStudy Furama Resort Module1_v2.0.docx" beforeDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +129,11 @@
       <workItem from="1617447174608" duration="2712000" />
       <workItem from="1617621113264" duration="6535000" />
       <workItem from="1617755092861" duration="14622000" />
+<<<<<<< Updated upstream
       <workItem from="1617964873255" duration="192000" />
+=======
+      <workItem from="1618831997725" duration="1383000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
