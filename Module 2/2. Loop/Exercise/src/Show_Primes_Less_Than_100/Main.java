@@ -22,23 +22,13 @@ public class Main {
         return a;
     }
 
-    static int m(int...x) {
-        int b = 0;
-        for(int a:x){
-            b+=a;
-        }
-        return b;
-    }
-
     public static void main(String[] args) {
-//        boolean[] eratosthenes = new Main().eratosthenes(100);
-//
-//        System.out.println("Prime numbers less than 100: ");
-//        for (int i = 0; i <= 100; i++) {
-//            if (eratosthenes[i])
-//                System.out.print(i + " ");
-//        }
+        boolean[] eratosthenes = new Main().eratosthenes(100);
 
-        System.out.println(m(1,2,3));
+        System.out.println("Prime numbers less than 100: ");
+        for (int i = 0; i <= 100; i++) {
+            if (eratosthenes[i])
+                System.out.print(i + " ");
+        }
     }
 }
