@@ -29,7 +29,6 @@ public class Main {
                                 matrix[i + k + 1][j + l + 1] += 1;
                         }
                     }
-
                 }
             }
         }
