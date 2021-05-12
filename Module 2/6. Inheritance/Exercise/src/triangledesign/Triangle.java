@@ -1,6 +1,6 @@
 package triangledesign;
 
-public class Triangle {
+public class Triangle extends Shape {
     private double side1 = 1;
     private double side2 = 1;
     private double side3 = 1;
@@ -52,6 +52,7 @@ public class Triangle {
                 "side1=" + side1 +
                 ", side2=" + side2 +
                 ", side3=" + side3 +
+                ", color:" + getColor() +
                 "}\n" +
                 "Perimeter: " + getPerimeter() +
                 "\nArea: " + getArea();
