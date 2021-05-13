@@ -1,0 +1,12 @@
+[submodule "Module 2/java-cleancode-refactoring-renaming"]
+	path = Module 2/java-cleancode-refactoring-renaming
+	url = /Volumes/Working/Codegym/A0121I1---BuiThanhBao/Module 2/8. Clean Code & Refactoring/java-cleancode-refactoring-renaming
+[submodule "Module 2/java-cleancode-refactoring-exercise"]
+	path = Module 2/java-cleancode-refactoring-exercise
+	url = /Volumes/Working/Codegym/A0121I1---BuiThanhBao/Module 2/8. Clean Code & Refactoring/java-cleancode-refactoring-exercise
+[submodule "Module 2/java-cleancode-refactoring-method-extraction"]
+	path = Module 2/java-cleancode-refactoring-method-extraction
+	url = /Volumes/Working/Codegym/A0121I1---BuiThanhBao/Module 2/8. Clean Code & Refactoring/java-cleancode-refactoring-method-extraction
+[submodule "Module 2/java-cleancode-refactoring-variable-extraction"]
+	path = Module 2/java-cleancode-refactoring-variable-extraction
+	url = /Volumes/Working/Codegym/A0121I1---BuiThanhBao/Module 2/8. Clean Code & Refactoring/java-cleancode-refactoring-variable-extraction
