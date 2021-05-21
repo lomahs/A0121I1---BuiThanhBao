@@ -14,4 +14,8 @@ public class Node {
     public Object getData() {
         return data;
     }
+
+    public boolean compareNode(Node node){
+        return data.equals(node.getData());
+    }
 }

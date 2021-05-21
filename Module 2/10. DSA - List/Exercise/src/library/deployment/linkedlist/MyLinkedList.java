@@ -1,7 +1,5 @@
 package library.deployment.linkedlist;
 
-import java.util.LinkedList;
-
 public class MyLinkedList<E> {
     private Node head = null;
     private int numNodes;
@@ -15,17 +13,18 @@ public class MyLinkedList<E> {
         } else if (index >= numNodes) {
             addLast(element);
         } else {
-            Node temp = head;
+            Node before = head;
             int count = 0;
 
-            while (temp.next != null && count < index - 1) {
-                temp = temp.next;
+            while (before.next != null && count < index - 1) {
+                before = before.next;
                 count++;
             }
 
-            Node holder = temp.next;
-            temp.next = new Node(element);
-            temp.next.next = holder;
+            Node after = before.next;
+            Node insertNode = new Node(element);
+            before.next = insertNode;
+            insertNode.next = after;
 
             numNodes++;
         }
@@ -155,6 +154,25 @@ public class MyLinkedList<E> {
     public void clear() {
         head = null;
         numNodes = 0;
+    }
+
+    public boolean compareTo(MyLinkedList<E> list){
+        if (size() != list.size()){
+            return false;
+        }else{
+            Node traver1 = head;
+            Node traver2 = list.head;
+
+            while (traver1 != null){
+                if (!traver1.compareNode(traver2)){
+                    return false;
+                }
+                traver1 = traver1.next;
+                traver2 = traver2.next;
+            }
+        }
+
+        return true;
     }
 
     public String toString() {
