@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8295f62e-c933-4d61-84a6-5de767ba065d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TennisGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/Exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/src/library/deployment/arraylist/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/src/library/deployment/arraylist/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/src/library/deployment/linkedlist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/src/library/deployment/linkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +38,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1sLGNK9L43NCoAOHANcyWf45sDS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +61,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JUnit.TennisGameTest.checkAllScores">
+  <component name="RunManager" selected="JUnit.TennisGameTest">
     <configuration name="TennisGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CleanCodeRefactoringExercise" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TennisGameTest.checkAllScores" />
         <item itemvalue="JUnit.TennisGameTest" />
+        <item itemvalue="JUnit.TennisGameTest.checkAllScores" />
       </list>
     </recent_temporary>
   </component>
@@ -89,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620644414654</updated>
       <workItem from="1620644416170" duration="3329000" />
+      <workItem from="1621248006948" duration="1279000" />
     </task>
     <servers />
   </component>
@@ -105,23 +116,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="301" key="GridCell.Tab.0.bottom" timestamp="1620653507210">
-      <screen x="0" y="25" width="1792" height="1095" />
+    <state width="848" height="274" key="GridCell.Tab.0.bottom" timestamp="1621250023138">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="848" height="274" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1621250023138" />
     <state width="1750" height="301" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1620653507210" />
-    <state width="1750" height="301" key="GridCell.Tab.0.center" timestamp="1620653507210">
-      <screen x="0" y="25" width="1792" height="1095" />
+    <state width="848" height="274" key="GridCell.Tab.0.center" timestamp="1621250023138">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="848" height="274" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1621250023138" />
     <state width="1750" height="301" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1620653507210" />
-    <state width="1750" height="301" key="GridCell.Tab.0.left" timestamp="1620653507210">
-      <screen x="0" y="25" width="1792" height="1095" />
+    <state width="848" height="274" key="GridCell.Tab.0.left" timestamp="1621250023137">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="848" height="274" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1621250023137" />
     <state width="1750" height="301" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1620653507210" />
-    <state width="1750" height="301" key="GridCell.Tab.0.right" timestamp="1620653507210">
-      <screen x="0" y="25" width="1792" height="1095" />
+    <state width="848" height="274" key="GridCell.Tab.0.right" timestamp="1621250023138">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="848" height="274" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1621250023138" />
     <state width="1750" height="301" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1620653507210" />
     <state x="634" y="314" key="extract.method.dialog" timestamp="1620647461487">
       <screen x="0" y="25" width="1792" height="1095" />

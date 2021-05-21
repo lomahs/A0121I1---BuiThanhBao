@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36c84ce7-3e9d-412b-973e-4a7196de4182" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CleanCodeRefactoringVariableExtraction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CleanCodeRefactoringVariableExtraction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/Exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/src/library/deployment/arraylist/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/src/library/deployment/arraylist/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/src/library/deployment/linkedlist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10. DSA - Danh sách/Exercise/src/library/deployment/linkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-cleancode-refactoring-exercise/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cleancode-refactoring-exercise/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-cleancode-refactoring-exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cleancode-refactoring-exercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-cleancode-refactoring-exercise/out/production/CleanCodeRefactoringExercise/TennisGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cleancode-refactoring-exercise/out/production/CleanCodeRefactoringExercise/TennisGame.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +21,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1sHS4ull7ANNQjqfQYzl37QWAW9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620527833387</updated>
       <workItem from="1620527834725" duration="692000" />
+      <workItem from="1621250303665" duration="452000" />
     </task>
     <servers />
   </component>
