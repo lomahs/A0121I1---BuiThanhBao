@@ -22,5 +22,11 @@ public class MyLinkedListTest {
         System.out.println("Contain Hello: " + list.contains("Hello"));
 
         System.out.println("Index of am: " + list.indexOf("am"));
+
+        Object clone = new MyLinkedList<>();
+
+        clone = list.clone();
+
+        System.out.println(clone.toString());
     }
 }
