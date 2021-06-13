@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78a5d9ed-805c-4a9f-8be2-a204d461ebb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../12. Java Collection Framework/Exercise/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12. Java Collection Framework/Exercise/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12. Java Collection Framework/Exercise/src/bst_traversal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12. Java Collection Framework/Exercise/src/bst_traversal/binarysearchtree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12. Java Collection Framework/Exercise/src/bst_traversal/binarysearchtree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12. Java Collection Framework/Exercise/src/productmanager/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12. Java Collection Framework/Exercise/src/productmanager/manage/ManageByArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12. Java Collection Framework/Exercise/src/productmanager/manage/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise/Exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise/src/binarysearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise/src/max_ordered_subsequence/consecutive/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise/src/max_ordered_subsequence/noconsecutive/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bigO/AlgorithmComplexityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarysearch/norecursive/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12. Java Collection Framework/Exercise/src/productmanager/ManageByArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12. Java Collection Framework/Exercise/src/productmanager/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12. Java Collection Framework/Exercise/src/productmanager/entity/Product.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1tbUJUHvCdzM0DBZsioH1BVDO2Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Application.AlgorithmComplexityTest">
+    <configuration name="AlgorithmComplexityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bigO.AlgorithmComplexityTest" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bigO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.norecursive.BinarySearch" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarysearch.norecursive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AlgorithmComplexityTest" />
+        <item itemvalue="Application.BinarySearch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78a5d9ed-805c-4a9f-8be2-a204d461ebb6" name="Default Changelist" comment="" />
+      <created>1623037211241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623037211241</updated>
+      <workItem from="1623037213641" duration="80000" />
+      <workItem from="1623037329997" duration="2043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

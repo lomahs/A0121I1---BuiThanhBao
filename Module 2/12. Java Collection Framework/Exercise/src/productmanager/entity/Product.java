@@ -1,4 +1,4 @@
-package productmanager;
+package productmanager.entity;
 
 /**
  * Project: Exercise
@@ -48,11 +48,7 @@ public class Product implements Comparable<Product> {
 
     @Override
     public String toString() {
-        return "Product{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+        return String.format("Product %-7s %-15s %-10.2f",id,name,price);
     }
 
     @Override
