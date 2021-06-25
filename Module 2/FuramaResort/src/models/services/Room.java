@@ -1,6 +1,6 @@
-package models;
+package models.services;
 
-import java.util.ArrayList;
+import models.services.Services;
 
 /**
  * Project: FuramaResort
@@ -20,7 +20,7 @@ public class Room extends Services {
     public Room(String idService,
                 String nameService,
                 double usableArea,
-                long rentalCost,
+                int rentalCost,
                 int maxNumGuest,
                 int rentalType,
                 String freeService) {
@@ -47,15 +47,13 @@ public class Room extends Services {
 
     @Override
     public void showInfo() {
-        System.out.println("ID Service: " + getIdService() + "\n" +
-                "Name Service: " + getNameService() + "\n" +
-                "Usable Area: " + getUsableArea() + "\n" +
-                "Rental Cost: " + getRentalCost() + "\n" +
-                "Maximum number of guest: " + getMaxNumGuest() +"\n" +
-                "Rental Type: " + getRentalType());
-        System.out.println("Free Service: " + getFreeService());
-//        for (String s : freeService) {
-//            System.out.println("\t" + s);
-//        }
+        System.out.printf("\t\t%-10s %-13s %-6.2f %-10d %-7d %-7s %-20s\n",
+                getIdService(),
+                getNameService(),
+                getUsableArea(),
+                getRentalCost(),
+                getMaxNumGuest(),
+                getRentalType(),
+                getFreeService());
     }
 }

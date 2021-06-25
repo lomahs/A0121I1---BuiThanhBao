@@ -1,37 +1,33 @@
-package models;
+package models.services;
 
 /**
  * Project: FuramaResort
  * Package: models
  * User: lomahs
- * Date time: 19/06/2021 11:26
+ * Date time: 19/06/2021 11:15
  * Created with IntelliJ IDEA
  */
-public class Villa extends Services{
-
+public class House extends Services {
     private String standard;
     private String amenities;
     private int numFloor;
-    private double poolArea;
 
-    public Villa() {
+    public House() {
     }
 
-    public Villa(String idService,
+    public House(String idService,
                  String nameService,
                  double usableArea,
-                 long rentalCost,
+                 int rentalCost,
                  int maxNumGuest,
                  int rentalType,
                  String standard,
                  String amenities,
-                 int numFloor,
-                 double poolArea) {
+                 int numFloor) {
         super(idService, nameService, usableArea, rentalCost, maxNumGuest, rentalType);
         this.standard = standard;
         this.amenities = amenities;
         this.numFloor = numFloor;
-        this.poolArea = poolArea;
     }
 
     public String getStandard() {
@@ -58,25 +54,17 @@ public class Villa extends Services{
         this.numFloor = numFloor;
     }
 
-    public double getPoolArea() {
-        return poolArea;
-    }
-
-    public void setPoolArea(double poolArea) {
-        this.poolArea = poolArea;
-    }
-
     @Override
     public void showInfo() {
-        System.out.println("ID Service: " + getIdService() +"\n" +
-                "Name Service: " + getNameService() +"\n" +
-                "Usable Area: " + getUsableArea() +"\n" +
-                "Rental Cost: " + getRentalCost() +"\n" +
-                "Maximum number of guest: " + getMaxNumGuest() +"\n" +
-                "Rental Type: " + getRentalType() +"\n" +
-                "Standard: " + getStandard() +"\n" +
-                "Amenities: " + getAmenities() +"\n" +
-                "Floor number: " + getNumFloor() +"\n" +
-                "Area of pool: " + getPoolArea());
+        System.out.printf("\t\t%-10s %-13s %-6.2f %-10d %-7d %-7s %-20s %-15s %-10d\n",
+                getIdService(),
+                getNameService(),
+                getUsableArea(),
+                getRentalCost(),
+                getMaxNumGuest(),
+                getRentalType(),
+                getStandard(),
+                getAmenities(),
+                getNumFloor());
     }
 }

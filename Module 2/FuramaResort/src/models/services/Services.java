@@ -1,4 +1,4 @@
-package models;
+package models.services;
 
 /**
  * Project: FuramaResort
@@ -12,7 +12,7 @@ public abstract class Services {
     private String idService;
     private String nameService;
     private double usableArea;
-    private long rentalCost;
+    private int rentalCost;
     private int maxNumGuest;
     private int rentalType;
 
@@ -21,7 +21,7 @@ public abstract class Services {
     public Services() {
     }
 
-    public Services(String idService, String nameService, double usableArea, long rentalCost, int maxNumGuest, int rentalType) {
+    public Services(String idService, String nameService, double usableArea, int rentalCost, int maxNumGuest, int rentalType) {
         this.idService = idService;
         this.nameService = nameService;
         this.usableArea = usableArea;
@@ -54,11 +54,11 @@ public abstract class Services {
         this.usableArea = usableArea;
     }
 
-    public long getRentalCost() {
+    public int getRentalCost() {
         return rentalCost;
     }
 
-    public void setRentalCost(long rentalCost) {
+    public void setRentalCost(int rentalCost) {
         this.rentalCost = rentalCost;
     }
 
