@@ -32,6 +32,7 @@ public class MainController {
     public void displayMainMenu() {
         while (true) {
             System.out.println("""
+                    
                     -*-*-FURAMA RESORT MANAGEMENT-*-*-
                     1. Add New Service
                     2. Show Service
@@ -130,6 +131,7 @@ public class MainController {
     public void showListService() {
         System.out.println("""
                                 
+                ---SHOW SERVICES---
                 1.	Show all Villa
                 2.	Show all House
                 3.	Show all Room
@@ -158,7 +160,7 @@ public class MainController {
         try {
             HashMap<String, Employee> list = reader.readEmployeeCSV();
 
-            System.out.printf("%-10s %-15s %-11s %-11s %-20s %-13s %-13s %-10s %-20s\n",
+            System.out.printf("\t\t%-10s %-15s %-11s %-11s %-20s %-13s %-13s %-10s %-20s\n",
                 "Id",
                 "Name",
                 "Birthday",
@@ -182,7 +184,7 @@ public class MainController {
         try {
             ArrayList<Customer> listCustomer = reader.readCustomerCSV();
 
-            System.out.printf("\t\t%-13s %-15s %-11s %-7s %-11s %-20s %-10s %-15s %-10s\n",
+            System.out.printf("\t\t%-13s %-15s %-11s %-7s %-11s %-20s %-10s %-15s\n",
                     "ID",
                     "Name",
                     "Birthday",
@@ -190,8 +192,7 @@ public class MainController {
                     "Phone",
                     "Email",
                     "Type Cus",
-                    "Address",
-                    "Service");
+                    "Address");
             listCustomer.forEach(Customer::showInfo);
 
             System.out.print("\tEnter ID Customer booking: ");

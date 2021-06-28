@@ -75,7 +75,7 @@ public class ServiceManager {
                 }
             } catch (Exception e) {
                 System.err.println(e.getMessage());
-                System.out.print("Enter again: ");
+                System.out.print("\t\tEnter again: ");
             }
         }
 

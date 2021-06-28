@@ -40,7 +40,7 @@ public class ValidateInput {
                     return id;
                 }
             } catch (Exception e) {
-                System.err.println(e.getMessage());
+                System.out.println(e.getMessage());
                 System.out.print("\t\tEnter again: ");
             }
         }
@@ -58,7 +58,7 @@ public class ValidateInput {
                     return str;
                 }
             } catch (Exception e) {
-                System.err.println(e.getMessage());
+                System.out.println(e.getMessage());
                 System.out.print("\t\tEnter again: ");
             }
         }
@@ -75,8 +75,11 @@ public class ValidateInput {
                 } else {
                     throw new Exception("Area must be a number bigger than 30");
                 }
-            } catch (Exception e) {
-                System.err.println(e.getMessage());
+            } catch (NumberFormatException e){
+                System.out.println("Please enter a number!");
+                System.out.print("\t\tEnter again: ");
+            }catch (Exception e) {
+                System.out.println(e.getMessage());
                 System.out.print("\t\tEnter again: ");
             }
         }
@@ -94,7 +97,7 @@ public class ValidateInput {
                     throw new Exception("Number must be in range " + min + " - " + max);
                 }
             } catch (NumberFormatException e) {
-                System.err.println("Please enter a number! ");
+                System.out.println("Please enter a number! ");
                 System.out.print("Enter again: ");
             } catch (Exception e) {
                 System.out.println(e.getMessage());

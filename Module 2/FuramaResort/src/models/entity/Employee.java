@@ -109,7 +109,7 @@ public class Employee {
     }
 
     public void showInfo() {
-        System.out.printf("%-10s %-15s %-11s %-11s %-20s %-13s %-13s %-10d %-20s\n",
+        System.out.printf("\t\t%-10s %-15s %-11s %-11s %-20s %-13s %-13s %-10d %-20s\n",
                 id,
                 name,
                 birthday.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")),

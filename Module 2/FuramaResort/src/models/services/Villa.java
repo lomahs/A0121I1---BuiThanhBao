@@ -1,7 +1,5 @@
 package models.services;
 
-import models.services.Services;
-
 /**
  * Project: FuramaResort
  * Package: models
@@ -70,17 +68,6 @@ public class Villa extends Services {
 
     @Override
     public void showInfo() {
-//        System.out.println("ID Service: " + getIdService() +"\n" +
-//                "Name Service: " + getNameService() +"\n" +
-//                "Usable Area: " + getUsableArea() +"\n" +
-//                "Rental Cost: " + getRentalCost() +"\n" +
-//                "Maximum number of guest: " + getMaxNumGuest() +"\n" +
-//                "Rental Type: " + getRentalType() +"\n" +
-//                "Standard: " + getStandard() +"\n" +
-//                "Amenities: " + getAmenities() +"\n" +
-//                "Floor number: " + getNumFloor() +"\n" +
-//                "Area of pool: " + getPoolArea());
-
         System.out.printf("\t\t%-10s %-13s %-6.2f %-10d %-7d %-7s %-20s %-15s %-10d %-10.2f \n",
                 getIdService(),
                 getNameService(),
