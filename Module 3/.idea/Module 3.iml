@@ -2,6 +2,8 @@
 <module type="DBE_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/2. Thiết kế và tạo CSDL" />
+    <content url="file://$MODULE_DIR$/3. Thao tác với CSDL" />
+    <content url="file://$MODULE_DIR$/4. Các hàm thông dụng trong SQL" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
