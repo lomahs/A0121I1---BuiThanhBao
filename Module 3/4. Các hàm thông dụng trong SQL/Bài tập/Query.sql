@@ -28,3 +28,4 @@ GROUP BY name;
 SELECT name
 FROM Fee
 GROUP BY 1;
+
