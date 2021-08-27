@@ -8,8 +8,8 @@ CREATE TABLE DichVuDiKem
     trangThaiKhaDung varchar(45) NULL
 );
 
-INSERT INTO furama_resort.DichVuDiKem (idDichVuDiKem, tenDichVuDiKem, gia, donVi, trangThaiKhaDung) VALUES (1, 'Massage', 50, 1, 'San sang');
-INSERT INTO furama_resort.DichVuDiKem (idDichVuDiKem, tenDichVuDiKem, gia, donVi, trangThaiKhaDung) VALUES (2, 'Karaoke', 20, 1, 'San sang');
-INSERT INTO furama_resort.DichVuDiKem (idDichVuDiKem, tenDichVuDiKem, gia, donVi, trangThaiKhaDung) VALUES (3, 'Food', 50, 1, 'San sang');
-INSERT INTO furama_resort.DichVuDiKem (idDichVuDiKem, tenDichVuDiKem, gia, donVi, trangThaiKhaDung) VALUES (4, 'Car', 70, 1, 'Chua san sang');
-INSERT INTO furama_resort.DichVuDiKem (idDichVuDiKem, tenDichVuDiKem, gia, donVi, trangThaiKhaDung) VALUES (5, 'Computer', 10, 1, 'San sang');
+INSERT INTO furama_resort.attach_service (attach_service_name, attach_service_cost, attach_service_unit, attach_service_status) VALUES ('Massage', 50, 1, 'Ready');
+INSERT INTO furama_resort.attach_service (attach_service_name, attach_service_cost, attach_service_unit, attach_service_status) VALUES ('Karaoke', 20, 1, 'Ready');
+INSERT INTO furama_resort.attach_service (attach_service_name, attach_service_cost, attach_service_unit, attach_service_status) VALUES ('Food', 50, 1, 'Not Ready');
+INSERT INTO furama_resort.attach_service (attach_service_name, attach_service_cost, attach_service_unit, attach_service_status) VALUES ('Car', 70, 1, 'Under Maintenance');
+INSERT INTO furama_resort.attach_service (attach_service_name, attach_service_cost, attach_service_unit, attach_service_status) VALUES ('Computer', 10, 1, 'Updating');

@@ -5,7 +5,7 @@ CREATE TABLE TrinhDo
     trinhDo   varchar(45) NULL
 );
 
-INSERT INTO furama_resort.TrinhDo (idTrinhDo, trinhDo) VALUES (1, 'Trung Cap');
-INSERT INTO furama_resort.TrinhDo (idTrinhDo, trinhDo) VALUES (2, 'Cao Dang');
-INSERT INTO furama_resort.TrinhDo (idTrinhDo, trinhDo) VALUES (3, 'Dai Hoc');
-INSERT INTO furama_resort.TrinhDo (idTrinhDo, trinhDo) VALUES (4, 'Sau Dai Hoc');
+INSERT INTO furama_resort.education_degree (education_degree_name) VALUES ('Intermediate');
+INSERT INTO furama_resort.education_degree (education_degree_name) VALUES ('Colleges');
+INSERT INTO furama_resort.education_degree (education_degree_name) VALUES ('University');
+INSERT INTO furama_resort.education_degree (education_degree_name) VALUES ('After University');

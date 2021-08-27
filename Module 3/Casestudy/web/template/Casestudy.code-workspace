@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../WEB-INF"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "template"
+  }
+}

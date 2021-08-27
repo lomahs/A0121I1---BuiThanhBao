@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="/WEB-INF/lib/bootstrap/css/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_css_bootstrap.css"
+    />
+    <script src="/WEB-INF/lib/bootstrap/js/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js"></script>
+    <script src="/WEB-INF/lib/bootstrap/js/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.16.0_umd_popper.js"></script>
+    <script src="/WEB-INF/lib/bootstrap/js/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.js"></script>
+  </head>
+  <body>
+    <header class="py-3 border-bottom">Home Page</header>
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#toggleMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="toggleMenu"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Employee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Customer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contract</a>
+            </li>
+          </ul>
+
+          <form class="d-flex mr-0">
+            <input
+              type="search"
+              class="form-control mr-2"
+              placeholder="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="d-flex">
+      <div class="bg-light col-lg-2 col-3 border">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Item One</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Item Two</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Item Three</a>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-light col-lg-10 col-9 border">
+        <section class="clean-block clean-form dark h-100">
+          <div class="container">
+            <div class="block-heading" style="padding-top: 0px">
+              <h2 class="text-primary" style="margin-top: 100px">
+                Add New Employee
+              </h2>
+              <p></p>
+            </div>
+            <form
+              action="index.html"
+              method="post"
+              enctype="multipart/form-data"
+              role="form"
+              style="margin: auto; width: 700; max-width: 1000"
+            >
+              <div class="form-group">
+                <label for="name">Name*</label
+                ><input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Enter name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="birthday">Birthday*</label
+                ><input
+                  class="form-control"
+                  id="birthday"
+                  type="date"
+                  style="padding-left: 12; border-radius: 8px"
+                  required
+                  name="birthday"
+                />
+              </div>
+              <div class="form-group">
+                <label for="idcard">ID Card *</label
+                ><input
+                  type="text"
+                  class="form-control"
+                  id="idcard"
+                  required
+                  name="idcard"
+                  placeholder="Enter ID Card"
+                />
+              </div>
+              <div class="form-group">
+                <label for="salary">Salary</label
+                ><input
+                  type="text"
+                  class="form-control"
+                  id="salary"
+                  name="salary"
+                  placeholder="Enter Salary"
+                  required
+                  inputmode="numeric"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label
+                ><input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter Phone Number"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label
+                ><input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Enter Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="address">Address</label
+                ><input
+                  type="text"
+                  class="form-control"
+                  id="address"
+                  name="address"
+                  placeholder="Enter Address"
+                />
+              </div>
+              <div class="form-group">
+                <label for="position">Position</label
+                ><select
+                  class="custom-select"
+                  id="position"
+                  name="position"
+                  style="border-radius: 8px"
+                >
+                  <optgroup label="Choose Position">
+                    <option value="1" selected>Receptionist</option>
+                    <option value="2">Serve</option>
+                    <option value="3">Specialist</option>
+                    <option value="4">Supervisor</option>
+                    <option value="5">Manager</option>
+                    <option value="6">Director</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="educationDegree">Education Degree</label
+                ><select
+                  class="custom-select"
+                  id="educationDegree"
+                  style="border-radius: 8px"
+                  name="educationDegree"
+                >
+                  <optgroup label="Select Education Degree">
+                    <option value="1" selected>Intermediate</option>
+                    <option value="2">Colleges</option>
+                    <option value="3">University</option>
+                    <option value="4">Graduated</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="division">Division</label
+                ><select
+                  class="custom-select"
+                  style="border-radius: 8px"
+                  name="division"
+                >
+                  <optgroup label="Select Division">
+                    <option value="1" selected>Sale - Marketing</option>
+                    <option value="2">Administrative</option>
+                    <option value="3">Service</option>
+                    <option value="4">Management</option>
+                  </optgroup>
+                </select>
+                <div class="selectbox">
+                  <div
+                    role="tablist"
+                    id="accordion-2"
+                    class="accordion accordion-select"
+                  ></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="username">Username</label
+                ><input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  name="username"
+                  placeholder="Enter Username"
+                />
+              </div>
+              <hr style="margin-top: 30px; margin-bottom: 10px" />
+              <div class="form-group">
+                <button class="btn btn-primary btn-block" type="submit">
+                  <i class="fas fa-save"></i> Save
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <footer class="fixed-bottom bg-dark text-light">
+      <div class="text-center py-3">Codegym</div>
+    </footer>
+  </body>
+</html>

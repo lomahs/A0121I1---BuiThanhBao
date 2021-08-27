@@ -5,7 +5,7 @@ CREATE TABLE BoPhan
     tenBoPhan varchar(45) NULL
 );
 
-INSERT INTO furama_resort.BoPhan (idBoPhan, tenBoPhan) VALUES (1, 'Sale - Marketing');
-INSERT INTO furama_resort.BoPhan (idBoPhan, tenBoPhan) VALUES (2, 'Hanh Chinh');
-INSERT INTO furama_resort.BoPhan (idBoPhan, tenBoPhan) VALUES (3, 'Phuc Vu');
-INSERT INTO furama_resort.BoPhan (idBoPhan, tenBoPhan) VALUES (4, 'Quan Ly');
+INSERT INTO furama_resort.division (division_id, division_name) VALUES (1, 'Sale - Marketing');
+INSERT INTO furama_resort.division (division_id, division_name) VALUES (2, 'Administrative');
+INSERT INTO furama_resort.division (division_id, division_name) VALUES (3, 'Service');
+INSERT INTO furama_resort.division (division_id, division_name) VALUES (4, 'Management');

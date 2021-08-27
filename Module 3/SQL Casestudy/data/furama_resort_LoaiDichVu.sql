@@ -5,6 +5,6 @@ CREATE TABLE LoaiDichVu
     tenLoaiDichVu varchar(45) NULL
 );
 
-INSERT INTO furama_resort.LoaiDichVu (idLoaiDichVu, tenLoaiDichVu) VALUES (1, 'Room');
-INSERT INTO furama_resort.LoaiDichVu (idLoaiDichVu, tenLoaiDichVu) VALUES (2, 'House');
-INSERT INTO furama_resort.LoaiDichVu (idLoaiDichVu, tenLoaiDichVu) VALUES (3, 'Villa');
+INSERT INTO furama_resort.service_type (service_type_name) VALUES ('Room');
+INSERT INTO furama_resort.service_type (service_type_name) VALUES ('House');
+INSERT INTO furama_resort.service_type (service_type_name) VALUES ('Villa');

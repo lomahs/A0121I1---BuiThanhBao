@@ -5,8 +5,8 @@ CREATE TABLE LoaiKhach
     tenLoaiKhach varchar(45) NULL
 );
 
-INSERT INTO furama_resort.LoaiKhach (idLoaiKhach, tenLoaiKhach) VALUES (1, 'Member');
-INSERT INTO furama_resort.LoaiKhach (idLoaiKhach, tenLoaiKhach) VALUES (2, 'Silver');
-INSERT INTO furama_resort.LoaiKhach (idLoaiKhach, tenLoaiKhach) VALUES (3, 'Gold');
-INSERT INTO furama_resort.LoaiKhach (idLoaiKhach, tenLoaiKhach) VALUES (4, 'Platinum');
-INSERT INTO furama_resort.LoaiKhach (idLoaiKhach, tenLoaiKhach) VALUES (5, 'Diamond');
+INSERT INTO furama_resort.customer_type (customer_type_name) VALUES ('Member');
+INSERT INTO furama_resort.customer_type (customer_type_name) VALUES ('Silver');
+INSERT INTO furama_resort.customer_type (customer_type_name) VALUES ('Gold');
+INSERT INTO furama_resort.customer_type (customer_type_name) VALUES ('Platinum');
+INSERT INTO furama_resort.customer_type (customer_type_name) VALUES ('Diamond');

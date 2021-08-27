@@ -5,9 +5,9 @@ CREATE TABLE ViTri
     tenViTri varchar(45) NULL
 );
 
-INSERT INTO furama_resort.ViTri (idViTri, tenViTri) VALUES (1, 'Le tan');
-INSERT INTO furama_resort.ViTri (idViTri, tenViTri) VALUES (2, 'Phuc vu');
-INSERT INTO furama_resort.ViTri (idViTri, tenViTri) VALUES (3, 'Chuyen vien');
-INSERT INTO furama_resort.ViTri (idViTri, tenViTri) VALUES (4, 'Giam sat');
-INSERT INTO furama_resort.ViTri (idViTri, tenViTri) VALUES (5, 'Quan ly');
-INSERT INTO furama_resort.ViTri (idViTri, tenViTri) VALUES (6, 'Giam doc');
+INSERT INTO furama_resort.position (position_name) VALUES ('Receptionist');
+INSERT INTO furama_resort.position (position_name) VALUES ('Serve');
+INSERT INTO furama_resort.position (position_name) VALUES ('Specialist');
+INSERT INTO furama_resort.position (position_name) VALUES ('Supervisor');
+INSERT INTO furama_resort.position (position_name) VALUES ('Manager');
+INSERT INTO furama_resort.position (position_name) VALUES ('Director');
