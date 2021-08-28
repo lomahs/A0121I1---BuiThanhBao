@@ -1,12 +1,13 @@
 package service;
 
+import bean.DichVuDiKem;
 import bean.TiecCuoi;
 import repository.Repository;
 
-import java.sql.Date;
+import java.util.Date;
 import java.util.List;
 
-public class Service implements IService{
+public class Service implements IService {
     Repository repository = new Repository();
 
     @Override
@@ -63,5 +64,20 @@ public class Service implements IService{
     @Override
     public void xoaTiecCuoi(int id) {
         repository.xoaTiecCuoi(id);
+    }
+
+    @Override
+    public List<DichVuDiKem> layDanhSachDichVu() {
+        return repository.layDanhSachDichVu();
+    }
+
+    @Override
+    public DichVuDiKem layThongTinDichVu(int id) {
+        return repository.layThongTinDichVu(id);
+    }
+
+    @Override
+    public TiecCuoi layThongTinTiecCuoi(int id) {
+        return repository.layThongTinTiecCuoi(id);
     }
 }

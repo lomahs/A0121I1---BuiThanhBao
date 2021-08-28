@@ -1,8 +1,9 @@
 package service;
 
+import bean.DichVuDiKem;
 import bean.TiecCuoi;
 
-import java.sql.Date;
+import java.util.Date;
 import java.util.List;
 
 public interface IService {
@@ -38,4 +39,11 @@ public interface IService {
             String trangThai);
 
     void xoaTiecCuoi(int id);
+
+    List<DichVuDiKem> layDanhSachDichVu();
+
+    DichVuDiKem layThongTinDichVu(int id);
+
+    TiecCuoi layThongTinTiecCuoi(int id);
+
 }

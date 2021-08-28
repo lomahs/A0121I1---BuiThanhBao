@@ -1,6 +1,7 @@
 package bean;
 
-import java.sql.Date;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class TiecCuoi {
     private int id;
@@ -9,7 +10,7 @@ public class TiecCuoi {
     private String tenChuRe;
     private int soLuongBan;
     private int donGia;
-    private int dichVuDiKem;
+    private DichVuDiKem dichVuDiKem;
     private int tienNoDatCoc;
     private int tienNoThanhToan;
     private Date ngayDatCoc;
@@ -20,20 +21,42 @@ public class TiecCuoi {
     public TiecCuoi() {
     }
 
-    public TiecCuoi(int id, Date ngayToChuc, String tenCoDau, String tenChuRe, int soLuongBan, int donGia, int dichVuDiKem, int tienNoDatCoc, int tienNoThanhToan, Date ngayDatCoc, Date ngayThanhToan, String ghiChu, String trangThai) {
+    public TiecCuoi(int id,
+                    Date ngayToChuc,
+                    String tenCoDau,
+                    String tenChuRe,
+                    int soLuongBan,
+                    int donGia,
+                    int idDichVuDiKem,
+                    String tenDichVu,
+                    int giaDichVu,
+                    int tienNoDatCoc,
+                    int tienNoThanhToan,
+                    Date ngayDatCoc,
+                    Date ngayThanhToan,
+                    String ghiChu,
+                    String trangThai) {
         this.id = id;
         this.ngayToChuc = ngayToChuc;
         this.tenCoDau = tenCoDau;
         this.tenChuRe = tenChuRe;
         this.soLuongBan = soLuongBan;
         this.donGia = donGia;
-        this.dichVuDiKem = dichVuDiKem;
+        this.dichVuDiKem = new DichVuDiKem(idDichVuDiKem, tenDichVu, giaDichVu);
         this.tienNoDatCoc = tienNoDatCoc;
         this.tienNoThanhToan = tienNoThanhToan;
         this.ngayDatCoc = ngayDatCoc;
         this.ngayThanhToan = ngayThanhToan;
         this.ghiChu = ghiChu;
         this.trangThai = trangThai;
+    }
+
+    public DichVuDiKem getDichVuDiKem() {
+        return dichVuDiKem;
+    }
+
+    public void setDichVuDiKem(DichVuDiKem dichVuDiKem) {
+        this.dichVuDiKem = dichVuDiKem;
     }
 
     public int getId() {
@@ -84,14 +107,6 @@ public class TiecCuoi {
         this.donGia = donGia;
     }
 
-    public int getDichVuDiKem() {
-        return dichVuDiKem;
-    }
-
-    public void setDichVuDiKem(int dichVuDiKem) {
-        this.dichVuDiKem = dichVuDiKem;
-    }
-
     public int getTienNoDatCoc() {
         return tienNoDatCoc;
     }
@@ -140,3 +155,4 @@ public class TiecCuoi {
         this.trangThai = trangThai;
     }
 }
+

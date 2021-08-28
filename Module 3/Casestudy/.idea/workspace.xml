@@ -10,258 +10,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3430dfd-7033-458d-aa6a-52191f4088a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/.idea/artifacts/UserManagement_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/.idea/templateLanguages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/UserManagement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/src/controller/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/src/model/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/src/model/dao/IUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/src/model/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/src/model/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/src/model/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/web/user/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/web/user/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/web/user/findbycountry.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Bài tập/UserManagement/web/user/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/artifacts/UserManagement_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/entities/entities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/entities/entities.dat.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/entities/entities.dat.values" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/entities/entities.dat.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/entities/entities.dat.values.s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/entities/entities.dat_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/entities/entities.dat_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/storage_v2/_src_/schema/classicmodels.fG2wDg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/storage_v2/_src_/schema/classicmodels.fG2wDg.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/dataSources/98f5d088-bd62-4ac6-b18d-b0c6ba752ef4/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/UserManagement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/WEB-INF/classes/controller/UserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/WEB-INF/classes/model/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/WEB-INF/classes/model/dao/IUserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/WEB-INF/classes/model/dao/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/user/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/user/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/user/findbycountry.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/artifacts/UserManagement_war_exploded/user/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/production/UserManagement/controller/UserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/production/UserManagement/model/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/production/UserManagement/model/dao/IUserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/out/production/UserManagement/model/dao/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/src/controller/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/src/model/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/src/model/dao/IUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/src/model/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/src/model/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/src/model/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/web/user/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/web/user/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/web/user/findbycountry.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. JDBC Querying &amp; Transaction/Thực hành/UserManagement/web/user/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Casestudy_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Casestudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/protobuf-java-3.11.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/employee/EducationDegree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/employee/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/EmployeeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/IEmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/IEmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/DBContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/bootstrap/css/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_css_bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/bootstrap/datatable/__cdn.datatables.net_1.11.0_css_jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/bootstrap/datatable/__cdn.datatables.net_1.11.0_js_jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/bootstrap/js/Bootstrap-DataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/bootstrap/js/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/bootstrap/js/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.16.0_umd_popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/bootstrap/js/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/employee/add-employee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/employee/list-employee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/template/add-employee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/template/list-employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ 5. SQL View, Index &amp; Stored Procedure/Bài tập/View, Index, Store Procedure/Query.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ 5. SQL View, Index &amp; Stored Procedure/Thực hành/Chỉ mục trong MySql/TestIndex.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ 5. SQL View, Index &amp; Stored Procedure/Thực hành/Store Procedure/Procedure.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ 5. SQL View, Index &amp; Stored Procedure/Thực hành/Truyền tham số vào Store Procedure/ProcedureWithParameter.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ 5. SQL View, Index &amp; Stored Procedure/Thực hành/View trong MySQL/View.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/User Management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/User Management.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/.package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/js/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/js/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/AUTHORS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/dist/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/dist/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/dist/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/ajax/jsonp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/ajax/load.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/ajax/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/ajax/var/location.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/ajax/var/nonce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/ajax/var/rquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/ajax/xhr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/attributes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/attributes/attr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/attributes/classes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/attributes/prop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/attributes/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/attributes/val.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/callbacks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/DOMEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/access.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/camelCase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/isAttached.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/nodeName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/parseHTML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/parseXML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/ready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/readyException.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/toType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/addGetHookIf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/adjustCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/curCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/finalPropName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/showHide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/var/cssExpand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/var/getStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/var/rboxStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/css/var/swap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/data/Data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/data/var/acceptData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/data/var/dataPriv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/data/var/dataUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/deprecated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/deprecated/ajax-event-alias.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/deprecated/event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/dimensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/effects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/effects/Tween.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/effects/animatedSelector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/event/focusin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/event/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/event/trigger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/exports/amd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/exports/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/manipulation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/manipulation/getAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/manipulation/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/offset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/queue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/queue/delay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/selector-native.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/selector-sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/selector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/serialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/traversing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/traversing/findFilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/traversing/var/dir.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/traversing/var/siblings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/arr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/class2type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/documentElement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/flat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/fnToString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/getProto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/hasOwn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/indexOf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/isFunction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/isWindow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/pnum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/push.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/rcheckableType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/rcssNum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/slice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/var/toString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/node_modules/jquery/src/wrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12. JDBC &amp; CRUD/Thực hành/User Management/node_modules/datatables.net/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_BoPhan.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_BoPhan.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_DichVuDiKem.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_DichVuDiKem.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_KieuThue.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_KieuThue.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_LoaiDichVu.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_LoaiDichVu.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_LoaiKhach.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_LoaiKhach.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_TrinhDo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_TrinhDo.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_ViTri.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL Casestudy/data/furama_resort_ViTri.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/.idea/libraries/bootstrap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/.idea/libraries/jquery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/.idea/libraries/popper_js.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/src/bean/DichVuDiKem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/web/listtieccuoi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/web/static/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/web/static/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.16.0_umd_popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/web/static/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_css_bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/web/static/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/web/suatieccuoi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/web/themtieccuoi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/bean/TiecCuoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/bean/TiecCuoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/controller/TiecCuoiServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/controller/TiecCuoiServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/repository/IRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/repository/IRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/repository/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/repository/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/service/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/service/IService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/service/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/list-tieccuoi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/them-tieccuoi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/bean/TiecCuoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/bean/TiecCuoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/controller/TiecCuoiServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/controller/TiecCuoiServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/repository/IRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/repository/IRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/repository/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/repository/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/service/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/service/IService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/service/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/bean/TiecCuoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/bean/TiecCuoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/controller/TiecCuoiServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/controller/TiecCuoiServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/repository/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/repository/IRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/service/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/service/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/list-tieccuoi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/them-tieccuoi.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,6 +212,8 @@
       <workItem from="1629896524762" duration="12609000" />
       <workItem from="1630025736250" duration="5096000" />
       <workItem from="1630065760286" duration="154000" />
+      <workItem from="1630137022930" duration="44000" />
+      <workItem from="1630137152952" duration="2737000" />
     </task>
     <servers />
   </component>
