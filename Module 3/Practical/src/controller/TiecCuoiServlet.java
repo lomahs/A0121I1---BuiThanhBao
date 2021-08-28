@@ -17,8 +17,6 @@ public class TiecCuoiServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html; charset=UTF-8");
-
         String action = request.getParameter("action");
 
         if (action == null) {
@@ -43,8 +41,6 @@ public class TiecCuoiServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html; charset=UTF-8");
-
         String action = request.getParameter("action");
 
         if (action == null) {
@@ -68,8 +64,6 @@ public class TiecCuoiServlet extends HttpServlet {
 
 
     private void showList(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html; charset=UTF-8");
-
         List<TiecCuoi> list = service.xemCacTiecCuoi();
 
         request.setAttribute("danhSachTiec", list);
@@ -77,8 +71,6 @@ public class TiecCuoiServlet extends HttpServlet {
     }
 
     private void showAddForm(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        response.setContentType("text/html; charset=UTF-8");
-
         List<DichVuDiKem> list = service.layDanhSachDichVu();
 
         request.setAttribute("danhSachDichVu", list);
@@ -87,8 +79,6 @@ public class TiecCuoiServlet extends HttpServlet {
     }
 
     private void addTiecCuoi(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html; charset=UTF-8");
-
         try {
             Date ngayToChuc = new SimpleDateFormat("yyyy-MM-dd").parse(request.getParameter("ngayToChuc"));
             String tenCoDau = request.getParameter("tenCoDau");
@@ -124,8 +114,6 @@ public class TiecCuoiServlet extends HttpServlet {
     }
 
     private void showEditForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html; charset=UTF-8");
-
         int id = Integer.parseInt(request.getParameter("id"));
 
         TiecCuoi tiecCuoi = service.layThongTinTiecCuoi(id);
@@ -138,8 +126,6 @@ public class TiecCuoiServlet extends HttpServlet {
     }
 
     private void suaThongTinTiecCuoi(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html; charset=UTF-8");
-
         int id = Integer.parseInt(request.getParameter("id"));
 
         try {

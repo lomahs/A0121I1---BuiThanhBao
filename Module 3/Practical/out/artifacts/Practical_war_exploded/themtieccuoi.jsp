@@ -32,23 +32,23 @@
                         <span>${requestScope.message}</span><br>
                         <div class="form-group">
                             <label for="ngayToChuc">Ngày Tổ Chức:</label>
-                            <input class="form-control" type="date" id="ngayToChuc" name="ngayToChuc">
+                            <input class="form-control" type="date" id="ngayToChuc" name="ngayToChuc" required>
                         </div>
                         <div class="form-group">
                             <label for="tenCoDau">Tên Cô Dâu:</label>
-                            <input class="form-control" type="text" id="tenCoDau" name="tenCoDau">
+                            <input class="form-control" type="text" id="tenCoDau" name="tenCoDau" required>
                         </div>
                         <div class="form-group">
                             <label for="tenChuRe">Tên Chú Rể:</label>
-                            <input class="form-control" type="text" id="tenChuRe" name="tenChuRe">
+                            <input class="form-control" type="text" id="tenChuRe" name="tenChuRe" required>
                         </div>
                         <div class="form-group">
                             <label for="soLuongBan">Số Lượng Bán:</label>
-                            <input class="form-control" type="text" id="soLuongBan" name="soLuongBan">
+                            <input class="form-control" type="text" id="soLuongBan" name="soLuongBan" required>
                         </div>
                         <div class="form-group">
                             <label for="donGia">Đơn Giá:</label>
-                            <input class="form-control" type="text" id="donGia" name="donGia">
+                            <input class="form-control" type="text" id="donGia" name="donGia" required>
                         </div>
                         <div class="form-group">
                             <label for="dichVuDiKem">Dịch Vụ Đi Kèm:</label>
@@ -60,27 +60,28 @@
                         </div>
                         <div class="form-group">
                             <label for="tienNoDatCoc">Tiền Nợ Đặt Cọc</label>
-                            <input class="form-control" type="text" id="tienNoDatCoc" name="tienNoDatCoc">
+                            <input class="form-control" type="text" id="tienNoDatCoc" name="tienNoDatCoc" required>
                         </div>
                         <div class="form-group">
                             <label for="tienNoThanhToan">Tiền Nợ Thanh Toán:</label>
-                            <input class="form-control" type="text" id="tienNoThanhToan" name="tienNoThanhToan">
+                            <input class="form-control" type="text" id="tienNoThanhToan" name="tienNoThanhToan"
+                                   required>
                         </div>
                         <div class="form-group">
                             <label for="ngayDatCoc">Ngày Đặt Cọc:</label>
-                            <input class="form-control" type="date" id="ngayDatCoc" name="ngayDatCoc">
+                            <input class="form-control" type="date" id="ngayDatCoc" name="ngayDatCoc" required>
                         </div>
                         <div class="form-group">
                             <label for="ngayThanhToan">Ngày Thanh Toán:</label>
-                            <input class="form-control" type="date" id="ngayThanhToan" name="ngayThanhToan">
+                            <input class="form-control" type="date" id="ngayThanhToan" name="ngayThanhToan" required>
                         </div>
                         <div class="form-group">
                             <label for="ghiChu">Ghi Chú:</label>
-                            <input class="form-control" type="text" id="ghiChu" name="ghiChu">
+                            <input class="form-control" type="text" id="ghiChu" name="ghiChu" required>
                         </div>
                         <div class="form-group">
                             <label for="trangThai">Trạng Thái</label>
-                            <input class="form-control" type="text" id="trangThai" name="trangThai">
+                            <input class="form-control" type="text" id="trangThai" name="trangThai" required>
                         </div>
                         <a href="${pageContext.request.contextPath}/tieccuoi">
                             <button type="button" class="btn btn-secondary">Back</button>

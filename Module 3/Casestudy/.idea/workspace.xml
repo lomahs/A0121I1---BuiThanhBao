@@ -10,46 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3430dfd-7033-458d-aa6a-52191f4088a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Practical/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/.idea/libraries/bootstrap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/.idea/libraries/jquery.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/.idea/libraries/popper_js.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/src/bean/DichVuDiKem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/web/listtieccuoi.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/web/static/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/web/static/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.16.0_umd_popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/web/static/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_css_bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/web/static/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/web/suatieccuoi.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/web/themtieccuoi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/employee/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/src/filter/LanguageFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/src/util/SQL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/bean/TiecCuoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/bean/TiecCuoi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/controller/TiecCuoiServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/controller/TiecCuoiServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/repository/IRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/repository/IRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/repository/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/repository/Repository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/service/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/service/IService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/service/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/list-tieccuoi.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/them-tieccuoi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/suatieccuoi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/suatieccuoi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/themtieccuoi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/themtieccuoi.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/bean/TiecCuoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/bean/TiecCuoi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/controller/TiecCuoiServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/controller/TiecCuoiServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/repository/IRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/repository/IRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/repository/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/repository/Repository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/service/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/service/IService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/service/Service.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practical/src/bean/TiecCuoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/bean/TiecCuoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practical/src/controller/TiecCuoiServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/controller/TiecCuoiServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/src/repository/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/repository/IRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/src/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/repository/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/src/service/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/service/IService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/src/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/web/list-tieccuoi.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/web/them-tieccuoi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/suatieccuoi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/web/suatieccuoi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/themtieccuoi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/web/themtieccuoi.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -213,7 +191,7 @@
       <workItem from="1630025736250" duration="5096000" />
       <workItem from="1630065760286" duration="154000" />
       <workItem from="1630137022930" duration="44000" />
-      <workItem from="1630137152952" duration="2737000" />
+      <workItem from="1630137152952" duration="3531000" />
     </task>
     <servers />
   </component>

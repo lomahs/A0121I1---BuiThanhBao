@@ -30,32 +30,33 @@
                 <div class="col">
                     <form action="${pageContext.request.contextPath}/tieccuoi?action=edit" method="post">
                         <c:set var="tiecCuoi" value="${requestScope.tiecCuoi}"/>
-                        <span>${requestScope.message}</span><br>
+                        <div class="alert alert-success ">${requestScope.message}</div>
+
                         <input type="hidden" name="id" value="${tiecCuoi.id}">
                         <div class="form-group">
                             <label for="ngayToChuc">Ngày Tổ Chức:</label>
                             <input class="form-control" type="date" id="ngayToChuc" name="ngayToChuc"
-                                   value="${tiecCuoi.ngayToChuc}">
+                                   value="${tiecCuoi.ngayToChucString}" required>
                         </div>
                         <div class="form-group">
                             <label for="tenCoDau">Tên Cô Dâu:</label>
                             <input class="form-control" type="text" id="tenCoDau" name="tenCoDau"
-                                   value="${tiecCuoi.tenCoDau}">
+                                   value="${tiecCuoi.tenCoDau}" required>
                         </div>
                         <div class="form-group">
                             <label for="tenChuRe">Tên Chú Rể:</label>
                             <input class="form-control" type="text" id="tenChuRe" name="tenChuRe"
-                                   value="${tiecCuoi.tenChuRe}">
+                                   value="${tiecCuoi.tenChuRe}" required>
                         </div>
                         <div class="form-group">
                             <label for="soLuongBan">Số Lượng Bán:</label>
                             <input class="form-control" type="text" id="soLuongBan" name="soLuongBan"
-                                   value="${tiecCuoi.soLuongBan}">
+                                   value="${tiecCuoi.soLuongBan}" required>
                         </div>
                         <div class="form-group">
                             <label for="donGia">Đơn Giá:</label>
                             <input class="form-control" type="text" id="donGia" name="donGia"
-                                   value="${tiecCuoi.donGia}">
+                                   value="${tiecCuoi.donGia}" required>
                         </div>
                         <div class="form-group">
                             <label for="dichVuDiKem">Dịch Vụ Đi Kèm:</label>
@@ -68,32 +69,32 @@
                         <div class="form-group">
                             <label for="tienNoDatCoc">Tiền Nợ Đặt Cọc</label>
                             <input class="form-control" type="text" id="tienNoDatCoc" name="tienNoDatCoc"
-                                   value="${tiecCuoi.tienNoDatCoc}">
+                                   value="${tiecCuoi.tienNoDatCoc}" required>
                         </div>
                         <div class="form-group">
                             <label for="tienNoThanhToan">Tiền Nợ Thanh Toán:</label>
                             <input class="form-control" type="text" id="tienNoThanhToan" name="tienNoThanhToan"
-                                   value="${tiecCuoi.tienNoThanhToan}">
+                                   value="${tiecCuoi.tienNoThanhToan}" required>
                         </div>
                         <div class="form-group">
                             <label for="ngayDatCoc">Ngày Đặt Cọc:</label>
                             <input class="form-control" type="date" id="ngayDatCoc" name="ngayDatCoc"
-                                   value="${tiecCuoi.ngayDatCoc}">
+                                   value="${tiecCuoi.ngayDatCoc}" required>
                         </div>
                         <div class="form-group">
                             <label for="ngayThanhToan">Ngày Thanh Toán:</label>
                             <input class="form-control" type="date" id="ngayThanhToan" name="ngayThanhToan"
-                                   value="${tiecCuoi.ngayThanhToan}">
+                                   value="${tiecCuoi.ngayThanhToan}" required>
                         </div>
                         <div class="form-group">
                             <label for="ghiChu">Ghi Chú:</label>
                             <input class="form-control" type="text" id="ghiChu" name="ghiChu"
-                                   value="${tiecCuoi.ghiChu}">
+                                   value="${tiecCuoi.ghiChu}" required>
                         </div>
                         <div class="form-group">
                             <label for="trangThai">Trạng Thái</label>
                             <input class="form-control" type="text" id="trangThai" name="trangThai"
-                                   value="${tiecCuoi.trangThai}">
+                                   value="${tiecCuoi.trangThai}" required>
                         </div>
                         <a href="${pageContext.request.contextPath}/tieccuoi">
                             <button type="button" class="btn btn-secondary">Back</button>

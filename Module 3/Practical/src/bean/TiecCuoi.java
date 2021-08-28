@@ -1,5 +1,6 @@
 package bean;
 
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -153,6 +154,11 @@ public class TiecCuoi {
 
     public void setTrangThai(String trangThai) {
         this.trangThai = trangThai;
+    }
+
+    public String getNgayToChucString() {
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        return dateFormat.format(ngayToChuc);
     }
 }
 
