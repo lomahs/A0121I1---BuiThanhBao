@@ -10,24 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3430dfd-7033-458d-aa6a-52191f4088a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bean/employee/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/src/filter/LanguageFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practical/src/util/SQL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/bean/TiecCuoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/bean/TiecCuoi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/controller/TiecCuoiServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/controller/TiecCuoiServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/suatieccuoi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/suatieccuoi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/themtieccuoi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/themtieccuoi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/bean/TiecCuoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/bean/TiecCuoi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/controller/TiecCuoiServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/out/production/Practical/controller/TiecCuoiServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/src/bean/TiecCuoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/bean/TiecCuoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/src/controller/TiecCuoiServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/controller/TiecCuoiServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/web/suatieccuoi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/web/suatieccuoi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/web/themtieccuoi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/web/themtieccuoi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/filter/LanguageFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/filter/LanguageFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

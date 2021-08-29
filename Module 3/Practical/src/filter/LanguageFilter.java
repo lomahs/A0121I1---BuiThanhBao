@@ -6,7 +6,7 @@ import java.io.IOException;
 
 @WebFilter(filterName = "LanguageFilter", urlPatterns = "/*")
 public class LanguageFilter implements Filter {
-    public void init(FilterConfig config) throws ServletException {
+    public void init(FilterConfig coqnfig) {
     }
 
     public void destroy() {
