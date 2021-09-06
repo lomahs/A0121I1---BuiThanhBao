@@ -1,92 +1,88 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="contextPath" value="${pageContext.request.contextPath}"/>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>Using Service</title>
         <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-                name="viewport"
-                content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
-        <!-- Bootstrap CSS -->
-        <link
-                rel="stylesheet"
-                href="${pageContext.request.contextPath}/WEB-INF/lib/bootstrap/css/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_css_bootstrap.css"
-        />
-        <script src="${pageContext.request.contextPath}/WEB-INF/lib/bootstrap/js/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js"></script>
-        <script src="${pageContext.request.contextPath}/WEB-INF/lib/bootstrap/js/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.16.0_umd_popper.js"></script>
-        <script src="${pageContext.request.contextPath}/WEB-INF/lib/bootstrap/js/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+              integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+              crossorigin="anonymous">
+
     </head>
     <body>
-        <header class="py-3 border-bottom">Home</header>
+        <jsp:include page="navbar.jsp"/>
+        <div class="b"></div>
+        <div class="container-fluid py-5">
+            <%--            <nav>--%>
+            <%--                <a href="${pageContext.request.contextPath}/customer?action=create">--%>
+            <%--                    <button class="btn btn-success">List Using Service</button>--%>
+            <%--                </a>--%>
+            <%--            </nav>--%>
+            <header class="text-center">
+                <h1>List Using Service</h1>
+            </header>
+            <div class="row py-5">
+                <div class="col mx-auto">
+                    <div class="card rounded shadow border-0">
+                        <div class="card-body p-4 bg-white rounded">
+                            <div class="table-responsive">
+                                <table id="list" class="table table-bordered table-hover">
+                                    <thead class="text-center">
+                                    <th></th>
+                                    <th>ID Customer</th>
+                                    <th>Customer</th>
+                                    <th>Service</th>
+                                    <th>Attach Service</th>
+                                    </thead>
+                                    <tbody>
+                                    <c:set var="listContractDetail" value="${requestScope.listContractDetail}"/>
+                                    <c:if test="${empty listContractDetail}">
+                                        <tr>
+                                            <td colspan="5">List is empty</td>
+                                        </tr>
+                                    </c:if>
+                                    <c:if test="${not empty listContractDetail}">
+                                        <c:set var="i" value="0"/>
 
-        <nav class="navbar navbar-expand-sm bg-light navbar-light">
-            <div class="container-fluid">
-                <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#toggleMenu"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div
-                        class="collapse navbar-collapse justify-content-between"
-                        id="toggleMenu"
-                >
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Employee</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Customer</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contract</a>
-                        </li>
-                    </ul>
-
-                    <form class="d-flex mr-0">
-                        <input
-                                type="search"
-                                class="form-control mr-2"
-                                placeholder="Search"
-                        />
-                        <button class="btn btn-outline-success" type="submit">
-                            Search
-                        </button>
-                    </form>
+                                        <c:forEach var="contractDetail" items="${listContractDetail}">
+                                            <tr>
+                                                <td>${i = i + 1}</td>
+                                                <td>${contractDetail.contract.customer.id}</td>
+                                                <td>${contractDetail.contract.customer.name}</td>
+                                                <c:if test="${contractDetail.contract.service!=null}">
+                                                    <td onclick="document.location='service?action=edit&id=${contractDetail.contract.service.id}';">${contractDetail.contract.service.name}</td>
+                                                </c:if>
+                                                <c:if test="${contractDetail.contract.service==null}">
+                                                    <td>None</td>
+                                                </c:if>
+                                                <td>${contractDetail.attachService.name}</td>
+                                            </tr>
+                                        </c:forEach>
+                                    </c:if>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-
-        <div class="d-flex" style="height: 90vh">
-            <div class="bg-light col-lg-2 col-3 border">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Item One</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Item Two</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Item Three</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="bg-light col-lg-10 col-9 border">Body</div>
         </div>
 
-        <footer class="fixed-bottom bg-dark text-light">
-            <div class="text-center py-3">Codegym</div>
-        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+                crossorigin="anonymous"></script>
+        <%--        <script src="${pageContext.request.contextPath}/static/DataTables/datatables.min.js"></script>--%>
+
+        <%--        <script>--%>
+        <%--            $(document).ready(function () {--%>
+        <%--                $('#list').DataTable();--%>
+        <%--            });--%>
+        <%--        </script>--%>
     </body>
 </html>

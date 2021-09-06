@@ -1,6 +1,8 @@
 package bean.employee;
 
-import java.sql.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Employee {
     private int id;
@@ -11,12 +13,16 @@ public class Employee {
     private String phone;
     private String email;
     private String address;
-    private String position;
-    private String educationDegree;
-    private String division;
-    private String username;
+    private Position position;
+    private EducationDegree educationDegree;
+    private Division division;
+    private User user;
 
     public Employee() {
+    }
+
+    public Employee(int id) {
+        this.id = id;
     }
 
     public Employee(int id,
@@ -27,10 +33,10 @@ public class Employee {
                     String phone,
                     String email,
                     String address,
-                    String position,
-                    String educationDegree,
-                    String division,
-                    String username) {
+                    Position position,
+                    EducationDegree educationDegree,
+                    Division division,
+                    User user) {
         this.id = id;
         this.name = name;
         this.birthday = birthday;
@@ -42,7 +48,7 @@ public class Employee {
         this.position = position;
         this.educationDegree = educationDegree;
         this.division = division;
-        this.username = username;
+        this.user = user;
     }
 
     public int getId() {
@@ -61,8 +67,12 @@ public class Employee {
         this.name = name;
     }
 
-    public Date getBirthday() {
-        return birthday;
+    public String getBirthday() {
+        return new SimpleDateFormat("dd/MM/yyyy").format(birthday);
+    }
+
+    public String getBirthdayForInput() {
+        return new SimpleDateFormat("yyyy-MM-dd").format(birthday);
     }
 
     public void setBirthday(Date birthday) {
@@ -109,35 +119,35 @@ public class Employee {
         this.address = address;
     }
 
-    public String getPosition() {
+    public Position getPosition() {
         return position;
     }
 
-    public void setPosition(String position) {
+    public void setPosition(Position position) {
         this.position = position;
     }
 
-    public String getEducationDegree() {
+    public EducationDegree getEducationDegree() {
         return educationDegree;
     }
 
-    public void setEducationDegree(String educationDegree) {
+    public void setEducationDegree(EducationDegree educationDegree) {
         this.educationDegree = educationDegree;
     }
 
-    public String getDivision() {
+    public Division getDivision() {
         return division;
     }
 
-    public void setDivision(String division) {
+    public void setDivision(Division division) {
         this.division = division;
     }
 
-    public String getUsername() {
-        return username;
+    public User getUser() {
+        return user;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUser(User user) {
+        this.user = user;
     }
 }
