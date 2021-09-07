@@ -10,333 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c0bf6c-3077-4d98-b4bd-83b8df18495a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/7.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/classes/java/main/simplecalc/ICalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/classes/java/main/simplecalc/impl/Calculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/classes/java/test/simplecalc/CalculatorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/libs/SimpleCalc-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/libs/SimpleCalc-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/reports/tests/test/classes/simplecalc.CalculatorTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/reports/tests/test/packages/simplecalc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/test-results/test/TEST-simplecalc.CalculatorTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/src/main/java/simplecalc/ICalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/src/main/java/simplecalc/impl/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalc/src/test/java/simplecalc/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/7.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/libs/SimpleCalc-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Exercise/SimpleCalcWeb/src/main/java/controller/CalcServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/Greeting.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/build/main/greeting.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/build/main/org/usefullibs/greeter/Greeter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/build/main/org/usefullibs/greeter/impl/HelloWorld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/build/test/org/usefullibs/greeter/Greeter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/build/test/org/usefullibs/greeter/impl/HelloWorld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/build/test/org/usefullibs/greeter/impl/HelloWorldTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/libs/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/libs/junit-4.13.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/src/main/org/usefullibs/greeter/Greeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/src/main/org/usefullibs/greeter/impl/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/src/test/org/usefullibs/greeter/impl/HelloWorldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/Greeting/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/7.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/build/libs/GreetingWeb-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/libs/greeting.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWeb/src/main/java/org/usefulservice/greeting/GreetingServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/6.8/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/6.8/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.2/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.2/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/7.2/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/configuration-cache/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/classes/java/main/org/uesfullibs/greeter/Greeter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/classes/java/main/org/uesfullibs/greeter/impl/HelloWorld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/classes/java/test/org/usefullibs/greeter/impl/HelloWorldTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/libs/GreetingWithGradle.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/reports/tests/test/classes/org.usefullibs.greeter.impl.HelloWorldTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/reports/tests/test/packages/org.usefullibs.greeter.impl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/test-results/test/TEST-org.usefullibs.greeter.impl.HelloWorldTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/src/main/java/org/uesfullibs/greeter/Greeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/src/main/java/org/uesfullibs/greeter/impl/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Dependency Management &amp; Packaging/Practice/GreetingWithGradle/src/test/java/org/usefullibs/greeter/impl/HelloWorldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/bean/contract/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/bean/contract/ContractDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/bean/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/bean/customer/CustomerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/bean/employee/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/bean/service/AttachService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/bean/service/RentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/bean/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/bean/service/ServiceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/controller/ContractServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/controller/CustomerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/controller/HomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/controller/ServiceServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/filter/LanguageFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/repository/IContractRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/repository/ICustomerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/repository/IServiceRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/repository/impl/ContractRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/repository/impl/CustomerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/repository/impl/EmployeeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/repository/impl/ServiceRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/service/IContractSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/service/ICustomerSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/service/IServiceSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/service/impl/ContractSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/service/impl/CustomerSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/src/service/impl/ServiceSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/test/repository/RepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/web/contract/add-contract.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/web/contract/add-contractdetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/web/customer/add-customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/web/customer/edit-customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/web/customer/list-customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/web/employee/edit-employee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/web/service/add-service.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/web/service/edit-service.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Casestudy/web/service/list-service.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MVC_Casestudy_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVC Casestudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/contract/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/contract/ContractDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/customer/CustomerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/employee/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/employee/EducationDegree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/employee/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/employee/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/service/AttachService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/service/RentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/service/ServiceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ContractServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/CustomerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/EmployeeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/HomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ServiceServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filter/LanguageFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/IContractRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/ICustomerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/IEmployeeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/IServiceRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/impl/ContractRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/impl/CustomerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/impl/EmployeeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/impl/ServiceRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/IContractSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/ICustomerSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/IEmployeeSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/IServiceSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/impl/ContractSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/impl/CustomerSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/impl/EmployeeSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/impl/ServiceSvc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/DBContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/util/ValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/contract/add-contract.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/contract/add-contractdetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/customer/add-customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/customer/edit-customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/customer/list-customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/employee/add-employee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/employee/edit-employee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/employee/list-employee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/service/add-service.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/service/edit-service.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/service/list-service.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/.idea/artifacts/Casestudy_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/.idea/artifacts/Casestudy_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/.idea/libraries/javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/.idea/libraries/mysql_connector_java.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/Casestudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/Casestudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/WEB-INF/classes/model/bean/employee/EducationDegree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/WEB-INF/classes/model/bean/employee/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/WEB-INF/classes/model/bean/employee/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/WEB-INF/lib/bootstrap/css/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_css_bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/WEB-INF/lib/bootstrap/js/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/WEB-INF/lib/bootstrap/js/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.16.0_umd_popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/WEB-INF/lib/bootstrap/js/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/web/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/template/Casestudy.code-workspace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/template/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/artifacts/Casestudy_war_exploded/template/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/production/Casestudy/bean/employee/EducationDegree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/production/Casestudy/bean/employee/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/production/Casestudy/bean/employee/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/out/production/Casestudy/util/DBContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/src/bean/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/src/bean/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/src/controller/EmployeeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/src/controller/EmployeeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/src/repository/EmployeeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/src/repository/IEmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/src/repository/IEmployeeRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/src/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/src/service/impl/EmployeeSvc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/src/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/src/service/IEmployeeSvc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/WEB-INF/lib/bootstrap/css/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_css_bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/WEB-INF/lib/bootstrap/datatable/__cdn.datatables.net_1.11.0_css_jquery.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/WEB-INF/lib/bootstrap/datatable/__cdn.datatables.net_1.11.0_js_jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/WEB-INF/lib/bootstrap/js/Bootstrap-DataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/WEB-INF/lib/bootstrap/js/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/WEB-INF/lib/bootstrap/js/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.16.0_umd_popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/WEB-INF/lib/bootstrap/js/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/employee/add-employee.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/web/employee/add-employee.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/employee/list-employee.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/web/employee/list-employee.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/web/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Casestudy/web/template/Casestudy.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/../Casestudy/web/template/Casestudy.code-workspace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practical/src/filter/LanguageFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practical/src/filter/LanguageFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/repository/EmployeeRepoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Casestudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Casestudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/impl/EmployeeRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/impl/EmployeeRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/impl/EmployeeSvc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/impl/EmployeeSvc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/util/DBContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/util/DBContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/impl/EmployeeRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/impl/EmployeeRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/service/impl/EmployeeSvc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVC Casestudy/service/impl/EmployeeSvc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/util/DBContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVC Casestudy/util/DBContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/impl/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/impl/EmployeeRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/impl/EmployeeSvc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/impl/EmployeeSvc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/DBContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DBContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/navbar.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -388,7 +91,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/filter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -397,16 +100,34 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.18549345" />
     <property name="project.structure.side.proportion" value="0.37283623" />
-    <property name="settings.editor.selected.configurable" value="actions.on.save" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/filter" />
+      <recent name="$PROJECT_DIR$/web/static/font" />
       <recent name="$PROJECT_DIR$/web/static" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.46">
+    <configuration name="EmployeeRepoTest.testCheckLogin" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="MVC Casestudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.EmployeeRepoTest" />
+      <option name="METHOD_NAME" value="testCheckLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MVC Casestudy" />
       <extension name="coverage">
@@ -455,7 +176,6 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.46" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <deployment>
         <artifact name="MVC Casestudy:war exploded">
@@ -542,6 +262,13 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.EmployeeRepoTest.testCheckLogin" />
+      <item itemvalue="JUnit.ValidatorTest" />
+      <item itemvalue="JUnit.ValidatorTest.testIdCardValidator" />
+      <item itemvalue="JUnit.ValidatorTest.testPhoneValidator" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.46" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ValidatorTest.testIdCardValidator" />
@@ -561,7 +288,14 @@
       <workItem from="1630779271146" duration="1261000" />
       <workItem from="1630803162680" duration="10541000" />
       <workItem from="1630823659157" duration="441000" />
-      <workItem from="1630824121353" duration="18127000" />
+      <workItem from="1630824121353" duration="21905000" />
+      <workItem from="1630915804372" duration="133000" />
+      <workItem from="1630915952000" duration="527000" />
+      <workItem from="1630918268592" duration="6568000" />
+      <workItem from="1630935886298" duration="431000" />
+      <workItem from="1630936330235" duration="52000" />
+      <workItem from="1630936405018" duration="1809000" />
+      <workItem from="1630938451727" duration="4566000" />
     </task>
     <servers />
   </component>

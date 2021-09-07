@@ -11,25 +11,42 @@
               integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
               crossorigin="anonymous">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     </head>
     <body>
-        <div class="mw-100 d-flex align-items-center justify-content-center" style="height: 100vh">
+        <header class="navbar navbar-dark bg-dark text-light">
+            <div class="container text-center">
+                <h2 class="mx-auto m-2">
+                    Furama Resort Management
+                </h2>
+            </div>
+        </header>
+        <div class="mw-100 d-flex align-items-center justify-content-center" style="height: 80vh">
             <div class="w-25">
                 <div class="card rounded shadow border-0">
                     <div class="card-body p-4 bg-white rounded">
-                        <form action="" method="post" class="">
+                        <div class="text-center mb-5">
+                            <i class="fas fa-user fa-7x"></i>
+                        </div>
+                        <form action="login" method="post">
                             <div class="form-group">
                                 <label for="username">Username</label>
-                                <input type="text" name="username" id="username" class="form-control">
+                                <input type="text" name="username" id="username" class="form-control"
+                                       value="${requestScope.user}">
                             </div>
                             <div class="form-group">
                                 <label for="password">Password</label>
-                                <input type="password" name="password" id="password" class="form-control">
+                                <input type="password" name="password" id="password" class="form-control"
+                                       value="${requestScope.pass}">
+                            </div>
+                            <div class="text-danger">
+                                ${requestScope.error}
                             </div>
                             <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" name="saveUser" id="saveUser"
+                                <input type="checkbox" class="custom-control-input" name="checkRemember"
+                                       id="checkRemember"
                                        value="${true}">
-                                <label for="saveUser" class="custom-control-label">Remember me</label>
+                                <label for="checkRemember" class="custom-control-label">Remember me</label>
                             </div>
                             <button type="submit" class="btn btn-primary mt-4">Login</button>
                         </form>

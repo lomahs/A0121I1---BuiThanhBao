@@ -358,4 +358,54 @@ public class EmployeeRepo implements IEmployeeRepo {
 
         return null;
     }
+
+    public boolean checkLogin(String username, String password) {
+        String GET_PASSWORD = "SELECT password FROM user WHERE username = ?;";
+
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(GET_PASSWORD);
+            pstmt.setString(1, username);
+            rs = pstmt.executeQuery();
+
+            if (rs.next()) {
+                return password.equals(rs.getString(1));
+            }
+        } catch (SQLException | ClassNotFoundException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            try {
+                conn.close();
+                pstmt.close();
+                rs.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+        return false;
+    }
+
+    public String getNameByUName(String username) {
+        String SELECT_NAME = "SELECT * FROM employee WHERE username = ?;";
+
+        try {
+            Connection connection = DBContext.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(SELECT_NAME);
+            preparedStatement.setString(1, username);
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+                return resultSet.getString(1);
+            }
+
+            connection.close();
+            preparedStatement.close();
+            resultSet.close();
+        } catch (SQLException | ClassNotFoundException throwables) {
+            throwables.printStackTrace();
+        }
+
+        return null;
+    }
 }

@@ -76,4 +76,12 @@ public class EmployeeSvc implements IEmployeeSvc {
     public Employee getEmployeeById(int id) {
         return repository.getEmployeeById(id);
     }
+
+    public boolean checkLogin(String username, String password) {
+        return repository.checkLogin(username, password);
+    }
+
+    public String getNameByUName(String username) {
+        return repository.getNameByUName(username);
+    }
 }
