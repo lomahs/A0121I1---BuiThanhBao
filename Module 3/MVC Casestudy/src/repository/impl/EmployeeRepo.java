@@ -387,7 +387,7 @@ public class EmployeeRepo implements IEmployeeRepo {
     }
 
     public String getNameByUName(String username) {
-        String SELECT_NAME = "SELECT * FROM employee WHERE username = ?;";
+        String SELECT_NAME = "SELECT employee_name FROM employee WHERE username = ?;";
 
         try {
             Connection connection = DBContext.getConnection();

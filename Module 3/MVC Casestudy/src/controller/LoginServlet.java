@@ -46,7 +46,7 @@ public class LoginServlet extends HttpServlet {
             response.addCookie(pass);
 
             HttpSession httpSession = request.getSession();
-            httpSession.setAttribute("username", username);
+            httpSession.setAttribute("username", new EmployeeSvc().getNameByUName(username));
 
             request.getRequestDispatcher("home").forward(request, response);
         } else {

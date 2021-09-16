@@ -13,4 +13,11 @@ public class EmployeeRepoTest {
 
         Assert.assertTrue(checkLogin);
     }
+
+    @Test
+    public void testGetNameByUserName() {
+        String name = repo.getNameByUName("tuandoan");
+
+        Assert.assertEquals("thanhbao", name);
+    }
 }

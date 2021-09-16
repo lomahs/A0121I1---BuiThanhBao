@@ -10,36 +10,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c0bf6c-3077-4d98-b4bd-83b8df18495a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controller/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/LogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filter/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/repository/EmployeeRepoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/artifacts/Practical_Exam_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/Practical Exam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/src/bean/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/src/bean/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/src/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/src/filter/LanguageFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/src/repository/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/src/repository/impl/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/src/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/src/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/src/utils/DBContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/src/utils/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/test/repository/RepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/web/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/web/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/web/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical Exam/web/navbar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88/entities/entities.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC Casestudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Casestudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/LoginServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/impl/EmployeeRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/impl/EmployeeRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/impl/EmployeeSvc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/impl/EmployeeSvc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/util/DBContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/util/DBContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/LoginServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/impl/EmployeeRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/impl/EmployeeRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/service/impl/EmployeeSvc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVC Casestudy/service/impl/EmployeeSvc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/util/DBContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVC Casestudy/util/DBContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MVC Casestudy/repository/EmployeeRepoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/MVC Casestudy/repository/EmployeeRepoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/repository/impl/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/impl/EmployeeRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/impl/EmployeeSvc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/impl/EmployeeSvc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/DBContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DBContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/repository/EmployeeRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/repository/EmployeeRepoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +101,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/filter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -111,7 +121,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.46">
+  <component name="RunManager" selected="JUnit.EmployeeRepoTest.testGetNameByUserName">
     <configuration name="EmployeeRepoTest.testCheckLogin" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="MVC Casestudy" />
       <extension name="coverage">
@@ -123,6 +133,22 @@
       <option name="PACKAGE_NAME" value="repository" />
       <option name="MAIN_CLASS_NAME" value="repository.EmployeeRepoTest" />
       <option name="METHOD_NAME" value="testCheckLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeRepoTest.testGetNameByUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVC Casestudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.EmployeeRepoTest" />
+      <option name="METHOD_NAME" value="testGetNameByUserName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -267,10 +293,12 @@
       <item itemvalue="JUnit.ValidatorTest" />
       <item itemvalue="JUnit.ValidatorTest.testIdCardValidator" />
       <item itemvalue="JUnit.ValidatorTest.testPhoneValidator" />
+      <item itemvalue="JUnit.EmployeeRepoTest.testGetNameByUserName" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.46" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeRepoTest.testGetNameByUserName" />
         <item itemvalue="JUnit.ValidatorTest.testIdCardValidator" />
         <item itemvalue="JUnit.ValidatorTest" />
         <item itemvalue="JUnit.ValidatorTest.testPhoneValidator" />
@@ -296,6 +324,8 @@
       <workItem from="1630936330235" duration="52000" />
       <workItem from="1630936405018" duration="1809000" />
       <workItem from="1630938451727" duration="4566000" />
+      <workItem from="1630986119967" duration="2790000" />
+      <workItem from="1631097834029" duration="2036000" />
     </task>
     <servers />
   </component>
