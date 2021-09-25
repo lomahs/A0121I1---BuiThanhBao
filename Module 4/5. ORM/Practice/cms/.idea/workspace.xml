@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b24a495-e06d-46b1-942c-c7b7fac116f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/classes/java/main/AppConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/classes/java/main/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/classes/java/main/controller/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/classes/java/main/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/classes/java/main/service/IProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/classes/java/main/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/Product Management-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/spring-aop-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/spring-beans-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/spring-context-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/spring-core-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/spring-expression-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/spring-jcl-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/spring-web-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/spring-webmvc-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/thymeleaf-3.0.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/thymeleaf-spring5-3.0.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/libs/exploded/Product Management-1.0-SNAPSHOT.war/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/resources/main/static/bootstrap4.6.0.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/resources/main/static/bootstrap4.6.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/resources/main/static/jquery-3.5.1.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/java/codegym/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/java/codegym/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/java/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/java/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/java/codegym/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/java/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/webapp/static/bootstrap4.6.0.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/webapp/static/bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/webapp/static/jquery-3.5.1.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/webapp/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/webapp/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/webapp/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/webapp/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Exercise/Product Management/src/main/webapp/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.idea/modules/Customer_Manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/src/main/java/codegym/controller/EmailConfigurationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/src/main/java/codegym/model/EmailConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Exercise/Email Configuration/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/src/main/java/com/example/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/src/main/java/com/example/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Form and Data Binding/src/test/java/com/example/FormAndDataBindingApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/.idea/modules/Login_App.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/classes/java/main/codegym/DAO/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/classes/java/main/codegym/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/classes/java/main/codegym/model/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/classes/java/main/codegym/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/Login App-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/classes/codegym/DAO/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/classes/codegym/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/classes/codegym/model/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/classes/codegym/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/spring-aop-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/spring-beans-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/spring-context-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/spring-core-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/spring-expression-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/spring-jcl-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/spring-web-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/spring-webmvc-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/thymeleaf-3.0.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/thymeleaf-spring5-3.0.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/libs/exploded/Login App-1.0-SNAPSHOT.war/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/demoApplication.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/out/production/classes/codegym/DAO/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/out/production/classes/codegym/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/out/production/classes/codegym/model/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/out/production/classes/codegym/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/src/main/java/Log4jPropertiesConfigurationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/src/main/java/codegym/DAO/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/src/main/java/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/src/main/java/codegym/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/src/main/java/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Practice/Login App/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customer Manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/build/libs/Customer Manager-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/build/libs/Customer Manager-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/build/libs/exploded/Customer Manager-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/build/libs/exploded/Customer Manager-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/build/libs/exploded/Customer Manager-1.0-SNAPSHOT.war/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/build/libs/exploded/Customer Manager-1.0-SNAPSHOT.war/WEB-INF/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/out/production/classes/com/codegym/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/out/production/classes/com/codegym/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3. View &amp; Thymeleaf/Practice/Customer Manager/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quỹ.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quỹ.xlsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1ycuej65dIYAJopevK9ZDPq9pRU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b24a495-e06d-46b1-942c-c7b7fac116f8" name="Changes" comment="" />
+      <created>1632563295268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632563295268</updated>
+      <workItem from="1632563296497" duration="112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
