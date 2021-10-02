@@ -12,17 +12,15 @@ public class Blog {
     private String title;
     private String uploader;
     private String content;
-    private Date datePublished;
 
     public Blog() {
     }
 
-    public Blog(int id, String title, String uploader, String content, Date datePublished) {
+    public Blog(int id, String title, String uploader, String content) {
         this.id = id;
         this.title = title;
         this.uploader = uploader;
         this.content = content;
-        this.datePublished = datePublished;
     }
 
     public int getId() {
@@ -57,11 +55,4 @@ public class Blog {
         this.content = content;
     }
 
-    public Date getDatePublished() {
-        return datePublished;
-    }
-
-    public void setDatePublished(Date datePublished) {
-        this.datePublished = datePublished;
-    }
 }
