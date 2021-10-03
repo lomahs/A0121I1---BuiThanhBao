@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>List Categories</title>
+	</head>
+	<body>
+		<a href="/blogs/categories/create">Create new category</a>
+		<h1>Categories</h1>
+		<div>
+			<p th:text="${message}"></p>
+		</div>
+		<table border="1">
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+				<th colspan="2">Actions</th>
+			</tr>
+
+			<tr th:each="cagetory,count : ${categories}">
+				<td th:text="${count.index + 1}"></td>
+				<td th:text="${cagetory.name}"></td>
+				<td><a th:href="@{/blogs/categories/edit/__${cagetory.id}__}">Edit</a></td>
+				<td><a th:href="@{/blogs/categories/delete/__${cagetory.id}__}">Delete</a></td>
+			</tr>
+		</table>
+		<div>
+			<a href="../../index.jsp">Home</a>
+		</div>
+	</body>
+</html>
