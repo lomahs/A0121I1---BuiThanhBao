@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Result</title>
+	</head>
+	<body>
+		<h2>Register Successful</h2>
+		<table th:object="${user}">
+			<tr>
+				<td>Firstname</td>
+				<td>
+					<input type="text" th:value="*{firstName}" disabled>
+				</td>
+			</tr>
+			<tr>
+				<td>Lastname</td>
+				<td>
+					<input type="text" th:value="*{lastName}" disabled>
+				</td>
+			</tr>
+			<tr>
+				<td>Phone</td>
+				<td>
+					<input type="text" th:value="*{phoneNumber}" disabled>
+				</td>
+			</tr>
+			<tr>
+				<td>Age</td>
+				<td>
+					<input type="text" th:value="*{age}" disabled>
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>
+					<input type="text" th:value="*{email}" disabled>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

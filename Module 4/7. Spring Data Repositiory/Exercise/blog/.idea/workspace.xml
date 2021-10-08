@@ -10,290 +10,120 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ed4378e-91d0-4b51-8eb9-d1f7ae040dcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/775286f6-41cf-4481-9df6-f8ac82a6c2e0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/775286f6-41cf-4481-9df6-f8ac82a6c2e0/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/775286f6-41cf-4481-9df6-f8ac82a6c2e0/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/775286f6-41cf-4481-9df6-f8ac82a6c2e0/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/775286f6-41cf-4481-9df6-f8ac82a6c2e0/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/IBlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/ICategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/IBlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/ICategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/impl/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/impl/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/ApplicationConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/ApplicationInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/controller/BlogController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/controller/CategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/model/Blog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/model/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/repository/IBlogRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/repository/ICategoryRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/repository/impl/BlogRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/service/IBlogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/service/ICategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/service/impl/BlogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/codegym/service/impl/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/aspectjrt-1.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/byte-buddy-1.11.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/hibernate-core-5.5.7.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/hibernate-entitymanager-5.5.7.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jackson-annotations-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jackson-core-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jackson-databind-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jackson-datatype-jdk8-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jackson-datatype-jsr310-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jackson-module-parameter-names-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jandex-2.2.3.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/javassist-3.27.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jboss-logging-3.4.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jul-to-slf4j-1.7.32.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/log4j-api-2.14.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/log4j-to-slf4j-2.14.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/logback-classic-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/logback-core-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mysql-connector-java-8.0.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/snakeyaml-1.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-aop-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-beans-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-boot-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-boot-autoconfigure-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-boot-starter-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-boot-starter-json-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-boot-starter-logging-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-boot-starter-tomcat-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-boot-starter-web-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-context-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-core-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-data-commons-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-data-jpa-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-expression-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-jcl-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-jdbc-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-orm-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-tx-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-web-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-webmvc-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/thymeleaf-3.0.12.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/thymeleaf-spring5-3.0.12.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/tomcat-embed-core-9.0.52.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/tomcat-embed-el-9.0.52.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/tomcat-embed-websocket-9.0.52.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/views/blog/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/views/blog/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/views/blog/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/views/blog/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/views/category/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/views/category/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/views/category/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/views/category/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codegym/ApplicationConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codegym/ApplicationInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codegym/controller/BlogController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codegym/model/Blog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codegym/model/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codegym/repository/IBlogRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codegym/service/IBlogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codegym/service/impl/BlogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/controller/ProvinceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/formatter/ProvinceFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/model/Province.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/repository/ProvinceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/service/ProvinceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/service/impl/CustomerServiecImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/java/com/codegym/cms/service/impl/ProvinceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/webapp/WEB-INF/views/province/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/webapp/WEB-INF/views/province/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/webapp/WEB-INF/views/province/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/webapp/WEB-INF/views/province/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/webapp/WEB-INF/views/province/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/classes/com/codegym/cms/ApplicationConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/classes/com/codegym/cms/ApplicationInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/classes/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/classes/com/codegym/cms/controller/ProvinceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/classes/com/codegym/cms/formatter/ProvinceFormatter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/classes/com/codegym/cms/model/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/classes/com/codegym/cms/model/Province.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/classes/com/codegym/cms/repository/CustomerRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/classes/com/codegym/cms/repository/ProvinceRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/classes/com/codegym/cms/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/classes/com/codegym/cms/service/ProvinceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/ApplicationConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/ApplicationInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/controller/ProvinceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/formatter/ProvinceFormatter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/model/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/model/Province.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/repository/CustomerRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/repository/ProvinceRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/service/ProvinceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/service/impl/CustomerServiecImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/classes/com/codegym/cms/service/impl/ProvinceServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/aspectjrt-1.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/byte-buddy-1.11.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/hibernate-core-5.5.7.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/hibernate-entitymanager-5.5.7.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jackson-annotations-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jackson-core-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jackson-databind-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jackson-datatype-jdk8-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jackson-datatype-jsr310-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jackson-module-parameter-names-2.12.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jandex-2.2.3.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/javassist-3.27.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jboss-logging-3.4.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/jul-to-slf4j-1.7.32.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/log4j-api-2.14.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/log4j-to-slf4j-2.14.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/logback-classic-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/logback-core-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/mysql-connector-java-8.0.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/snakeyaml-1.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-aop-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-beans-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-boot-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-boot-autoconfigure-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-boot-starter-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-boot-starter-json-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-boot-starter-logging-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-boot-starter-tomcat-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-boot-starter-web-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-context-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-core-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-data-commons-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-data-jpa-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-expression-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-jcl-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-jdbc-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-orm-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-tx-5.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-web-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/spring-webmvc-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/thymeleaf-3.0.12.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/thymeleaf-spring5-3.0.12.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/tomcat-embed-core-9.0.52.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/tomcat-embed-el-9.0.52.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/tomcat-embed-websocket-9.0.52.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/views/customer/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/views/customer/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/views/customer/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/views/customer/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/views/province/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/views/province/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/views/province/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/views/province/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/WEB-INF/views/province/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/customer-province-manager/target/customer-province-manager/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/7.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Exercise/simple-blog/src/main/webapp/index.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/src/main/java/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/src/main/java/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/src/main/java/com/codegym/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/src/main/java/com/codegym/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/src/main/java/com/codegym/validation/UserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Exercise/validate-register-form/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/customer-validation/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/customer-validation/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/customer-validation/src/main/java/com/codegym/controller/PhoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/customer-validation/src/main/java/com/codegym/model/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/customer-validation/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/customer-validation/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/customer-validation/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/classes/com/codegym/ApplicationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/classes/com/codegym/ApplicationInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/classes/com/codegym/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/classes/com/codegym/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/classes/com/codegym/ApplicationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/classes/com/codegym/ApplicationInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/classes/com/codegym/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/classes/com/codegym/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/aspectjrt-1.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/byte-buddy-1.11.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/hibernate-core-5.5.7.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/hibernate-entitymanager-5.5.7.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/hibernate-validator-7.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jackson-annotations-2.12.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jackson-core-2.12.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jackson-databind-2.12.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jackson-datatype-jdk8-2.12.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jackson-datatype-jsr310-2.12.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jackson-module-parameter-names-2.12.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jakarta.validation-api-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jandex-2.2.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/javassist-3.27.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jboss-logging-3.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/jul-to-slf4j-1.7.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/log4j-api-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/log4j-to-slf4j-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/logback-classic-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/logback-core-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/mysql-connector-java-8.0.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/snakeyaml-1.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-aop-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-beans-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-boot-2.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-boot-autoconfigure-2.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-boot-starter-2.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-boot-starter-json-2.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-boot-starter-logging-2.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-boot-starter-tomcat-2.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-boot-starter-web-2.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-context-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-core-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-data-commons-2.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-data-jpa-2.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-expression-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-jcl-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-jdbc-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-orm-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-tx-5.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-web-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/spring-webmvc-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/thymeleaf-3.0.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/thymeleaf-spring5-3.0.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/tomcat-embed-core-9.0.52.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/tomcat-embed-el-9.0.52.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/tomcat-embed-websocket-9.0.52.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Practice/validate-form-input/target/validate-form-input/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/775286f6-41cf-4481-9df6-f8ac82a6c2e0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/775286f6-41cf-4481-9df6-f8ac82a6c2e0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Category.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,7 +178,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -454,18 +284,6 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -476,6 +294,9 @@
       <option name="presentableId" value="Default" />
       <updated>1633233090912</updated>
       <workItem from="1633233093322" duration="17180000" />
+      <workItem from="1633315309562" duration="1118000" />
+      <workItem from="1633351212553" duration="189000" />
+      <workItem from="1633355913671" duration="2572000" />
     </task>
     <servers />
   </component>
@@ -492,6 +313,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

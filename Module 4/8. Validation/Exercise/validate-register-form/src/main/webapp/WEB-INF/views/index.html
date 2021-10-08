@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Register</title>
+	</head>
+	<body>
+		<form action="/register" method="post" th:object="${user}">
+			<table>
+				<tr>
+					<td>Firstname</td>
+					<td>
+						<input type="text" th:field="*{firstName}">
+					</td>
+					<td>
+						<p th:errors="*{firstName}" style="color:red"></p>
+					</td>
+				</tr>
+				<tr>
+					<td>Lastname</td>
+					<td>
+						<input type="text" th:field="*{lastName}">
+					</td>
+					<td>
+						<p th:errors="*{lastName}" style="color:red"></p>
+					</td>
+				</tr>
+				<tr>
+					<td>Phone</td>
+					<td>
+						<input type="text" th:field="*{phoneNumber}">
+					</td>
+					<td>
+						<p th:errors="*{phoneNumber}" style="color:red"></p>
+					</td>
+				</tr>
+				<tr>
+					<td>Age</td>
+					<td>
+						<input type="text" th:field="*{age}">
+					</td>
+					<td>
+						<p th:errors="*{age}" style="color:red"></p>
+					</td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td>
+						<input type="text" th:field="*{email}">
+					</td>
+					<td>
+						<p th:errors="*{email}" style="color:red"></p>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<button type="submit">Register</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

@@ -12,7 +12,7 @@ public class Category {
     private int id;
     private String name;
 
-    @OneToMany(mappedBy = "category", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "category", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Blog> listBlog = new ArrayList<>();
 
     public Category() {
