@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Library</title>
+	</head>
+	<body>
+		<h3>Book Management</h3>
+
+		<span style="color: red" th:text="${message}"></span>
+		<form th:action="@{/giveback}" method="get">
+			<label>Borrow code</label>
+			<input type="text" name="code">
+			<button type="submit">Find</button>
+		</form>
+		<table>
+			<tr>
+				<td>ID</td>
+				<td>Book name</td>
+				<td>Author</td>
+				<td>Quantity</td>
+				<td colspan="2">Action</td>
+			</tr>
+			<tr th:each="book,count : ${listBooks}">
+				<td th:text="${count.index + 1}"></td>
+				<td th:text="${book.name}"></td>
+				<td th:text="${book.author}"></td>
+				<td th:text="${book.quantity}"></td>
+				<td>
+					<a th:href="@{/borrow/__${book.id}__}">
+						<button type="button" th:disabled="${!book.isAvailable()}">Borrow</button>
+					</a>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

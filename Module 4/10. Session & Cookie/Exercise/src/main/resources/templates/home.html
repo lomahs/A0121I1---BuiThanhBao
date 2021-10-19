@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+		<title>Shopee</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-light bg-light">
+			<a class="navbar-brand mx-auto" th:href="@{/}">Shopee Phake</a>
+
+			<a th:href="@{/cardview}">
+				<button class="btn btn-outline-success" type="button">Card</button>
+			</a>
+		</nav>
+
+		<span th:text="${message}" style="color: green"></span>
+		<div th:with="numCount = ${4}" class="container">
+			<div th:each="row : ${#numbers.sequence(0, listProducts.size(), numCount)}" class="row py-2 justify-content-around">
+				<div th:each="col : ${#numbers.sequence(0, numCount - 1 )}" class="col-2 text-center bg-light mx-2"
+				     th:if="${(row + col) < listProducts.size()}"
+				     th:with="product = ${listProducts.get(row + col)}">
+					<a th:href="@{/view/__${product.id}__}">
+						<img th:src="${product.imgUrl}" class="card-img-top d-block mx-auto" alt="..." style="height: 13rem">
+					</a>
+					<div class="card-body">
+						<h5 class="card-title" th:text="${product.name}"></h5>
+						<p class="card-text" th:text="${product.price} + 'đ'"></p>
+						<a th:href="@{/addtocard/__${product.id}__}" class="btn btn-primary">Add to Card</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="/bootstrap-4.6.0-dist/js/jquery-3.5.1.min.js"></script>
+		<script src="/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

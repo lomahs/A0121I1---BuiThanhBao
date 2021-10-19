@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Give Back</title>
+	</head>
+	<body>
+		<form th:action="@{/giveback}" method="post" th:object="${callCard}">
+			<input type="hidden" th:field="*{id}">
+			<input type="hidden" th:field="*{borrowedBook}">
+			<table>
+				<tr>
+					<td colspan="2">Book Information</td>
+				</tr>
+				<tr>
+					<td>Borrow Code</td>
+					<td>
+						<input type="text" th:field="*{code}" readonly>
+					</td>
+				</tr>
+				<tr>
+					<td>Borrower</td>
+					<td>
+						<input type="text" th:field="*{borrower}" readonly>
+					</td>
+				</tr>
+				<tr>
+					<td>Date</td>
+					<td th:text="*{borrowDate}">
+					</td>
+				</tr>
+				<tr>
+					<td>Book Name</td>
+					<td th:text="*{borrowedBook.name}">
+					</td>
+				</tr>
+				<tr>
+					<td>Author</td>
+					<td th:text="*{borrowedBook.author}">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a th:href="@{/}">
+							<button type="button">Back</button>
+						</a>
+					</td>
+					<td>
+						<button type="submit">Give Back</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
