@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Edit Service</title>
+		<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+		<script th:src="@{/js/jquery-3.min.js}"></script>
+		<script th:src="@{/js/bootstrap.min.js}"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header th:replace="general.html :: header"></header>
+		<nav th:replace="general.html :: navbar"></nav>
+
+		<div class="container py-5">
+			<div class="text-center">
+				<h2 class="text-primary">Edit Service</h2>
+			</div>
+
+			<form th:action="@{/service/edit}" th:object="${service}" method="post">
+				<div class="form-group">
+					<label for="id">ID</label>
+					<input type="text" th:field="*{serviceId}" id="id" class="form-control" readonly>
+				</div>
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" th:field="*{serviceName}" id="name" class="form-control">
+					<p th:if="${#fields.hasErrors('serviceName')}" class="text-danger"
+					   th:errors="*{serviceName}"></p>
+				</div>
+				<div class="form-group">
+					<label for="area">Area</label>
+					<input type="text" th:field="*{serviceArea}" id="area" class="form-control">
+					<p th:if="${#fields.hasErrors('serviceArea')}" class="text-danger"
+					   th:errors="*{serviceArea}"></p>
+				</div>
+				<div class="form-group">
+					<label for="cost">Cost</label>
+					<input type="text" th:field="*{serviceCost}" id="cost" class="form-control">
+					<p th:if="${#fields.hasErrors('serviceCost')}" class="text-danger"
+					   th:errors="*{serviceCost}"></p>
+				</div>
+				<div class="form-group">
+					<label for="maxPeople">Max People</label>
+					<input type="text" th:field="*{serviceMaxPeople}" id="maxPeople" class="form-control">
+					<p th:if="${#fields.hasErrors('serviceMaxPeople')}" class="text-danger"
+					   th:errors="*{serviceMaxPeople}"></p>
+				</div>
+				<div class="form-group">
+					<label for="rentType">Rent Type</label>
+					<select th:field="*{rentType}" id="rentType" class="form-control">
+						<option th:each="rent : ${listRentTypes}"
+						        th:value="${rent.rentTypeId}"
+						        th:text="${rent.rentTypeName}">
+						</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="serviceType">Service Type</label>
+					<select th:field="*{serviceType}" id="serviceType" class="form-control">
+						<option th:each="serType : ${listServiceType}"
+						        th:value="${serType.serviceTypeId}"
+						        th:text="${serType.serviceTypeName}">
+						</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="standardRoom">Standard Room</label>
+					<input type="text" th:field="*{standardRoom}" id="standardRoom" class="form-control"
+					       placeholder="">
+				</div>
+				<div class="form-group">
+					<label for="convenience">Other Convenience</label>
+					<input type="text" th:field="*{descriptionOtherConvenience}" id="convenience"
+					       class="form-control"
+					       placeholder="">
+				</div>
+				<div class="form-group">
+					<label for="poolArea">Pool Area</label>
+					<input type="text" th:field="*{poolArea}" id="poolArea" class="form-control" placeholder="">
+				</div>
+				<div class="form-group">
+					<label for="numberOfFloors">Number of floors</label>
+					<input type="text" th:field="*{numberOfFloors}" id="numberOfFloors" class="form-control">
+				</div>
+
+				<a th:href="@{/service}">
+					<button type="button" class="btn btn-secondary">Back</button>
+				</a>
+				<button type="submit" class="btn btn-primary">Edit</button>
+			</form>
+		</div>
+
+
+	</body>
+</html>

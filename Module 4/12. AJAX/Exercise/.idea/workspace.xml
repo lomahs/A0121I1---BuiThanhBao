@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ba40d7e-45c2-4a65-b7e2-802fe509dfbd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/FuramaResortApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/config/WebSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/contract/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/contract/ContractDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/customer/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/EducationDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/AttachService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/RentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/ServiceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/user/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/AttachServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/ContractDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/ContractRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/CustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/DivisionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/EducationDegreeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/PositionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/ServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/ICustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IDivisionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IEducationDegreeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IPositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IServiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/CustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/DivisionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/EducationDegreeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/utils/IdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/static/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/static/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/static/jquery-3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/templates/customer/customer-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/templates/customer/customer-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/templates/customer/customer-list-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/templates/customer/customer-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/templates/employee/employee-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/templates/employee/employee-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/templates/employee/employee-list-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/templates/employee/employee-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/main/resources/templates/general.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy/furama-resort/src/test/java/vn/codegym/furamaresort/FuramaResortApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 3/MVC Casestudy/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module 3/MVC Casestudy/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 3/MVC Casestudy/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module 3/MVC Casestudy/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 3/MVC Casestudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module 3/MVC Casestudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. Spring Data Repositiory/Exercise/blog/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../7. Spring Data Repositiory/Exercise/blog/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. Spring Data Repositiory/Exercise/blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../7. Spring Data Repositiory/Exercise/blog/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="20MncCYOWDdKnGteK5aPhF9nPQu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="com.codota.intellij.common.configuration.CodotaConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ba40d7e-45c2-4a65-b7e2-802fe509dfbd" name="Changes" comment="" />
+      <created>1635863401030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635863401030</updated>
+      <workItem from="1635863402614" duration="755000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

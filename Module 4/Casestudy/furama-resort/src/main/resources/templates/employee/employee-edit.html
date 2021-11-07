@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Edit Customer</title>
+		<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+		<script th:src="@{/js/jquery-3.min.js}"></script>
+		<script th:src="@{/js/bootstrap.min.js}"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header th:replace="general.html :: header"></header>
+		<nav th:replace="general.html :: navbar"></nav>
+
+		<div class="container py-5">
+			<div class="text-center">
+				<h2 class="text-primary">Edit Employee</h2>
+			</div>
+
+			<form th:action="@{/employee/edit}" th:object="${employee}" method="post">
+				<div class="form-group">
+					<label for="id">ID</label>
+					<input type="text" th:field="*{employeeId}" id="id" class="form-control" readonly>
+				</div>
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" th:field="*{employeeName}" id="name" class="form-control" placeholder="">
+					<p th:if="${#fields.hasErrors('employeeName')}" class="text-danger"
+					   th:errors="*{employeeName}"></p>
+				</div>
+				<div class="form-group">
+					<label for="birthday">Birthday</label>
+					<input type="date" th:field="*{employeeBirthday}" id="birthday" class="form-control"
+					       placeholder="">
+					<p th:if="${#fields.hasErrors('employeeBirthday')}" class="text-danger"
+					   th:errors="*{employeeBirthday}"></p>
+				</div>
+				<div class="form-group">
+					<label for="idCard">ID Card</label>
+					<input type="text" th:field="*{employeeIdCard}" id="idCard" class="form-control" placeholder="">
+					<p th:if="${#fields.hasErrors('employeeIdCard')}" class="text-danger"
+					   th:errors="*{employeeIdCard}"></p>
+				</div>
+				<div class="form-group">
+					<label for="salary">Salary</label>
+					<input type="text" th:field="*{employeeSalary}" id="salary" class="form-control" placeholder="">
+					<p th:if="${#fields.hasErrors('employeeSalary')}" class="text-danger"
+					   th:errors="*{employeeSalary}"></p>
+				</div>
+				<div class="form-group">
+					<label for="phone">Phone</label>
+					<input type="text" th:field="*{employeePhone}" id="phone" class="form-control" placeholder="">
+					<p th:if="${#fields.hasErrors('employeePhone')}" class="text-danger"
+					   th:errors="*{employeePhone}"></p>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="text" th:field="*{employeeEmail}" id="email" class="form-control" placeholder="">
+					<p th:if="${#fields.hasErrors('employeeEmail')}" class="text-danger"
+					   th:errors="*{employeeEmail}"></p>
+				</div>
+				<div class="form-group">
+					<label for="address">Address</label>
+					<input type="text" th:field="*{employeeAddress}" id="address" class="form-control"
+					       placeholder="">
+					<p th:if="${#fields.hasErrors('employeeAddress')}" class="text-danger"
+					   th:errors="*{employeeAddress}"></p>
+				</div>
+				<div class="form-group">
+					<label for="position">Position</label>
+					<select th:field="*{position}" id="position" class="form-control">
+						<option th:each="pos : ${listPositions}"
+						        th:value="${pos.positionId}"
+						        th:text="${pos.positionName}">
+						</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="educationDegree">Education Degree</label>
+					<select th:field="*{educationDegree}" id="educationDegree" class="form-control">
+						<option th:each="ed : ${listEducationDegrees}"
+						        th:value="${ed.educationDegreeId}"
+						        th:text="${ed.educationDegreeName}">
+						</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="division">Division</label>
+					<select th:field="*{division}" id="division" class="form-control">
+						<option th:each="dvs : ${listDivisions}"
+						        th:value="${dvs.divisionId}"
+						        th:text="${dvs.divisionName}">
+						</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="usernname">Username</label>
+					<input type="text" th:field="*{user.username}" id="usernname" class="form-control" readonly>
+				</div>
+				<div class="form-group">
+					<label for="password">Password</label>
+					<div class="input-group" id="show_hide_password">
+						<input type="text" th:field="*{user.password}" id="password" class="form-control">
+						<div class="input-group-append">
+							<span class="input-group-text">
+								<a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<a th:href="@{/employee}">
+					<button type="button" class="btn btn-secondary">Back</button>
+				</a>
+				<button type="submit" class="btn btn-primary">Edit</button>
+			</form>
+		</div>
+
+
+		<script>
+            $(document).ready(function () {
+                $("#show_hide_password a").on('click', function (event) {
+                    event.preventDefault();
+                    if ($('#show_hide_password input').attr("type") == "text") {
+                        $('#show_hide_password input').attr('type', 'password');
+                        $('#show_hide_password i').addClass("fa-eye-slash");
+                        $('#show_hide_password i').removeClass("fa-eye");
+                    } else if ($('#show_hide_password input').attr("type") == "password") {
+                        $('#show_hide_password input').attr('type', 'text');
+                        $('#show_hide_password i').removeClass("fa-eye-slash");
+                        $('#show_hide_password i').addClass("fa-eye");
+                    }
+                });
+            });
+		</script>
+	</body>
+</html>

@@ -10,106 +10,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ed4378e-91d0-4b51-8eb9-d1f7ae040dcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/java/com/codegym/buyingcart/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/java/com/codegym/buyingcart/model/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/java/com/codegym/buyingcart/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/java/com/codegym/buyingcart/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/java/com/codegym/buyingcart/service/ICardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/java/com/codegym/buyingcart/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/java/com/codegym/buyingcart/service/impl/CardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/java/com/codegym/buyingcart/service/impl/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/js/jquery-3.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/bootstrap-4.6.0-dist/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/img/abc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/img/hoatuoi1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/img/hoatuoi2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/img/hoatuoi3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/img/hoatuoi4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/img/hoatuoi5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/static/img/hoatuoi6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/templates/cardview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Exercise/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/src/main/java/com/example/hitcounter/HitCounterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/src/main/java/com/example/hitcounter/controller/CounterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/src/main/java/com/example/hitcounter/model/MyCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/hit-counter/src/test/java/com/example/hitcounter/HitCounterApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/src/main/java/com/codegym/saveusername/SaveUsernameApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/src/main/java/com/codegym/saveusername/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/src/main/java/com/codegym/saveusername/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie/Practice/save-username/src/test/java/com/codegym/saveusername/SaveUsernameApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/LibraryManagerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/log/LoggerAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/model/CallCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/repository/CallCardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/service/IBookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/service/ICallCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/service/impl/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/java/com/codegym/librarymanager/service/impl/CallCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/resources/templates/borrow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/resources/templates/giveback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Exercise/demo/src/test/java/com/codegym/librarymanager/LibraryManagerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Practice/cms 2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Practice/cms 2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Practice/cms 2/src/main/java/cg/wbd/grandemonstration/exception/DuplicateEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Practice/cms 2/src/main/webapp/WEB-INF/templates/customers/inputs-not-acceptable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Practice/cms/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Practice/cms/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling /Practice/cms/src/main/java/cg/wbd/grandemonstration/logger/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Module 3/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module 3/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/775286f6-41cf-4481-9df6-f8ac82a6c2e0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/775286f6-41cf-4481-9df6-f8ac82a6c2e0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Doc/Slide 9 - AOP  Exception Handle.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Doc/Slide 9 - AOP  Exception Handle.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/FuramaResortApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/config/WebSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/contract/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/contract/ContractDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/customer/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/EducationDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/AttachService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/RentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/ServiceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/user/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/AttachServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/ContractDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/ContractRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/CustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/ServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IServiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/utils/IdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/resources/static/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/resources/static/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/resources/static/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/main/resources/templates/customer/customer-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy/furama-resort/src/test/java/vn/codegym/furamaresort/FuramaResortApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module 3/MVC Casestudy/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module 3/MVC Casestudy/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module 3/MVC Casestudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module 3/MVC Casestudy/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,6 +231,7 @@
       <workItem from="1634047897156" duration="643000" />
       <workItem from="1634127759185" duration="4283000" />
       <workItem from="1634558381772" duration="1172000" />
+      <workItem from="1635821206307" duration="22000" />
     </task>
     <servers />
   </component>

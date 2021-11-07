@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+	<head>
+		<meta charset="UTF-8">
+		<title>Edit Customer</title>
+		<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+		<script th:src="@{/js/jquery-3.min.js}"></script>
+		<script th:src="@{/js/bootstrap.min.js}"></script>
+		<style>
+            li:hover {
+                background: #2f3038;
+            }
+		</style>
+	</head>
+	<body>
+		<header class="navbar navbar-light bg-light" th:fragment="header">
+			<a class="navbar-brand ml-3" href="/home">
+				<i class="bi bi-house-fill"></i>
+				Home
+			</a>
+			<div class="ml-auto mr-5">
+				<span sec:authentication="name"></span>
+			</div>
+			<form th:action="@{/logout}" METHOD="get">
+				<button type="submit" class="btn btn-light">Log out <i class="fas fa-sign-out-alt ml-1"></i></button>
+			</form>
+		</header>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark" th:fragment="navbar">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleMenu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-around" id="toggleMenu">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link px-4" th:href="@{/employee}">Employee</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" th:href="@{/customer}">Customer</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" th:href="@{/service}">Service</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" th:href="@{/contract/add}">Contract</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" th:href="@{/contract/contractdetail/add}">Contract Detail</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div th:fragment="sidebar">
+			<!-- Basic Sidebar -->
+			<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark pmd-navbar pmd-z-depth">
+
+				<!-- Sidebar Toggle Button-->
+				<a href="javascript:void(0);" data-target="basicSidebar" data-placement="left" data-position="slidepush"
+				   is-open="true" is-open-width="1000"
+				   class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect pmd-sidebar-toggle"><i
+						class="material-icons md-light">menu</i></a>
+				<a class="navbar-brand" href="#">Brand</a>
+
+				<!-- Navbar Right icon -->
+				<div class="pmd-navbar-right-icon ml-auto">
+					<a href="javascript:void(0);" class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect"><i
+							class="material-icons pmd-sm md-light">search</i></a>
+				</div>
+
+			</nav>
+			<section id="pmd-main">
+				<!-- Left sidebar -->
+				<aside id="basicSidebar" class="pmd-sidebar bg-light pmd-z-depth" role="navigation">
+					<ul class="nav flex-column pmd-sidebar-nav">
+						<li class="nav-item pmd-user-info">
+							<a data-toggle="collapse" href="#collapseExample"
+							   class="nav-link btn-user media align-items-center">
+								<img class="mr-3" src="https://pro.propeller.in/assets/images/avatar-icon-40x40.png"
+								     width="40" height="40" alt="avatar">
+								<div class="media-body">
+									User
+								</div>
+								<i class="material-icons md-light ml-2 pmd-sm">more_vert</i>
+							</a>
+							<ul class="collapse" id="collapseExample" data-parent="#basicSidebar">
+								<li class="nav-item">
+									<a class="nav-link" href="#">
+										<i class="material-icons pmd-list-icon pmd-sm">delete</i>
+										<span class="media-body">View Profile</span>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">
+										<i class="material-icons pmd-list-icon pmd-sm">delete</i>
+										<span class="media-body">Settings</span>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">
+										<i class="material-icons pmd-list-icon pmd-sm">delete</i>
+										<span class="media-body">Logout</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#inbox">
+								<i class="material-icons pmd-list-icon pmd-sm">inbox</i>
+								<span class="media-body">Inbox</span>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link active" href="#">
+								<i class="material-icons pmd-list-icon pmd-sm">star</i>
+								<span class="media-body">Stared</span>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								<i class="material-icons pmd-list-icon pmd-sm">send</i>
+								<span class="media-body">Sent Email</span>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								<i class="material-icons pmd-list-icon pmd-sm">drafts</i>
+								<span class="media-body">Drafts</span>
+							</a>
+						</li>
+					</ul>
+				</aside>
+				<div class="pmd-sidebar-overlay"></div>
+				<!-- Start Content -->
+				<div class="pmd-content custom-pmd-content" id="content">
+					<h2 class="headline">Sidebar Constructor</h2>
+					<p>This structure shows a permanent app bar with a floating action button. The app bar absorbs
+						elements
+						from the tablet and mobile bottom bars.</p>
+					<p style="margin-bottom:0;">An optional bottom bar can be added for additional functionality or
+						action
+						overflow. A side nav overlays all other structural elements. A right nav menu can be accessed
+						temporarily or pinned for permanent display.<br><br></p>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

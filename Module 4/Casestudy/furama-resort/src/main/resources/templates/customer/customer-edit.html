@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Edit Customer</title>
+		<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+		<script th:src="@{/js/jquery-3.min.js}"></script>
+		<script th:src="@{/js/bootstrap.min.js}"></script>
+	</head>
+	<body>
+		<header th:replace="general.html :: header"></header>
+		<nav th:replace="general.html :: navbar"></nav>
+
+		<div class="container py-5">
+			<div class="text-center">
+				<h2 class="text-primary">Edit Service</h2>
+			</div>
+
+			<form th:action="@{/customer/edit}" th:object="${customer}" method="post">
+				<div class="form-group">
+					<label for="type">Type</label>
+					<select th:field="*{customerType}" id="type" class="form-control">
+						<option th:each="type : ${customerTypes}"
+						        th:value="${type.customerTypeId}"
+						        th:text="${type.customerTypeName}">
+						</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="id">ID</label>
+					<input type="text" th:field="*{customerId}" id="id" class="form-control" readonly>
+				</div>
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" th:field="*{customerName}" id="name" class="form-control" placeholder="">
+					<p th:if="${#fields.hasErrors('customerName')}" class="text-danger"
+					   th:errors="*{customerName}"></p>
+				</div>
+				<div class="form-group">
+					<label for="birthday">Birthday</label>
+					<input type="date" th:field="*{customerBirthday}" id="birthday" class="form-control"
+					       placeholder="">
+					<p th:if="${#fields.hasErrors('customerBirthday')}" class="text-danger"
+					   th:errors="*{customerBirthday}"></p>
+				</div>
+				<div class="form-group">
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="gender" id="male"
+						       th:value="${true}"
+						       th:field="*{customerGender}">
+						<label class="form-check-label" for="male">Male</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="gender" id="female"
+						       th:value="${false}"
+						       th:field="*{customerGender}">
+						<label class="form-check-label" for="female">Female</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="idCard">ID Card</label>
+					<input type="text" th:field="*{customerIdCard}" id="idCard" class="form-control" placeholder="">
+					<p th:if="${#fields.hasErrors('customerIdCard')}" class="text-danger"
+					   th:errors="*{customerIdCard}"></p>
+				</div>
+				<div class="form-group">
+					<label for="phone">Phone</label>
+					<input type="text" th:field="*{customerPhone}" id="phone" class="form-control" placeholder="">
+					<p th:if="${#fields.hasErrors('customerPhone')}" class="text-danger"
+					   th:errors="*{customerPhone}"></p>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="text" th:field="*{customerEmail}" id="email" class="form-control" placeholder="">
+					<p th:if="${#fields.hasErrors('customerEmail')}" class="text-danger"
+					   th:errors="*{customerEmail}"></p>
+				</div>
+				<div class="form-group">
+					<label for="address">Address</label>
+					<input type="text" th:field="*{customerAddress}" id="address" class="form-control"
+					       placeholder="">
+					<p th:if="${#fields.hasErrors('customerAddress')}" class="text-danger"
+					   th:errors="*{customerAddress}"></p>
+				</div>
+
+				<a th:href="@{/customer}">
+					<button type="button" class="btn btn-secondary">Back</button>
+				</a>
+
+				<button type="submit" class="btn btn-primary">Edit</button>
+			</form>
+		</div>
+
+	</body>
+</html>
