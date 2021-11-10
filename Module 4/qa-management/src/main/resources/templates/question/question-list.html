@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>List Question</title>
+		<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+		<script th:src="@{/js/jquery-3.min.js}"></script>
+		<script th:src="@{/js/bootstrap.min.js}"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+
+		<div class="container-fluid py-5">
+			<div class="table-title">
+				<div class="row text-center">
+					<div class="col-12">
+						<h2>Question Board</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row py-5">
+				<div class="col mx-auto">
+					<div class="card rounded shadow border-0">
+						<div class="card-header px-4 py-2 bg-light">
+							<div class="clearfix">
+								<div class="float-left">
+									<a th:href="@{/question/add}" class="btn btn-success d-flex">
+										<i class="material-icons">&#xE147;</i>
+										<span class="ml-2">Add New Question</span>
+									</a>
+								</div>
+								<div class="float-right">
+									<form class="form-inline">
+										<input type="text" id="searchValue" name="searchValue"
+										       class="form-control mr-sm-4"
+										       placeholder="Title">
+										<select name="searchTypeValue" id="searchTypeValue"
+										        class="form-control mr-sm-4">
+											<option value="0">All</option>
+											<option th:each="type : ${listQuestionTypes}"
+											        th:value="${type.questionTypeId}"
+											        th:text="${type.questionTypeName}">
+											</option>
+										</select>
+										<button class="btn btn-outline-info mr-sm-4" id="search">Search</button>
+									</form>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="card-body p-4 bg-light rounded">
+
+							<span th:if="${message}" th:text="${message}"
+							      class="mb-2 bg-success text-white rounded p-2"></span>
+
+							<div class="table-responsive">
+								<table id="tableQuestions" class="table table-striped table-hover">
+									<thead>
+									<tr class="text-center">
+										<th class="align-middle">ID</th>
+										<th class="align-middle">Title</th>
+										<th class="align-middle">Question Type</th>
+										<th class="align-middle">Date Created</th>
+										<th class="align-middle">Status</th>
+										<th class="align-middle">Action</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr th:each="question : ${listQuestions}" class="text-center">
+										<td th:text="${question.questionId}" class="align-middle"></td>
+										<td th:text="${question.questionTitle}" class="align-middle"></td>
+										<td th:text="${question.questionType.questionTypeName}"
+										    class="align-middle"></td>
+										<td th:text="${#temporals.format(question.dateCreated,'dd-MM-yyyy')}"
+										    class="align-middle"></td>
+										<td th:text="${question.status ? 'Responded' : 'No response yet'}"
+										    class="align-middle"></td>
+										<td>
+											<a href="#" th:id="${question.questionId}"
+											   class="detailBtn btn btn-primary">
+												Detail</a>
+											<a th:href="@{/question/delete/{id}(id = ${question.questionId})}"
+											   class="delBtn btn btn-secondary">Delete</a>
+										</td>
+									</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<div class="clearfix">
+								<ul class="pagination">
+									<li class="page-item"
+									    th:classappend="${!listQuestions.hasPrevious()} ? disabled : ''">
+										<a th:href="@{'/question'(page=${listQuestions.number - 1})}"
+										   class="page-link">Previous</a>
+									</li>
+									<li class="page-item">
+										<span th:text="${listQuestions.number + 1}"
+										      class="page-link"></span>
+									</li>
+									<li class="page-item"
+									    th:classappend="${!listQuestions.hasNext()} ? disabled : ''">
+										<a th:href="@{'/question'(page=${listQuestions.number + 1})}"
+										   class="page-link">Next</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Delete Confirmation</h5>
+						<button type="button" class="close" data-dismiss="modal"
+						        aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>Are you sure you want to delete it?</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-sm btn-secondary"
+						        data-dismiss="modal">Close
+						</button>
+						<a href="" class="btn btn-sm btn-danger" id="delRef">Delete</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+		     aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Quetion Detail</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" id="detailModalBody">
+						Body
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+            $(document).ready(function () {
+                $('.delBtn').on('click', function (event) {
+                    event.preventDefault();
+                    var href = $(this).attr('href');
+                    $('#myModal #delRef').attr('href', href);
+                    $('#myModal').modal();
+                });
+            })
+
+            $(document).ready(function () {
+                $('.detailBtn').on('click', function (event) {
+                    event.preventDefault();
+
+                    $.ajax(
+                        {
+                            type: "GET",
+                            url: "/question/" + $(this).attr("id"),
+                            dataType: "HTML",
+                            success: function (data) {
+                                $("#detailModalBody").html(data);
+                                $('#detailModal').modal("show");
+                            }
+                        }
+                    )
+                });
+
+                $('#search').on('click', function (event) {
+                    event.preventDefault();
+                    let title = $("#searchValue").val();
+                    let type = $("#searchTypeValue").val();
+
+                    $.ajax(
+                        {
+                            type: "GET",
+                            url: "/question/search?searchValue=" + title + "&searchTypeValue=" + type,
+                            dataType: "HTML",
+                            success: function (data) {
+                                $("#tableQuestions").html(data);
+                            }
+                        }
+                    )
+                });
+            })
+		</script>
+
+	</body>
+</html>

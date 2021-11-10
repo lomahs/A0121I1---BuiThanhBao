@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Question Detail</title>
+		<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+		<script th:src="@{/js/jquery-3.min.js}"></script>
+		<script th:src="@{/js/bootstrap.min.js}"></script>
+	</head>
+	<body>
+
+		<div class="container py-5">
+			<div class="table-responsive">
+				<table id="tableQuestions" class="table table-hover border-0" th:object="${question}">
+					<tbody>
+					<tr>
+						<th>Title</th>
+						<td th:text="*{questionTitle}"></td>
+					</tr>
+					<tr>
+						<th>Content</th>
+						<td th:text="*{questionContent}"></td>
+					</tr>
+					<tr>
+						<th>Answer</th>
+						<td th:text="${#strings.isEmpty(question.answer) ? 'N/A' : ''}"></td>
+					</tr>
+					<tr>
+						<th>Question Type</th>
+						<td th:text="*{questionType.questionTypeName}"></td>
+					</tr>
+					<tr>
+						<th>Date Created</th>
+						<td th:text="${#temporals.format(question.dateCreated,'dd-MM-yyyy')}"></td>
+					</tr>
+					<tr>
+						<th>Status</th>
+						<td th:text="${question.status ? 'Responded' : 'No response yet'}"></td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
