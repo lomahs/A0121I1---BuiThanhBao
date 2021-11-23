@@ -1,0 +1,13 @@
+<h2>Pet profile</h2>
+<label>
+  Pet name:
+  <input type="text" #name (change)="updateName(name.value)">
+</label>
+<br >
+<label>
+  Pet image:
+  <input type="url" #image (change)="updateImage(image.value)">
+</label>
+<br >
+<h3>Pet name: {{petName}}</h3>
+<img [src]="petImage" style="max-width: 100%">
