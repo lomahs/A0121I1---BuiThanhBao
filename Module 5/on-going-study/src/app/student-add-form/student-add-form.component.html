@@ -1,0 +1,39 @@
+<form novalidate [formGroup]="addForm" (ngSubmit)="addStudent()">
+  <div class="mb-3">
+    <label class="form-label" for="id">Id</label>
+    <input type="text" class="form-control" formControlName="id" id="id">
+    <div *ngIf="addForm.get('id')?.hasError('required') && addForm.get('id')?.touched" class="form-text text-danger">
+      ID is required!
+    </div>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="name">Name</label>
+    <input type="text" class="form-control" formControlName="name" id="name">
+    <div *ngIf="addForm.get('name')?.hasError('required') && addForm.get('name')?.touched"
+         class="form-text text-danger">
+      Name is required!
+    </div>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="age">Age</label>
+    <input type="text" class="form-control" formControlName="age" id="age">
+    <div *ngIf="addForm.get('age')?.hasError('required') && addForm.get('age')?.touched" class="form-text text-danger">
+      Age is required!
+    </div>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="mark">Mark</label>
+    <input type="number" class="form-control" formControlName="mark" id="mark">
+    <div *ngIf="addForm.get('mark')?.hasError('required') && addForm.get('mark')?.touched"
+         class="form-text text-danger">
+      Mark is required!
+    </div>
+    <div
+      *ngIf="addForm.get('mark')?.hasError('min') || addForm.get('mark')?.hasError('max') && addForm.get('mark')?.touched"
+      class="form-text text-danger">
+      Mark must be in ranger 0 - 10
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Add</button>
+</form>

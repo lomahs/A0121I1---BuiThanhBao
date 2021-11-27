@@ -1,0 +1,20 @@
+<form #addForm="ngForm" (ngSubmit)="addStudent(addForm)">
+  <div class="mb-3">
+    <label class="form-label" for="id">Id</label>
+    <input type="text" class="form-control" ngModel name="id" id="id">
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="name">Name</label>
+    <input type="text" class="form-control" ngModel name="name" id="name" #name="ngModel">
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="age">Age</label>
+    <input type="text" class="form-control" ngModel name="age" id="age">
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="mark">Mark</label>
+    <input type="number" class="form-control" ngModel name="mark" id="mark" min="0" max="10" required>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Add</button>
+</form>

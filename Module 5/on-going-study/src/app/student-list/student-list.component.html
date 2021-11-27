@@ -1,0 +1,35 @@
+<h3>List Student</h3>
+<div class="container">
+  <table class="table table-striped table-hover text-center align-middle">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Mark</th>
+      <th>Result</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let student of listStudents">
+      <td>{{student.id}}</td>
+      <td>{{student.name}}</td>
+      <td>{{student.age}}</td>
+      <td>{{student.mark}}</td>
+      <td *ngIf="student.mark >= 5" class="text-success">PASS</td>
+      <td *ngIf="student.mark < 5" class="text-danger">FAIL</td>
+      <td>
+        <button class="btn btn-primary me-2">Detail</button>
+        <button class="btn btn-secondary ms-2">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div class="container-fluid row">
+  <div class="col-12">
+    <app-student-add-form></app-student-add-form>
+  </div>
+</div>
+
