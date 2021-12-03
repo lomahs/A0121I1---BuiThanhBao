@@ -1,0 +1,33 @@
+<div class="container text-center">
+  <h3>Student detail</h3>
+
+  <table class="table w-25 border-1 m-auto">
+    <tbody>
+    <tr class="row">
+      <td class="col-4">ID</td>
+      <td class="col-8">{{student.id}}</td>
+    </tr>
+    <tr class="row">
+      <td class="col-4">Name</td>
+      <td class="col-8">{{student.name}}</td>
+    </tr>
+    <tr class="row">
+      <td class="col-4">Age</td>
+      <td class="col-8">{{student.age}}</td>
+    </tr>
+    <tr class="row">
+      <td class="col-4">Mark</td>
+      <td class="col-8">{{student.mark}}</td>
+    </tr>
+    <tr class="row">
+      <td class="col-4">
+        <button (click)="getResult()">Result</button>
+      </td>
+      <td class="col-8">{{result}}</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <a routerLink="">Back</a>
+</div>
+

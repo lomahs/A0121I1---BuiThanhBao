@@ -1,6 +1,6 @@
 import {Student} from "./student";
 
-export const listStudent: Array<Student> = [
+export let listStudent: Array<Student> = [
   {
     id: 1,
     name: "Thanh Bảo",

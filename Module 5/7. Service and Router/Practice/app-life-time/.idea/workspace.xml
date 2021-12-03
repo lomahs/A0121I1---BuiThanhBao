@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27e4bdb2-f471-424d-b726-c802266da30e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/date-utils.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/date-utils.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/timelines/timelines.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/timelines/timelines.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/timelines/timelines.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/timelines/timelines.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/youtube-player/youtube-player.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/youtube-player/youtube-player.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/youtube-player/youtube-player.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/youtube-player/youtube-player.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/youtube-playlist/youtube-playlist.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/youtube-playlist/youtube-playlist.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/youtube-playlist/youtube-playlist.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/youtube-playlist/youtube-playlist.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/youtube.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/app/youtube.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-play-music/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/date-util.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/date-util.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/timelines/timelines.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/timelines/timelines.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/timelines/timelines.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/app/timelines/timelines.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app-life-time/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract-detail/form-add-contract-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract-detail/form-add-contract-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract-detail/form-add-contract-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract-detail/form-add-contract-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract/form-add-contract.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract/form-add-contract.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract/form-add-contract.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract/form-add-contract.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-customer/form-add-customer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-customer/form-add-customer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-customer/form-add-customer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-customer/form-add-customer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-employee/form-add-employee.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-employee/form-add-employee.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-employee/form-add-employee.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-employee/form-add-employee.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-service/form-add-service.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-service/form-add-service.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-service/form-add-service.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-service/form-add-service.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/header/header.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/header/header.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer/list-customer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer/list-customer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer/list-customer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer/list-customer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-employee/list-employee.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-employee/list-employee.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-employee/list-employee.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-employee/list-employee.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-service/list-service.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-service/list-service.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-service/list-service.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-service/list-service.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/contract/Contract.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/contract/ContractDetail.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/customer/Customer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/customer/CustomerType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/employee/Division.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/employee/EducationDegree.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/employee/Employee.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/employee/Position.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/service/AttachService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/service/RentType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/service/Service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/user/Role.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/model/user/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../on-going-study/src/app/student-add-form/student-add-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../on-going-study/src/app/student-add-form/student-add-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../on-going-study/src/app/student-add-form/student-add-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../on-going-study/src/app/student-add-form/student-add-form.component.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="21fNJAWcBY3w0OfTudM8ZyMtaNM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (app-life-time)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27e4bdb2-f471-424d-b726-c802266da30e" name="Changes" comment="" />
+      <created>1638328108483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638328108483</updated>
+      <workItem from="1638328109800" duration="1327000" />
+      <workItem from="1638330069123" duration="557000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>

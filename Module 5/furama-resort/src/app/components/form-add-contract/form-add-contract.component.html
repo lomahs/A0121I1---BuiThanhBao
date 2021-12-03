@@ -1,0 +1,57 @@
+<div class="container py-5">
+  <div class="text-center">
+    <h2 class="text-primary">Add New Contract</h2>
+  </div>
+
+  <span th:text="${message}" th:if="${message !=  null}"
+        class="mb-2 bg-success text-white rounded"></span>
+  <form th:action="@{/contract/add}" th:object="${contract}" method="post">
+    <div class="form-group">
+      <label for="customer">Customer</label>
+      <select th:field="*{customer}" id="customer" class="form-control">
+        <option th:each="cus : ${listCustomers}"
+                th:value="${cus.customerId}"
+                th:text="${cus.customerId + ' - ' + cus.customerName}">
+        </option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="startDate">Start Date</label>
+      <input type="date" th:field="*{contractStartDate}" id="startDate" class="form-control" required>
+      <p th:errors="*{contractStartDate}" class="text-danger"></p>
+    </div>
+    <div class="form-group">
+      <label for="endDate">End Date</label>
+      <input type="date" th:field="*{contractEndDate}" id="endDate" class="form-control" required>
+      <p class="text-danger" th:errors="*{contractEndDate}"></p>
+    </div>
+    <div class="form-group">
+      <label for="deposit">Deposit</label>
+      <input type="text" th:field="*{contractDeposit}" id="deposit" class="form-control">
+      <p th:errors="*{contractDeposit}" class="text-danger"></p>
+    </div>
+    <div class="form-group">
+      <label for="employee">Employee</label>
+      <select th:field="*{employee}" id="employee" class="form-control">
+        <option th:each="emp : ${listEmployees}"
+                th:value="${emp.employeeId}"
+                th:text="${emp.employeeId + ' - ' + emp.employeeName}">contract_detail
+        </option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="service">Service</label>
+      <select th:field="*{service}" id="service" class="form-control">
+        <option th:each="ser : ${listServices}"
+                th:value="${ser.serviceId}"
+                th:text="${ser.serviceId + ' - ' + ser.serviceName}">
+        </option>
+      </select>
+    </div>
+
+    <a th:href="@{/}">
+      <button type="button" class="btn btn-secondary">Back</button>
+    </a>
+    <button type="submit" class="btn btn-primary">Add</button>
+  </form>
+</div>
