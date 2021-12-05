@@ -1,0 +1,14 @@
+<h2>Simplest Todo App</h2>
+
+<input type="text" #todo (keydown.enter)="addTodo(todo)">
+
+<ul>
+  <li *ngFor="let i of listTodo" [class.completed]="i.completed">
+    <div (click)="complete(i)">
+      Id: {{i.id}}
+      {{i.title}}
+    </div>
+
+    <button (click)="delete(i)">Delete</button>
+  </li>
+</ul>

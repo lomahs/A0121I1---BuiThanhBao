@@ -10,114 +10,237 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c0bf6c-3077-4d98-b4bd-83b8df18495a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Module 4/12. AJAX/Exercise/.idea/Exercise.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/12. AJAX/Exercise/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/12. AJAX/Exercise/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/12. AJAX/Exercise/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/12. AJAX/Exercise/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/.jpb/jpb-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/FuramaResortApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/config/WebSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/controller/ContractController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/controller/ServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/contract/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/contract/ContractDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/customer/CustomerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/EducationDegree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/employee/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/AttachService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/RentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/service/ServiceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/user/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/model/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/AttachServiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/ContractDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/ContractRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/CustomerTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/DivisionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/EducationDegreeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/PositionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/RentTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/ServiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/ServiceTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IAttachServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IContractDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IContractService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/ICustomerTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IDivisionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IEducationDegreeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IEmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IPositionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IRentTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IServiceTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/AttachServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/ContractDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/ContractService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/CustomerTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/DivisionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/EducationDegreeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/PositionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/RentTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/ServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/ServiceTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/service/impl/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/utils/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/validate/CurrentDateValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/validate/CustomerValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/java/vn/codegym/furamaresort/validate/DateBeforeCurrent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/message.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/static/css/error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/static/js/jquery-3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/contract/contract-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/contract/contractdetail-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/customer/customer-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/customer/customer-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/customer/customer-list-table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/customer/customer-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/employee/employee-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/employee/employee-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/employee/employee-list-table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/employee/employee-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/general.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/service/service-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/service/service-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/service/service-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/main/resources/templates/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Module 4/Casestudy/furama-resort/src/test/java/vn/codegym/furamaresort/FuramaResortApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b99e1a10-0a6c-4b27-9163-cc15fdb23a88.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module 4/7. Spring Data Repositiory/Exercise/blog/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 4/7. Spring Data Repositiory/Exercise/blog/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module 4/7. Spring Data Repositiory/Exercise/blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 4/7. Spring Data Repositiory/Exercise/blog/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/dictionary-detail/dictionary-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/dictionary-detail/dictionary-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/dictionary-detail/dictionary-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/dictionary-page/dictionary-page.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/dictionary-page/dictionary-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/dictionary-page/dictionary-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/app/dictionary.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Exercise/dictionary/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/date-utils.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/date-utils.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/timelines/timelines.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/timelines/timelines.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/timelines/timelines.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/app/timelines/timelines.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-life-time/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/youtube-player/youtube-player.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/youtube-player/youtube-player.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/youtube-player/youtube-player.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/youtube-player/youtube-player.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/youtube-playlist/youtube-playlist.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/youtube-playlist/youtube-playlist.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/youtube-playlist/youtube-playlist.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/youtube-playlist/youtube-playlist.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/youtube.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/app/youtube.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/Practice/app-play-music/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/date-util.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/date-util.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/timelines/timelines.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/timelines/timelines.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/timelines/timelines.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/app/timelines/timelines.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/7. Service and Router/app-life-time/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-contract-detail/form-add-contract-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-contract-detail/form-add-contract-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-contract-detail/form-add-contract-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-contract-detail/form-add-contract-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-contract/form-add-contract.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-contract/form-add-contract.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-contract/form-add-contract.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-contract/form-add-contract.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-customer/form-add-customer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-customer/form-add-customer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-customer/form-add-customer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-customer/form-add-customer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-employee/form-add-employee.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-employee/form-add-employee.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-employee/form-add-employee.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-employee/form-add-employee.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-service/form-add-service.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-service/form-add-service.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-service/form-add-service.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/form-add-service/form-add-service.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/header/header.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/header/header.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-customer/list-customer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-customer/list-customer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-customer/list-customer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-customer/list-customer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-employee/list-employee.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-employee/list-employee.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-employee/list-employee.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-employee/list-employee.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-service/list-service.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-service/list-service.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-service/list-service.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/components/list-service/list-service.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/contract/Contract.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/contract/ContractDetail.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/customer/Customer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/customer/CustomerType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/employee/Division.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/employee/EducationDegree.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/employee/Employee.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/employee/Position.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/service/AttachService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/service/RentType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/service/Service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/user/Role.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/app/model/user/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/furama-resort/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/service/students.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/service/students.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-detail/student-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-detail/student-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-detail/student-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-detail/student-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/model/studentDAO.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/model/studentDAO.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-add-form/student-add-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-add-form/student-add-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-add-form/student-add-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-add-form/student-add-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-list/student-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-list/student-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-list/student-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 5/on-going-study/src/app/student-list/student-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,6 +524,7 @@
       <workItem from="1636188809373" duration="53000" />
       <workItem from="1636207842330" duration="599000" />
       <workItem from="1636213946424" duration="547000" />
+      <workItem from="1638503148687" duration="104000" />
     </task>
     <servers />
   </component>
