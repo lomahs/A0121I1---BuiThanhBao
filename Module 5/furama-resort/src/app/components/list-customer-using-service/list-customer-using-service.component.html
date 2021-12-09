@@ -1,1 +1,39 @@
-<p>list-customer-using-service works!</p>
+<div class="container-fluid py-5">
+  <header class="text-center">
+    <h1>List Using Service</h1>
+  </header>
+  <div class="row py-5">
+    <div class="col mx-auto">
+      <div class="card rounded shadow border-0">
+        <div class="card-body p-4 bg-white rounded">
+          <div class="table-responsive">
+            <table id="list" class="table table-bordered table-hover">
+              <thead class="text-center">
+              <tr>
+                <th></th>
+                <th>Customer ID</th>
+                <th>Customer</th>
+                <th>Contract ID</th>
+                <th>Service</th>
+                <th>Attach Service</th>
+                <th>Total Money</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr *ngFor="let contractDetail of listContractDetail, index as i" class="text-center">
+                <td>{{i}}</td>
+                <td>{{contractDetail.contract.customer.id}}</td>
+                <td>{{contractDetail.contract.customer.name}}</td>
+                <td>{{contractDetail.contract.id}}</td>
+                <td>{{contractDetail.contract.service.name}}</td>
+                <td>{{contractDetail.attachService.name}}</td>
+                <td>{{contractDetail.contract.totalMoney}}</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

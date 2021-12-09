@@ -1,127 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa4af095-6b57-4a61-9232-e300cb468dfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/image-slide.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/img-slider/img-slide/img-slide.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/img-slider/img-slide/img-slide.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/img-slider/img-slide/img-slide.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/img-slider/img-slider.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/img-slider/img-slider.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/img-slider/img-slider.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/img-slider/img-slider.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/img-slider/img-slider.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/image-gallery/image-card/image-card.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/image-gallery/image-card/image-card.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/image-gallery/image-card/image-card.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/image-gallery/image-card/image-card.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/image-gallery/image-gallery.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/image-gallery/image-gallery.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/image-gallery/image-gallery.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/image-gallery/image-gallery.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/app/image-gallery/image-gallery.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/galary/galaxy-app/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/image-gallery/image-card/image-card.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/image-gallery/image-card/image-card.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/image-gallery/image-card/image-card.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/image-gallery/image-card/image-card.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/image-gallery/image-gallery.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/image-gallery/image-gallery.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/image-gallery/image-gallery.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/image-gallery/image-gallery.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/image-gallery/image-gallery.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/app/image-gallery/token.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/gallery/tsconfig.spec.json" afterDir="false" />
+    <list default="true" id="aa4af095-6b57-4a61-9232-e300cb468dfb" name="Changes" comment="Updated Chap 8 m5">
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/app-routing/app-routing.module.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/delete-customer/delete-customer.component.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/delete-customer/delete-customer.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/delete-customer/delete-customer.component.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/delete-customer/delete-customer.component.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/edit-customer/edit-customer.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/edit-customer/edit-customer.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/edit-customer/edit-customer.component.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/edit-customer/edit-customer.component.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/form-add-customer/form-add-customer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/form-add-customer/form-add-customer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/form-add-customer/form-add-customer.component.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/list-customer/list-customer.component.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/list-customer/list-customer.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/list-customer/list-customer.component.ts" afterDir="false" />
@@ -145,16 +36,14 @@
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract-detail/form-add-contract-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract-detail/form-add-contract-detail.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract/form-add-contract.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract/form-add-contract.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract/form-add-contract.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-contract/form-add-contract.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-customer/form-add-customer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-customer/form-add-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/form-add-customer/form-add-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-customer/form-add-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/edit-customer/edit-customer.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-customer/form-add-customer.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/form-add-customer/form-add-customer.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-customer/form-add-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/form-add-customer/form-add-customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-customer/form-add-customer.component.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-employee/form-add-employee.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-employee/form-add-employee.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-service/form-add-service.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/form-add-service/form-add-service.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/header/header.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer-using-service/list-customer-using-service.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer/list-customer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/img-slider/img-slide/img-slide.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer/list-customer.component.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer/list-customer.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../furama-resort/src/app/components/customer/list-customer/list-customer.component.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../furama-resort/src/app/components/list-customer/list-customer.component.ts" beforeDir="false" />
@@ -167,6 +56,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -221,8 +115,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638966412527</updated>
-      <workItem from="1638966414681" duration="383000" />
+      <workItem from="1638966414681" duration="583000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated Chap 8 m5">
+      <created>1638966981092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638966981092</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Updated Chap 8 m5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Chap 8 m5" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

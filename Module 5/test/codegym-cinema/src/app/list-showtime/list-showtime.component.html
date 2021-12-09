@@ -1,0 +1,31 @@
+<div class="container mt-5">
+
+  <h1 class="text-center text-primary text-uppercase">List Showtime</h1>
+
+  <div class="m-4">
+    <button routerLink="add" class="btn btn-primary">Add Showtime</button>
+  </div>
+
+  <table class="table table-striped table-hover">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Number of Tickets</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let showtime of listShowtime" class="align-middle">
+      <td>{{showtime.idShow}}</td>
+      <td>{{showtime.name}}</td>
+      <td>{{showtime.date}}</td>
+      <td>{{showtime.numberOfTickets}}</td>
+      <td>
+        <button (click)="openDeleteConfirmDialog(showtime.id)" class="btn btn-secondary">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

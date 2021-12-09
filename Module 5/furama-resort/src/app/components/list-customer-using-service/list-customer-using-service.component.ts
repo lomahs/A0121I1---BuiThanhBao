@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {ContractDetail} from "../../model/contract/ContractDetail";
+import {ContractService} from "../../service/contract.service";
 
 @Component({
   selector: 'app-list-customer-using-service',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListCustomerUsingServiceComponent implements OnInit {
 
-  constructor() { }
+  listContractDetail: Array<ContractDetail> = [];
 
-  ngOnInit(): void {
+  constructor(
+    private contractService: ContractService
+  ) {
   }
 
+  ngOnInit(): void {
+    this.updateList()
+  }
+
+  updateList() {
+    this.contractService.getAllContractDetail().subscribe(
+      data => this.listContractDetail = data
+    )
+  }
 }

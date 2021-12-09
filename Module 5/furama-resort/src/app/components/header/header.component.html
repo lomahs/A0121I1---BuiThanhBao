@@ -1,1 +1,32 @@
-<p>header works!</p>
+<header class="navbar navbar-light bg-light">
+  <a class="navbar-brand ml-3" routerLink="">
+    <i class="bi bi-house-fill"></i>
+    Furama Resort
+  </a>
+</header>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-around" id="toggleMenu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link px-4" routerLink="employee">Employee</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" routerLink="customer">Customer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" routerLink="service">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" routerLink="contract/add">Contract</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" routerLink="contractDetail">Contract Detail</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

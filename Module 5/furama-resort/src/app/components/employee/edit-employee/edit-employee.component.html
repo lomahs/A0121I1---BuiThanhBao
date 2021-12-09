@@ -1,0 +1,129 @@
+<div class="container py-5">
+  <div class="text-center">
+    <h2 class="text-primary">Edit Employee</h2>
+  </div>
+
+  <form [formGroup]="formEdit" (ngSubmit)="editEmployee()">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" class="form-control" formControlName="name">
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('name')?.hasError('required') && formEdit.get('name')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="birthday">Birthday</label>
+      <input type="date" id="birthday" class="form-control" formControlName="birthday"
+             placeholder="">
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('birthday')?.hasError('required') && formEdit.get('birthday')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('birthday')?.hasError('invalidAge') && formEdit.get('birthday')?.touched">
+        Birthday must be before today!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="idCard">ID Card</label>
+      <input type="text" id="idCard" class="form-control" formControlName="idCard">
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('idCard')?.hasError('required') && formEdit.get('idCard')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('idCard')?.hasError('pattern') && formEdit.get('idCard')?.dirty">
+        ID Card must have pattern *** *** *** or *** *** *** ***
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="salary">Salary</label>
+      <input type="text" id="salary" class="form-control" formControlName="salary">
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('salary')?.hasError('required') && formEdit.get('salary')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('salary')?.hasError('min') && formEdit.get('salary')?.dirty">
+        Salary must be positive number!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input type="text" id="phone" class="form-control" formControlName="phone">
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('phone')?.hasError('required') && formEdit.get('phone')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('phone')?.hasError('pattern') && formEdit.get('phone')?.dirty">
+        Phone must like 090 *** **** or 091 *** ****
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="text" id="email" class="form-control" formControlName="email">
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('email')?.hasError('required') && formEdit.get('email')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('email')?.hasError('email') && formEdit.get('email')?.dirty">
+        Email must be like abc@mail.com
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="address">Address</label>
+      <input type="text" id="address" class="form-control" formControlName="address"
+             placeholder="">
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('address')?.hasError('required') && formEdit.get('address')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="position">Position</label>
+      <select id="position" class="form-control" formControlName="position">
+        <option *ngFor="let position of listPosition"
+                [ngValue]="position"
+                [text]="position.name" [selected]="position.id == formEdit.value.position?.id">
+        </option>
+      </select>
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('position')?.hasError('required') && formEdit.get('position')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="educationDegree">Education Degree</label>
+      <select id="educationDegree" class="form-control" formControlName="educationDegree">
+        <option *ngFor="let educationDegree of listEducationDegree"
+                [ngValue]="educationDegree"
+                [text]="educationDegree.name" [selected]="educationDegree.id == formEdit.value.educationDegree?.id">
+        </option>
+      </select>
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('educationDegree')?.hasError('required') && formEdit.get('educationDegree')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="division">Division</label>
+      <select id="division" class="form-control" formControlName="division">
+        <option *ngFor="let division of listDivision"
+                [ngValue]="division"
+                [text]="division.name" [selected]="division.id == formEdit.value.division?.id">
+        </option>
+      </select>
+      <small class="form-text text-danger"
+             *ngIf="formEdit.get('division')?.hasError('required') && formEdit.get('division')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="d-flex justify-content-between">
+      <button type="button" class="btn btn-secondary" routerLink="/employee">Back</button>
+      <button type="submit" class="btn btn-primary">Edit</button>
+    </div>
+  </form>
+</div>

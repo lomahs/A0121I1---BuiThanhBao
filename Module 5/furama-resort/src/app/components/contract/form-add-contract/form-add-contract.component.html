@@ -1,0 +1,72 @@
+<div class="container py-5">
+  <div class="text-center">
+    <h2 class="text-primary">Add New Contract</h2>
+  </div>
+
+  <form [formGroup]="formAddService" (ngSubmit)="addContract()">
+    <div class="form-group">
+      <label for="customer">Customer</label>
+      <select formControlName="customer" id="customer" class="form-control">
+        <option *ngFor="let cus of listCustomers" [ngValue]="cus">{{cus.name}}</option>
+      </select>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('customer')?.hasError('required')  && formAddService.get('customer')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="startDate">Start Date</label>
+      <input type="date" formControlName="dateCreate" id="startDate" class="form-control" required>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('dateCreate')?.hasError('required')  && formAddService.get('dateCreate')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('dateCreate')?.hasError('beforeToday')  && formAddService.get('dateCreate')?.dirty">
+        Start Date must be from today!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="endDate">End Date</label>
+      <input type="date" formControlName="dateEnded" id="endDate" class="form-control" required>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('dateEnded')?.hasError('required')  && formAddService.get('dateEnded')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.hasError('invalidDate')  && formAddService.get('dateEnded')?.dirty">
+        End Date must be after Start Date!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="deposit">Deposit</label>
+      <input type="text" formControlName="deposit" id="deposit" class="form-control">
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('deposit')?.hasError('required')  && formAddService.get('deposit')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="employee">Employee</label>
+      <select formControlName="employee" id="employee" class="form-control">
+        <option *ngFor="let emp of listEmployees" [ngValue]="emp">{{emp.name}}</option>
+      </select>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('employee')?.hasError('required')  && formAddService.get('employee')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="service">Service</label>
+      <select formControlName="service" id="service" class="form-control">
+        <option *ngFor="let ser of listServices" [ngValue]="ser">{{ser.name}}</option>
+      </select>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('service')?.hasError('required')  && formAddService.get('service')?.touched">
+        Field is required!
+      </small>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add</button>
+  </form>
+</div>

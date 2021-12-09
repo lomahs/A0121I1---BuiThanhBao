@@ -1,0 +1,18 @@
+{
+  "showtime": [
+    {
+      "name": "Avenger 1",
+      "date": "2222-02-22",
+      "numberOfTickets": "20",
+      "idShow": "CI - 0",
+      "id": 1
+    },
+    {
+      "name": "Avenger 2",
+      "date": "2022-01-01",
+      "numberOfTickets": "2",
+      "idShow": "CI - 1",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,900 @@
+{
+  "customer": [
+    {
+      "type": {
+        "id": 4,
+        "name": "Platinum"
+      },
+      "name": "Thanh Bảo",
+      "birthday": "1999-10-01",
+      "idCard": "131 312 312",
+      "phone": "090 312 3123",
+      "email": "bao@gmail.com",
+      "address": "Đà Nẵng",
+      "id": 1
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "Gold"
+      },
+      "name": "Phu",
+      "birthday": "13231-03-31",
+      "idCard": "3123",
+      "phone": "313 ",
+      "email": "phu@gmail.com",
+      "address": "Qn",
+      "id": 2
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "Silver"
+      },
+      "name": "Tuan",
+      "birthday": "1111-12-13",
+      "idCard": "123 3123 1",
+      "phone": "3123 ",
+      "email": "tuan@gmail.com",
+      "address": "DN",
+      "id": 4
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Diamond"
+      },
+      "name": "Ái Ly",
+      "birthday": "2021-07-01",
+      "idCard": "999 999 999",
+      "phone": "090 312 3123",
+      "email": "ly@gmail.com",
+      "address": "Quảng Nam",
+      "id": 5
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "Platinum"
+      },
+      "name": "Diem My",
+      "birthday": "1999-03-03",
+      "idCard": "312 123 312",
+      "phone": "090 312 3123",
+      "email": "BAO@GMAIL.COM",
+      "address": "132",
+      "id": 6
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "Gold"
+      },
+      "name": "Bao",
+      "birthday": "1999-03-01",
+      "idCard": "012 312 333",
+      "phone": "090 312 3123",
+      "email": "bao@gmail.com",
+      "address": "Quảng Nam",
+      "id": 7
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Diamond"
+      },
+      "name": "Bao",
+      "birthday": "2021-12-07",
+      "idCard": "031 312 312",
+      "phone": "090 312 3124",
+      "email": "ba@gmail.com",
+      "address": "DN",
+      "id": 8
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "name": "Member"
+    },
+    {
+      "id": 2,
+      "name": "Silver"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Platinum"
+    },
+    {
+      "id": 5,
+      "name": "Diamond"
+    }
+  ],
+  "educationDegree": [
+    {
+      "id": 1,
+      "name": "Intermediate"
+    },
+    {
+      "id": 2,
+      "name": "College"
+    },
+    {
+      "id": 3,
+      "name": "Undergraduate"
+    },
+    {
+      "id": 4,
+      "name": "Graduate"
+    }
+  ],
+  "position": [
+    {
+      "id": 1,
+      "name": "Reception"
+    },
+    {
+      "id": 2,
+      "name": "Waiter"
+    },
+    {
+      "id": 3,
+      "name": "Specialist"
+    },
+    {
+      "id": 4,
+      "name": "Supervisor"
+    },
+    {
+      "id": 5,
+      "name": "Manager"
+    },
+    {
+      "id": 6,
+      "name": "Director"
+    }
+  ],
+  "division": [
+    {
+      "id": 1,
+      "name": "Sale - Marketing"
+    },
+    {
+      "id": 2,
+      "name": "Administration"
+    },
+    {
+      "id": 3,
+      "name": "Service"
+    },
+    {
+      "id": 4,
+      "name": "Management"
+    }
+  ],
+  "employee": [
+    {
+      "id": 1,
+      "name": "Thanh Bảo",
+      "position": {
+        "id": 5,
+        "name": "Manager"
+      },
+      "educationDegree": {
+        "id": 3,
+        "name": "Undergraduate"
+      },
+      "division": {
+        "id": 3,
+        "name": "Service"
+      },
+      "birthday": "1999-10-05",
+      "idCard": "999051010",
+      "salary": "1000",
+      "phone": "0123123123",
+      "email": "bao@gmail.com",
+      "address": "Quảng Nam"
+    },
+    {
+      "name": "Tuấn",
+      "position": {
+        "id": 2,
+        "name": "Waiter"
+      },
+      "educationDegree": {
+        "id": 2,
+        "name": "College"
+      },
+      "division": {
+        "id": 2,
+        "name": "Administration"
+      },
+      "birthday": "2021-12-01",
+      "idCard": "123",
+      "salary": "3333",
+      "phone": "3123 1312 13",
+      "email": "tá",
+      "address": "DN",
+      "id": 2
+    },
+    {
+      "name": "333",
+      "position": {
+        "id": 2,
+        "name": "Waiter"
+      },
+      "educationDegree": {
+        "id": 2,
+        "name": "College"
+      },
+      "division": {
+        "id": 2,
+        "name": "Administration"
+      },
+      "birthday": "3333-03-31",
+      "idCard": "3",
+      "salary": "3",
+      "phone": "3",
+      "email": "3",
+      "address": "3",
+      "id": 5
+    },
+    {
+      "name": "4",
+      "position": {
+        "id": 3,
+        "name": "Specialist"
+      },
+      "educationDegree": {
+        "id": 2,
+        "name": "College"
+      },
+      "division": {
+        "id": 3,
+        "name": "Service"
+      },
+      "birthday": "4444-04-04",
+      "idCard": "4",
+      "salary": "4",
+      "phone": "4",
+      "email": "4",
+      "address": "4",
+      "id": 6
+    },
+    {
+      "name": "Bảo",
+      "position": {
+        "id": 4,
+        "name": "Supervisor"
+      },
+      "educationDegree": {
+        "id": 3,
+        "name": "Undergraduate"
+      },
+      "division": {
+        "id": 2,
+        "name": "Administration"
+      },
+      "birthday": "1999-01-01",
+      "idCard": "012 312 312 312",
+      "salary": "3",
+      "phone": "090 312 3123",
+      "email": "bao@gmail.com",
+      "address": "Quảng Nam",
+      "id": 7
+    },
+    {
+      "name": "Dung",
+      "position": {
+        "id": 6,
+        "name": "Director"
+      },
+      "educationDegree": {
+        "id": 4,
+        "name": "Graduate"
+      },
+      "division": {
+        "id": 4,
+        "name": "Management"
+      },
+      "birthday": "1999-01-01",
+      "idCard": "123 312 312",
+      "salary": "10",
+      "phone": "091 312 4422",
+      "email": "dung@gmail.com",
+      "address": "Đại Lộc",
+      "id": 8
+    }
+  ],
+  "rentType": [
+    {
+      "id": 1,
+      "name": "Hour",
+      "cost": 50
+    },
+    {
+      "id": 2,
+      "name": "Day",
+      "cost": 50
+    },
+    {
+      "id": 3,
+      "name": "Month",
+      "cost": 50
+    },
+    {
+      "id": 4,
+      "name": "Year",
+      "cost": 50
+    }
+  ],
+  "service": [
+    {
+      "name": "Super Villa",
+      "area": "1000",
+      "numberOfFloors": "4",
+      "maxPeople": "10",
+      "cost": "99999",
+      "rentType": {
+        "id": 4,
+        "name": "Year",
+        "cost": 50
+      },
+      "status": "Ready",
+      "id": 1
+    },
+    {
+      "name": "1",
+      "area": "1",
+      "numberOfFloors": "1",
+      "maxPeople": "1",
+      "cost": "1",
+      "rentType": {
+        "id": 4,
+        "name": "Year",
+        "cost": 50
+      },
+      "status": "2",
+      "id": 2
+    }
+  ],
+  "contract": [
+    {
+      "id": 1,
+      "employee": {
+        "name": "Tuấn",
+        "position": {
+          "id": 2,
+          "name": "Waiter"
+        },
+        "educationDegree": {
+          "id": 2,
+          "name": "College"
+        },
+        "division": {
+          "id": 2,
+          "name": "Administration"
+        },
+        "birthday": "2021-12-01",
+        "idCard": "123",
+        "salary": "3333",
+        "phone": "3123 1312 13",
+        "email": "tá",
+        "address": "DN",
+        "id": 2
+      },
+      "customer": {
+        "id": 2,
+        "name": "Duy Phu",
+        "type": {
+          "id": 2,
+          "name": "Gold"
+        },
+        "address": "Quang Nam",
+        "birthday": "2000-11-05",
+        "email": "phu@gmail.com",
+        "idCard": "111111222",
+        "phone": "312412312"
+      },
+      "service": {
+        "name": "Super Villa",
+        "area": "1000",
+        "numberOfFloors": "4",
+        "maxPeople": "10",
+        "cost": "99999",
+        "rentType": {
+          "id": 3,
+          "name": "Month",
+          "cost": 50
+        },
+        "status": "Ready",
+        "id": 1
+      },
+      "dateCreate": "2021-12-03",
+      "dateEnded": "2021-12-07",
+      "deposit": "1000",
+      "totalMoney": null
+    },
+    {
+      "id": 2,
+      "employee": {
+        "name": "Duy Phú",
+        "position": {
+          "id": 5,
+          "name": "Manager"
+        },
+        "educationDegree": {
+          "id": 4,
+          "name": "Graduate"
+        },
+        "division": {
+          "id": 3,
+          "name": "Service"
+        },
+        "birthday": "2021-12-03",
+        "idCard": "0123",
+        "salary": "102020",
+        "phone": "3213 312 312",
+        "email": "phu@gmai.com",
+        "address": "dn",
+        "id": 3
+      },
+      "customer": {
+        "id": 1,
+        "name": "Thanh Bao",
+        "type": {
+          "id": 1,
+          "name": "Diamond"
+        },
+        "address": "Quang Nam",
+        "birthday": "1999-10-05",
+        "email": "bao@gmail.com",
+        "idCard": "123123123",
+        "phone": "012345678"
+      },
+      "service": {
+        "name": "Super Villa",
+        "area": "1000",
+        "numberOfFloors": "4",
+        "maxPeople": "10",
+        "cost": "99999",
+        "rentType": {
+          "id": 3,
+          "name": "Month",
+          "cost": 50
+        },
+        "status": "Ready",
+        "id": 1
+      },
+      "dateCreate": "2021-12-01",
+      "dateEnded": "2021-12-02",
+      "deposit": "22",
+      "totalMoney": null
+    },
+    {
+      "id": 3,
+      "employee": {
+        "name": "Tuấn",
+        "position": {
+          "id": 2,
+          "name": "Waiter"
+        },
+        "educationDegree": {
+          "id": 2,
+          "name": "College"
+        },
+        "division": {
+          "id": 2,
+          "name": "Administration"
+        },
+        "birthday": "2021-12-01",
+        "idCard": "123",
+        "salary": "3333",
+        "phone": "3123 1312 13",
+        "email": "tá",
+        "address": "DN",
+        "id": 2
+      },
+      "customer": {
+        "id": 4,
+        "name": "Tung Anh",
+        "type": {
+          "id": 1,
+          "name": "Diamond"
+        },
+        "address": "Quang Nam",
+        "birthday": "1999-10-05",
+        "email": "anh@gmail.com",
+        "idCard": "123123123",
+        "phone": "012345678"
+      },
+      "service": {
+        "name": "Super Villa",
+        "area": "1000",
+        "numberOfFloors": "4",
+        "maxPeople": "10",
+        "cost": "99999",
+        "rentType": {
+          "id": 3,
+          "name": "Month",
+          "cost": 50
+        },
+        "status": "Ready",
+        "id": 1
+      },
+      "dateCreate": "2021-12-01",
+      "dateEnded": "2021-12-02",
+      "deposit": "22321",
+      "totalMoney": null
+    }
+  ],
+  "attachService": [
+    {
+      "id": 1,
+      "name": "Karaoke",
+      "cost": 100,
+      "unit": 1,
+      "status": "Ready"
+    },
+    {
+      "id": 2,
+      "name": "Golf",
+      "cost": 300,
+      "unit": 1,
+      "status": "Ready"
+    },
+    {
+      "id": 3,
+      "name": "Cinema",
+      "cost": 50,
+      "unit": 1,
+      "status": "Ready"
+    },
+    {
+      "id": 4,
+      "name": "Bar",
+      "cost": 500,
+      "unit": 1,
+      "status": "Ready"
+    }
+  ],
+  "contractDetail": [
+    {
+      "contract": {
+        "id": 1,
+        "employee": {
+          "name": "Tuấn",
+          "position": {
+            "id": 2,
+            "name": "Waiter"
+          },
+          "educationDegree": {
+            "id": 2,
+            "name": "College"
+          },
+          "division": {
+            "id": 2,
+            "name": "Administration"
+          },
+          "birthday": "2021-12-01",
+          "idCard": "123",
+          "salary": "3333",
+          "phone": "3123 1312 13",
+          "email": "tá",
+          "address": "DN",
+          "id": 2
+        },
+        "customer": {
+          "id": 2,
+          "name": "Duy Phu",
+          "type": {
+            "id": 2,
+            "name": "Gold"
+          },
+          "address": "Quang Nam",
+          "birthday": "2000-11-05",
+          "email": "phu@gmail.com",
+          "idCard": "111111222",
+          "phone": "312412312"
+        },
+        "service": {
+          "name": "Super Villa",
+          "area": "1000",
+          "numberOfFloors": "4",
+          "maxPeople": "10",
+          "cost": "99999",
+          "rentType": {
+            "id": 3,
+            "name": "Month",
+            "cost": 50
+          },
+          "status": "Ready",
+          "id": 1
+        },
+        "dateCreate": "2021-12-03",
+        "dateEnded": "2021-12-07",
+        "deposit": "1000",
+        "totalMoney": null
+      },
+      "attachService": {
+        "id": 1,
+        "name": "Karaoke",
+        "cost": 100,
+        "unit": 1,
+        "status": "Ready"
+      },
+      "id": 1
+    },
+    {
+      "contract": {
+        "id": 1,
+        "employee": {
+          "name": "Tuấn",
+          "position": {
+            "id": 2,
+            "name": "Waiter"
+          },
+          "educationDegree": {
+            "id": 2,
+            "name": "College"
+          },
+          "division": {
+            "id": 2,
+            "name": "Administration"
+          },
+          "birthday": "2021-12-01",
+          "idCard": "123",
+          "salary": "3333",
+          "phone": "3123 1312 13",
+          "email": "tá",
+          "address": "DN",
+          "id": 2
+        },
+        "customer": {
+          "id": 2,
+          "name": "Duy Phu",
+          "type": {
+            "id": 2,
+            "name": "Gold"
+          },
+          "address": "Quang Nam",
+          "birthday": "2000-11-05",
+          "email": "phu@gmail.com",
+          "idCard": "111111222",
+          "phone": "312412312"
+        },
+        "service": {
+          "name": "Super Villa",
+          "area": "1000",
+          "numberOfFloors": "4",
+          "maxPeople": "10",
+          "cost": "99999",
+          "rentType": {
+            "id": 3,
+            "name": "Month",
+            "cost": 50
+          },
+          "status": "Ready",
+          "id": 1
+        },
+        "dateCreate": "2021-12-03",
+        "dateEnded": "2021-12-07",
+        "deposit": "1000",
+        "totalMoney": null
+      },
+      "attachService": {
+        "id": 2,
+        "name": "Golf",
+        "cost": 300,
+        "unit": 1,
+        "status": "Ready"
+      },
+      "id": 2
+    },
+    {
+      "contract": {
+        "id": 1,
+        "employee": {
+          "name": "Tuấn",
+          "position": {
+            "id": 2,
+            "name": "Waiter"
+          },
+          "educationDegree": {
+            "id": 2,
+            "name": "College"
+          },
+          "division": {
+            "id": 2,
+            "name": "Administration"
+          },
+          "birthday": "2021-12-01",
+          "idCard": "123",
+          "salary": "3333",
+          "phone": "3123 1312 13",
+          "email": "tá",
+          "address": "DN",
+          "id": 2
+        },
+        "customer": {
+          "id": 2,
+          "name": "Duy Phu",
+          "type": {
+            "id": 2,
+            "name": "Gold"
+          },
+          "address": "Quang Nam",
+          "birthday": "2000-11-05",
+          "email": "phu@gmail.com",
+          "idCard": "111111222",
+          "phone": "312412312"
+        },
+        "service": {
+          "name": "Super Villa",
+          "area": "1000",
+          "numberOfFloors": "4",
+          "maxPeople": "10",
+          "cost": "99999",
+          "rentType": {
+            "id": 3,
+            "name": "Month",
+            "cost": 50
+          },
+          "status": "Ready",
+          "id": 1
+        },
+        "dateCreate": "2021-12-03",
+        "dateEnded": "2021-12-07",
+        "deposit": "1000",
+        "totalMoney": null
+      },
+      "attachService": {
+        "id": 4,
+        "name": "Bar",
+        "cost": 500,
+        "unit": 1,
+        "status": "Ready"
+      },
+      "quantity": 2,
+      "id": 3
+    },
+    {
+      "contract": {
+        "id": 2,
+        "employee": {
+          "name": "Duy Phú",
+          "position": {
+            "id": 5,
+            "name": "Manager"
+          },
+          "educationDegree": {
+            "id": 4,
+            "name": "Graduate"
+          },
+          "division": {
+            "id": 3,
+            "name": "Service"
+          },
+          "birthday": "2021-12-03",
+          "idCard": "0123",
+          "salary": "102020",
+          "phone": "3213 312 312",
+          "email": "phu@gmai.com",
+          "address": "dn",
+          "id": 3
+        },
+        "customer": {
+          "id": 1,
+          "name": "Thanh Bao",
+          "type": {
+            "id": 1,
+            "name": "Diamond"
+          },
+          "address": "Quang Nam",
+          "birthday": "1999-10-05",
+          "email": "bao@gmail.com",
+          "idCard": "123123123",
+          "phone": "012345678"
+        },
+        "service": {
+          "name": "Super Villa",
+          "area": "1000",
+          "numberOfFloors": "4",
+          "maxPeople": "10",
+          "cost": "99999",
+          "rentType": {
+            "id": 3,
+            "name": "Month",
+            "cost": 50
+          },
+          "status": "Ready",
+          "id": 1
+        },
+        "dateCreate": "2021-12-01",
+        "dateEnded": "2021-12-02",
+        "deposit": "22",
+        "totalMoney": null
+      },
+      "attachService": {
+        "id": 3,
+        "name": "Cinema",
+        "cost": 50,
+        "unit": 1,
+        "status": "Ready"
+      },
+      "quantity": 4,
+      "id": 4
+    },
+    {
+      "attachService": {
+        "id": 2,
+        "name": "Golf",
+        "cost": 300,
+        "unit": 1,
+        "status": "Ready"
+      },
+      "contract": {
+        "id": 3,
+        "employee": {
+          "name": "Tuấn",
+          "position": {
+            "id": 2,
+            "name": "Waiter"
+          },
+          "educationDegree": {
+            "id": 2,
+            "name": "College"
+          },
+          "division": {
+            "id": 2,
+            "name": "Administration"
+          },
+          "birthday": "2021-12-01",
+          "idCard": "123",
+          "salary": "3333",
+          "phone": "3123 1312 13",
+          "email": "tá",
+          "address": "DN",
+          "id": 2
+        },
+        "customer": {
+          "id": 4,
+          "name": "Tung Anh",
+          "type": {
+            "id": 1,
+            "name": "Diamond"
+          },
+          "address": "Quang Nam",
+          "birthday": "1999-10-05",
+          "email": "anh@gmail.com",
+          "idCard": "123123123",
+          "phone": "012345678"
+        },
+        "service": {
+          "name": "Super Villa",
+          "area": "1000",
+          "numberOfFloors": "4",
+          "maxPeople": "10",
+          "cost": "99999",
+          "rentType": {
+            "id": 3,
+            "name": "Month",
+            "cost": 50
+          },
+          "status": "Ready",
+          "id": 1
+        },
+        "dateCreate": "2021-12-01",
+        "dateEnded": "2021-12-02",
+        "deposit": "22321",
+        "totalMoney": "30099999"
+      },
+      "quantity": 2,
+      "id": 5
+    }
+  ]
+}

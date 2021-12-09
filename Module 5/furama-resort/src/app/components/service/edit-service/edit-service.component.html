@@ -1,0 +1,106 @@
+<h1 mat-dialog-title class="text-danger text-center">Edit Service</h1>
+
+<div mat-dialog-content>
+  <div class="container">
+
+    <form [formGroup]="formEditService">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" class="form-control" formControlName="name">
+        <small class="form-text text-danger"
+               *ngIf="formEditService.get('name')?.hasError('required')
+             && formEditService.get('name')?.touched">
+          Field is required!
+        </small>
+      </div>
+      <div class="form-group">
+        <label for="area">Area</label>
+        <input type="text" id="area" class="form-control" formControlName="area">
+        <small class="form-text text-danger"
+               *ngIf="formEditService.get('area')?.hasError('required')
+             && formEditService.get('area')?.touched">
+          Field is required!
+        </small>
+        <small class="form-text text-danger"
+               *ngIf="formEditService.get('area')?.hasError('min')
+             && formEditService.get('area')?.dirty">
+          Area must be bigger than 0
+        </small>
+      </div>
+      <div class="form-group">
+        <label for="cost">Cost</label>
+        <input type="text" id="cost" class="form-control" formControlName="cost">
+        <small class="form-text text-danger"
+               *ngIf="formEditService.get('cost')?.hasError('required')
+             && formEditService.get('cost')?.touched">
+          Field is required!
+        </small>
+        <small class="form-text text-danger"
+               *ngIf="formEditService.get('cost')?.hasError('min')
+             && formEditService.get('cost')?.dirty">
+          Cost must be positive
+        </small>
+      </div>
+      <div class="form-group">
+        <label for="maxPeople">Max People</label>
+        <input type="text" id="maxPeople" class="form-control" formControlName="maxPeople">
+        <small class="form-text text-danger"
+               *ngIf="formEditService.get('maxPeople')?.hasError('required')
+             && formEditService.get('maxPeople')?.touched">
+          Field is required!
+        </small>
+        <small class="form-text text-danger"
+               *ngIf="formEditService.get('maxPeople')?.hasError('min')
+             && formEditService.get('maxPeople')?.dirty">
+          Number of people must be bigger than 0
+        </small>
+      </div>
+      <div class="form-group">
+        <label for="rentType">Rent Type</label>
+        <select id="rentType" class="form-control" formControlName="rentType">
+          <option *ngFor="let rType of listRentType"
+                  [ngValue]="rType"
+                  [text]="rType.name"
+                  [selected]="rType.id == this.formEditService.controls.rentType.value.id">
+          </option>
+        </select>
+        <small class="form-text text-danger"
+               *ngIf="formEditService.get('rentType')?.hasError('required')
+             && formEditService.get('rentType')?.touched">
+          Field is required!
+        </small>
+      </div>
+      <div class="form-group">
+        <label for="numberOfFloors">Number of floors</label>
+        <input type="text" id="numberOfFloors" class="form-control" formControlName="numberOfFloors">
+        <small class="form-text text-danger"
+               *ngIf="formEditService.get('numberOfFloors')?.hasError('required')
+             && formEditService.get('numberOfFloors')?.touched">
+          Field is required!
+        </small>
+        <small class="form-text text-danger"
+               *ngIf="formEditService.get('numberOfFloors')?.hasError('min')
+             && formEditService.get('numberOfFloors')?.dirty">
+          Number of floors must be bigger than 0
+        </small>
+      </div>
+      <div class="form-group">
+        <label for="status">Status</label>
+        <input type="text" id="status" class="form-control" formControlName="status">
+        <small class="form-text text-danger"
+               *ngIf="formEditService.get('status')?.hasError('required')
+             && formEditService.get('status')?.touched">
+          Field is required!
+        </small>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+  <button mat-raised-button (click)="confirmEditCustomer()">Edit</button>
+</div>
+
+
+

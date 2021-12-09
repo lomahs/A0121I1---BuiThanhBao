@@ -1,0 +1,100 @@
+<div class="container py-5">
+  <div class="text-center">
+    <h2 class="text-primary">Add New Service</h2>
+  </div>
+
+  <form [formGroup]="formAddService" (ngSubmit)="addService()">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" class="form-control" formControlName="name">
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('name')?.hasError('required')
+             && formAddService.get('name')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="area">Area</label>
+      <input type="text" id="area" class="form-control" formControlName="area">
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('area')?.hasError('required')
+             && formAddService.get('area')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('area')?.hasError('min')
+             && formAddService.get('area')?.dirty">
+        Area must be bigger than 0
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="cost">Cost</label>
+      <input type="text" id="cost" class="form-control" formControlName="cost">
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('cost')?.hasError('required')
+             && formAddService.get('cost')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('cost')?.hasError('min')
+             && formAddService.get('cost')?.dirty">
+        Cost must be positive
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="maxPeople">Max People</label>
+      <input type="text" id="maxPeople" class="form-control" formControlName="maxPeople">
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('maxPeople')?.hasError('required')
+             && formAddService.get('maxPeople')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('maxPeople')?.hasError('min')
+             && formAddService.get('maxPeople')?.dirty">
+        Number of people must be bigger than 0
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="rentType">Rent Type</label>
+      <select id="rentType" class="form-control" formControlName="rentType">
+        <option *ngFor="let rType of listRentType"
+                [ngValue]="rType"
+                [text]="rType.name">
+        </option>
+      </select>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('rentType')?.hasError('required')
+             && formAddService.get('rentType')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="numberOfFloors">Number of floors</label>
+      <input type="text" id="numberOfFloors" class="form-control" formControlName="numberOfFloors">
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('numberOfFloors')?.hasError('required')
+             && formAddService.get('numberOfFloors')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('numberOfFloors')?.hasError('min')
+             && formAddService.get('numberOfFloors')?.dirty">
+        Number of floors must be bigger than 0
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="status">Status</label>
+      <input type="text" id="status" class="form-control" formControlName="status">
+      <small class="form-text text-danger"
+             *ngIf="formAddService.get('status')?.hasError('required')
+             && formAddService.get('status')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="d-flex justify-content-between">
+      <button type="button" class="btn btn-secondary" routerLink="/service">Back</button>
+      <button type="submit" class="btn btn-primary">Add</button>
+    </div>
+  </form>
+</div>

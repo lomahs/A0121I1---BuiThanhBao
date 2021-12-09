@@ -1,0 +1,88 @@
+<div class="container py-5">
+  <div class="text-center">
+    <h2 class="text-primary">Add New Customer</h2>
+  </div>
+  <form [formGroup]="formAddCustomer" (ngSubmit)="addCustomer()">
+    <div class="form-group">
+      <label for="type">Type</label>
+      <select id="type" class="form-control" formControlName="type">
+        <option *ngFor="let customerType of listCustomerType"
+                [ngValue]="customerType"
+                [text]="customerType.name">
+        </option>
+      </select>
+      <small class="form-text text-danger"
+             *ngIf="formAddCustomer.get('type')?.hasError('required')  && formAddCustomer.get('type')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" class="form-control" formControlName="name">
+      <small class="form-text text-danger"
+             *ngIf="formAddCustomer.get('name')?.hasError('required') && formAddCustomer.get('name')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="birthday">Birthday</label>
+      <input type="date" id="birthday" class="form-control" formControlName="birthday">
+      <small class="form-text text-danger"
+             *ngIf="formAddCustomer.get('birthday')?.hasError('required') && formAddCustomer.get('birthday')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formAddCustomer.get('birthday')?.hasError('invalidAge') && formAddCustomer.get('birthday')?.touched">
+        Birthday must be before today!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="idCard">ID Card</label>
+      <input type="text" id="idCard" class="form-control" formControlName="idCard">
+      <small class="form-text text-danger"
+             *ngIf="formAddCustomer.get('idCard')?.hasError('required') && formAddCustomer.get('idCard')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formAddCustomer.get('idCard')?.hasError('pattern') && formAddCustomer.get('idCard')?.dirty">
+        ID Card must have pattern *** *** *** or *** *** *** ***
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input type="text" id="phone" class="form-control" formControlName="phone">
+      <small class="form-text text-danger"
+             *ngIf="formAddCustomer.get('phone')?.hasError('required') && formAddCustomer.get('phone')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formAddCustomer.get('phone')?.hasError('pattern') && formAddCustomer.get('phone')?.dirty">
+        Phone must like 090 *** **** or 091 *** ****
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="text" id="email" class="form-control" formControlName="email">
+      <small class="form-text text-danger"
+             *ngIf="formAddCustomer.get('email')?.hasError('required') && formAddCustomer.get('email')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formAddCustomer.get('email')?.hasError('email') && formAddCustomer.get('email')?.dirty">
+        Email must be like abc@mail.com
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="address">Address</label>
+      <input type="text" id="address" class="form-control" formControlName="address">
+      <small class="form-text text-danger"
+             *ngIf="formAddCustomer.get('address')?.hasError('required') && formAddCustomer.get('address')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="d-flex justify-content-between">
+      <button type="button" class="btn btn-secondary" routerLink="/customer">Back</button>
+      <button type="submit" class="btn btn-primary">Add</button>
+    </div>
+  </form>
+</div>

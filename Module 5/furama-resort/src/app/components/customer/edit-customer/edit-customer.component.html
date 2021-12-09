@@ -1,0 +1,89 @@
+<div class="container py-5">
+  <div class="text-center">
+    <h2 class="text-primary">Edit Customer</h2>
+  </div>
+  <form [formGroup]="formEditCustomer" (ngSubmit)="editCustomer()">
+    <div class="form-group">
+      <label for="type">Type</label>
+      <select id="type" class="form-control" formControlName="type">
+        <option *ngFor="let customerType of listCustomerType"
+                [ngValue]="customerType"
+                [text]="customerType.name"
+                [selected]="customerType.id == formEditCustomer.value.type?.id">
+        </option>
+      </select>
+      <small class="form-text text-danger"
+             *ngIf="formEditCustomer.get('type')?.hasError('required')  && formEditCustomer.get('type')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" class="form-control" formControlName="name">
+      <small class="form-text text-danger"
+             *ngIf="formEditCustomer.get('name')?.hasError('required') && formEditCustomer.get('name')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="birthday">Birthday</label>
+      <input type="date" id="birthday" class="form-control" formControlName="birthday">
+      <small class="form-text text-danger"
+             *ngIf="formEditCustomer.get('birthday')?.hasError('required') && formEditCustomer.get('birthday')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formEditCustomer.get('birthday')?.hasError('invalidAge') && formEditCustomer.get('birthday')?.touched">
+        Birthday must be before today!
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="idCard">ID Card</label>
+      <input type="text" id="idCard" class="form-control" formControlName="idCard">
+      <small class="form-text text-danger"
+             *ngIf="formEditCustomer.get('idCard')?.hasError('required') && formEditCustomer.get('idCard')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formEditCustomer.get('idCard')?.hasError('pattern') && formEditCustomer.get('idCard')?.dirty">
+        ID Card must have pattern *** *** *** or *** *** *** ***
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input type="text" id="phone" class="form-control" formControlName="phone">
+      <small class="form-text text-danger"
+             *ngIf="formEditCustomer.get('phone')?.hasError('required') && formEditCustomer.get('phone')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formEditCustomer.get('phone')?.hasError('pattern') && formEditCustomer.get('phone')?.dirty">
+        Phone must like 090 *** **** or 091 *** ****
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="text" id="email" class="form-control" formControlName="email">
+      <small class="form-text text-danger"
+             *ngIf="formEditCustomer.get('email')?.hasError('required') && formEditCustomer.get('email')?.touched">
+        Field is required!
+      </small>
+      <small class="form-text text-danger"
+             *ngIf="formEditCustomer.get('email')?.hasError('email') && formEditCustomer.get('email')?.dirty">
+        Email must be like abc@mail.com
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="address">Address</label>
+      <input type="text" id="address" class="form-control" formControlName="address">
+      <small class="form-text text-danger"
+             *ngIf="formEditCustomer.get('address')?.hasError('required') && formEditCustomer.get('address')?.touched">
+        Field is required!
+      </small>
+    </div>
+    <div class="d-flex justify-content-between">
+      <button type="button" class="btn btn-secondary" routerLink="/employee">Back</button>
+      <button type="submit" class="btn btn-primary">Edit</button>
+    </div>
+  </form>
+</div>
